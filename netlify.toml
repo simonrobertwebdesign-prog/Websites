@@ -1,5 +1,7 @@
 [build]
   publish = "site"
+  # Skip the deploy (and save credits) when nothing the website uses has changed.
+  ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- site/ netlify.toml"
 
 # Client previews and examples are never indexed by search engines.
 [[headers]]
