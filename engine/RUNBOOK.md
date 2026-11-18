@@ -1,5 +1,7 @@
 # Runbook for automated runs
 
+History: batch 1 (10 previews) was approved by Simon and sent on 18 Nov 2026.
+
 Every scheduled run starts fresh. Read this whole file first and follow it exactly.
 
 ## The business
@@ -52,4 +54,6 @@ Every scheduled run starts fresh. Read this whole file first and follow it exact
 
 ## When someone says yes
 
-Stop and tell Simon. The first go-live is done together: collect their logo, photos and details, switch the data file to `"mode": "live"`, create their own Netlify project, connect their domain, turn off the "Powered by Netlify" badge (Project configuration > General) and add a form notification email for the client.
+Stop and tell Simon. The first go-live is done together: collect their logo, photos and details, switch the data file to `"mode": "live"`, create their own Netlify project, connect their domain and add a form notification email for the client.
+
+The "Powered by Netlify" badge can only be turned off on a paid Netlify plan (Simon will upgrade after the first sale). Until then `site.js` detects the badge and lifts the phone call bar above it, so nothing is covered.

@@ -210,6 +210,7 @@ footer a{color:#fff}
 .mbar{position:fixed;left:12px;right:12px;bottom:12px;z-index:70;display:none;gap:10px;padding:10px;border-radius:20px;background:rgba(13,16,21,.92);backdrop-filter:blur(12px);box-shadow:0 20px 40px rgba(0,0,0,.35)}
 .mbar .btn{flex:1;min-height:50px;padding:0 12px}
 @media (max-width:760px){.mbar{display:flex}}
+body.has-badge .mbar{bottom:76px}body.has-badge footer{padding-bottom:84px}
 
 /* reveal */
 .rv{opacity:0;transform:translateY(28px);transition:opacity .8s ease, transform .8s cubic-bezier(.2,.7,.2,1)}
@@ -527,6 +528,18 @@ footer a{color:#fff}
         .then(function(){show(4)}).catch(function(){form.submit()});
     });
   }
+
+  // Hosting badges (e.g. "Powered by Netlify" on free plans) sit fixed in the bottom-right corner.
+  // When one appears, lift the phone call bar and pad the footer so nothing is covered.
+  (function(){
+    var mark=function(){ if(document.getElementById('nl-badge-frame')){ document.body.classList.add('has-badge'); return true; } return false; };
+    if(mark()) return;
+    if('MutationObserver' in window){
+      var mo=new MutationObserver(function(){ if(mark()) mo.disconnect(); });
+      mo.observe(document.body,{childList:true});
+      setTimeout(function(){ mo.disconnect(); },15000);
+    }
+  })();
 
   var yr=document.getElementById('yr'); if(yr) yr.textContent=new Date().getFullYear();
 })();</script>

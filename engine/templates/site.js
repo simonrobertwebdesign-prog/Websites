@@ -34,5 +34,17 @@
     });
   }
 
+  // Hosting badges (e.g. "Powered by Netlify" on free plans) sit fixed in the bottom-right corner.
+  // When one appears, lift the phone call bar and pad the footer so nothing is covered.
+  (function(){
+    var mark=function(){ if(document.getElementById('nl-badge-frame')){ document.body.classList.add('has-badge'); return true; } return false; };
+    if(mark()) return;
+    if('MutationObserver' in window){
+      var mo=new MutationObserver(function(){ if(mark()) mo.disconnect(); });
+      mo.observe(document.body,{childList:true});
+      setTimeout(function(){ mo.disconnect(); },15000);
+    }
+  })();
+
   var yr=document.getElementById('yr'); if(yr) yr.textContent=new Date().getFullYear();
 })();
