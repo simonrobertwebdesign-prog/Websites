@@ -10,7 +10,7 @@
 {% if d.mode == 'example' %}
 <div class="demo">Example website by Simon Robert Web Design. {{ d.business.name }} is a made-up business. <a href="mailto:simonrobert.webdesign@gmail.com?subject=A%20website%20like%20this">Want one like this?</a></div>
 {% elif d.mode == 'preview' %}
-<div class="demo">Free preview made for {{ d.business.name }} by Simon Robert Web Design. Not live yet. <a href="mailto:simonrobert.webdesign@gmail.com?subject={{ ('Website preview for ' ~ d.business.name)|urlencode }}">Questions? Email me</a></div>
+<div class="demo">Free preview made for {{ d.business.name }} by Simon Robert Web Design. Not live yet. <a href="mailto:simonrobert.webdesign@gmail.com?subject={{ ('Website preview for ' ~ d.business.name)|urlencode }}">Questions? Email me</a> · <a href="https://simonrobert-webdesign.netlify.app/privacy/">Privacy</a></div>
 {% endif %}
 {%- endmacro %}
 
