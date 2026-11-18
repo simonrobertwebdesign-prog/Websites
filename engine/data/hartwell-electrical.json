@@ -1,0 +1,232 @@
+{
+  "slug": "hartwell-electrical",
+  "mode": "example",
+  "outputs": {
+    "premium": "premium-example",
+    "standard": "standard-example"
+  },
+  "accent": "#FFC53D",
+  "business": {
+    "name": "Hartwell Electrical Ltd",
+    "short": "Hartwell",
+    "sub": "Electrical Ltd",
+    "logo_icon": "bolt",
+    "trade": "Electricians",
+    "town": "Witney",
+    "county": "Oxfordshire",
+    "phone": "01632 960 123",
+    "phone_tel": "01632960123",
+    "email": "",
+    "hours": "Mon–Fri 8am–6pm, Sat 9am–1pm",
+    "company_line": "Registered in England and Wales"
+  },
+  "seo": {
+    "title": "Hartwell Electrical – Electricians in Witney & West Oxfordshire",
+    "description": "Rewires, fuse board upgrades, EV chargers and safety checks across West Oxfordshire."
+  },
+  "hero": {
+    "eyebrow": "Witney · Woodstock · West Oxfordshire",
+    "h1": "Power, done",
+    "h1_accent": "properly.",
+    "lead": "Hartwell Electrical rewires, upgrades and repairs homes across West Oxfordshire. Fixed prices, tidy work and a certificate for every job.",
+    "image": "https://images.unsplash.com/photo-1660330589693-99889d60181e?ixlib=rb-4.1.0&auto=format&fit=crop&w=2000&q=80",
+    "image_alt": "Electrician working on a home installation"
+  },
+  "pills": [
+    "Fully insured",
+    "Fixed written quotes",
+    "Certified work",
+    "Tidy and on time"
+  ],
+  "marquee": [
+    "Rewires",
+    "Fuse boards",
+    "EV chargers",
+    "Safety checks",
+    "Lighting",
+    "Smart homes",
+    "Fault finding"
+  ],
+  "services": {
+    "eyebrow": "What we do",
+    "heading": [
+      "From one socket",
+      "to the whole house."
+    ],
+    "intro": "Every job is quoted in writing, done by a qualified electrician and tested before we leave.",
+    "items": [
+      {
+        "title": "EV charger installs",
+        "text": "Charge at home overnight. We fit, test and register your charger, and help you pick the right one.",
+        "icon": "bolt",
+        "image": "https://images.unsplash.com/photo-1600490819528-42405785433a?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Electric car charging at a home charger",
+        "tag": "Most popular"
+      },
+      {
+        "title": "Lighting design",
+        "text": "Downlights, pendants and LED strips that change how a room feels.",
+        "icon": "bulb",
+        "image": "https://images.unsplash.com/photo-1768486143865-342d8cc12c90?ixlib=rb-4.1.0&auto=format&fit=crop&w=1200&q=80",
+        "image_alt": "Modern kitchen with pendant lighting"
+      },
+      {
+        "title": "Fuse boards",
+        "text": "Modern consumer units with full RCD protection.",
+        "icon": "board"
+      },
+      {
+        "title": "Rewires",
+        "text": "Planned around you, walls and floors made good.",
+        "icon": "house"
+      },
+      {
+        "title": "Garden & outdoor",
+        "text": "Lighting, sockets and power for garden rooms and patios.",
+        "icon": "leaf",
+        "image": "https://images.unsplash.com/photo-1790671023265-0e2e1ecfdb78?ixlib=rb-4.1.0&auto=format&fit=crop&w=1200&q=80",
+        "image_alt": "Garden lit up at night"
+      },
+      {
+        "title": "Safety checks",
+        "text": "EICR reports for landlords, buyers and homeowners.",
+        "icon": "shield"
+      },
+      {
+        "title": "Fault finding",
+        "text": "Tripping, flickering or dead circuits traced fast.",
+        "icon": "search"
+      }
+    ]
+  },
+  "work": {
+    "enabled": true,
+    "eyebrow": "Recent work",
+    "heading": [
+      "See the",
+      "difference."
+    ],
+    "intro": "Drag the slider to compare the old fuse box with the new consumer unit we fitted.",
+    "before": "https://images.unsplash.com/photo-1787816104853-f4f0c5e426ea?ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=80",
+    "before_alt": "Before: old fuse box",
+    "after": "https://images.unsplash.com/photo-1576446470246-499c738d1c8e?ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=80",
+    "after_alt": "After: new consumer unit, neatly wired",
+    "facts": [
+      [
+        "Job",
+        "Fuse board upgrade"
+      ],
+      [
+        "Where",
+        "Woodstock"
+      ],
+      [
+        "Time on site",
+        "One day"
+      ],
+      [
+        "Result",
+        "Certified & safe"
+      ]
+    ]
+  },
+  "steps": [
+    {
+      "title": "Tell us the job",
+      "text": "Call, or use the quote form. Photos help us price it first time."
+    },
+    {
+      "title": "Fixed quote in writing",
+      "text": "You know the price before we start. It only changes if the job does."
+    },
+    {
+      "title": "Done, tested, certified",
+      "text": "We test everything, tidy up and hand over the paperwork."
+    }
+  ],
+  "reviews": {
+    "heading": [
+      "Trusted by",
+      "the neighbours."
+    ],
+    "intro": "On a real site, this section shows the business's own Google reviews.",
+    "items": [
+      {
+        "text": "They rewired our whole cottage in a week and you’d never know they’d been here.",
+        "who": "Homeowner, Charlbury",
+        "label": "Example review"
+      },
+      {
+        "text": "Found a fault two other electricians couldn’t. Fair price and really friendly.",
+        "who": "Homeowner, Witney",
+        "label": "Example review"
+      },
+      {
+        "text": "EV charger fitted in half a day. Clear quote, no surprises.",
+        "who": "Homeowner, Eynsham",
+        "label": "Example review"
+      }
+    ]
+  },
+  "quote": {
+    "intro": "Three quick steps. We’ll come back to you with a fixed price.",
+    "jobs": [
+      [
+        "Rewire",
+        "house"
+      ],
+      [
+        "Fuse board",
+        "board"
+      ],
+      [
+        "EV charger",
+        "bolt"
+      ],
+      [
+        "Safety check",
+        "shield"
+      ],
+      [
+        "Lighting",
+        "bulb"
+      ],
+      [
+        "Something else",
+        "other"
+      ]
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Are you fully insured?",
+      "a": "Yes. Every job is covered, and we’re happy to show our certificate before we start."
+    },
+    {
+      "q": "Do you give fixed prices?",
+      "a": "Yes. You get a written quote before any work begins, and the price only changes if the job changes."
+    },
+    {
+      "q": "Will I get a certificate?",
+      "a": "Yes. Notifiable work comes with the right certificate, and we register it with building control for you."
+    },
+    {
+      "q": "Do you cover my area?",
+      "a": "We cover Witney, Woodstock and the villages around them. If you’re further out, just ask."
+    }
+  ],
+  "cta": {
+    "heading": "Need an electrician you can trust?"
+  },
+  "areas": [
+    "Witney",
+    "Woodstock",
+    "Long Hanborough",
+    "Eynsham",
+    "Charlbury",
+    "Carterton",
+    "Burford",
+    "Oxford"
+  ],
+  "credits": "<a href=\"https://unsplash.com/@razesolar?utm_source=simonrobert_web_design&utm_medium=referral\">Raze Solar</a>, <a href=\"https://unsplash.com/@evnex?utm_source=simonrobert_web_design&utm_medium=referral\">Evnex</a>, <a href=\"https://unsplash.com/@claybanks?utm_source=simonrobert_web_design&utm_medium=referral\">Clay Banks</a>, <a href=\"https://unsplash.com/@wenzywong?utm_source=simonrobert_web_design&utm_medium=referral\">Wenzy Wong</a>, <a href=\"https://unsplash.com/@visionaryconcepts?utm_source=simonrobert_web_design&utm_medium=referral\">Peter Schulz</a> and <a href=\"https://unsplash.com/@bulava92?utm_source=simonrobert_web_design&utm_medium=referral\">Mark Kats</a> on <a href=\"https://unsplash.com/?utm_source=simonrobert_web_design&utm_medium=referral\">Unsplash</a>"
+}

@@ -1,0 +1,29 @@
+{% macro icon(name, size=24, sw=2) -%}
+<svg width="{{ size }}" height="{{ size }}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="{{ sw }}" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">{{ ICONS.get(name, ICONS['other'])|safe }}</svg>
+{%- endmacro %}
+
+{% macro star(size=20) -%}
+<svg width="{{ size }}" height="{{ size }}" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"/></svg>
+{%- endmacro %}
+
+{% macro banner(d) -%}
+{% if d.mode == 'example' %}
+<div class="demo">Example website by Simon Robert Web Design. {{ d.business.name }} is a made-up business. <a href="mailto:simonrobert.webdesign@gmail.com?subject=A%20website%20like%20this">Want one like this?</a></div>
+{% elif d.mode == 'preview' %}
+<div class="demo">Free preview made for {{ d.business.name }} by Simon Robert Web Design. Not live yet. <a href="mailto:simonrobert.webdesign@gmail.com?subject={{ ('Website preview for ' ~ d.business.name)|urlencode }}">Questions? Email me</a></div>
+{% endif %}
+{%- endmacro %}
+
+{% macro lines(parts) -%}{% for p in parts %}{{ p }}{% if not loop.last %}<br>{% endif %}{% endfor %}{%- endmacro %}
+
+{% macro form_attrs(d) -%}
+{% if d.mode == 'live' %} name="quote" method="POST" data-netlify="true" netlify-honeypot="company"{% else %} novalidate data-demo="1"{% endif %}
+{%- endmacro %}
+
+{% macro form_hidden(d) -%}
+{% if d.mode == 'live' %}<input type="hidden" name="form-name" value="quote"><p hidden><label>Leave this empty <input name="company"></label></p>{% endif %}
+{%- endmacro %}
+
+{% macro done_text(d) -%}
+{% if d.mode == 'live' %}We’ll be in touch soon.{% else %}This is a {{ 'demo' if d.mode == 'example' else 'preview' }}, so nothing was sent. On the live site, requests go straight to {{ 'the owner’s' if d.mode == 'example' else 'your' }} inbox.{% endif %}
+{%- endmacro %}

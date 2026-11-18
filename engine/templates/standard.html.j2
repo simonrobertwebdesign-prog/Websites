@@ -1,0 +1,207 @@
+{% import 'macros.j2' as m with context %}{% set b = d.business %}<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ d.seo.title }}{% if d.mode != 'live' %} ({{ d.mode }}){% endif %}</title>
+<meta name="description" content="{{ d.seo.description }}">
+{% if d.mode != 'live' %}<meta name="robots" content="noindex">{% endif %}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#14181F;--ink-deep:#0B0E13;--paper:#F6F5F1;--card:#fff;--line:#E3E1DA;--muted:#4A5160;--muted-d:#C3C9D4;--accent:{{ accent }};--on-accent:{{ on_accent }};--wrap:1160px;--pad:clamp(16px,4vw,40px);--display:"Archivo","Arial Narrow",Arial,sans-serif}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);background:var(--paper);line-height:1.6;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 var(--pad)}
+h1,h2,h3{font-family:var(--display);margin:0}
+.eyebrow{margin:0;font-size:13px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+h2{font-weight:800;font-size:clamp(28px,3.4vw,42px);line-height:1.1;letter-spacing:-.015em}
+.demo{background:var(--ink-deep);color:#D9DDE5;font-size:13px;text-align:center;padding:10px var(--pad)}
+.demo a{color:#fff;font-weight:700}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:52px;padding:0 24px;border-radius:8px;font-weight:700;font-size:16px;text-decoration:none;border:0;cursor:pointer;font-family:inherit}
+.btn-accent{background:var(--accent);color:var(--on-accent)}
+.btn-line{border:1px solid rgba(246,245,241,.4);color:#F6F5F1}
+header.top{background-color:var(--ink);background-image:linear-gradient(rgba(255,255,255,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.045) 1px,transparent 1px);background-size:40px 40px;color:#F6F5F1}
+.bar{display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between;padding-top:18px;padding-bottom:18px}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none;color:#F6F5F1;font-family:var(--display);font-weight:800;font-size:18px}
+.mark{width:38px;height:38px;border-radius:8px;background:var(--accent);color:var(--on-accent);display:grid;place-items:center}
+.call{display:flex;align-items:center;gap:8px;min-height:44px;padding:0 16px;border-radius:8px;border:1px solid rgba(246,245,241,.35);text-decoration:none;font-weight:600;font-size:15px}
+.hero{display:flex;flex-wrap:wrap;gap:clamp(32px,5vw,64px);align-items:center;padding-top:clamp(32px,6vw,72px);padding-bottom:clamp(48px,7vw,96px)}
+.hero-text{flex:1 1 440px;min-width:0;display:flex;flex-direction:column;gap:24px}
+.hero h1{font-weight:800;font-size:clamp(36px,5.2vw,62px);line-height:1.02;letter-spacing:-.02em;text-wrap:balance}
+.hero h1 span{color:var(--accent)}
+.hero .lead{margin:0;font-size:clamp(16px,1.6vw,19px);color:var(--muted-d);max-width:34em}
+.hero-img{flex:1 1 360px;min-width:0;border-radius:16px;overflow:hidden;min-height:clamp(260px,32vw,420px);position:relative}
+.hero-img img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.ticks{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:10px 22px;font-size:14px;color:#D9DDE5}
+.ticks li{display:flex;align-items:center;gap:8px}
+.ticks svg{color:var(--accent)}
+.row{display:flex;flex-wrap:wrap;gap:12px}
+section{padding:clamp(56px,8vw,104px) 0}
+.sec-head{display:flex;flex-direction:column;gap:12px;max-width:640px;margin-bottom:clamp(28px,4vw,48px)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(300px,100%),1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:24px;display:flex;flex-direction:column;gap:12px}
+.card .ic{width:44px;height:44px;border-radius:10px;background:var(--accent);color:var(--on-accent);display:grid;place-items:center}
+.card h3{font-weight:700;font-size:20px}
+.card p{margin:0;color:var(--muted);font-size:15px}
+.white{background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.steps{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(260px,100%),1fr));gap:clamp(24px,3vw,40px)}
+.steps li{display:flex;flex-direction:column;gap:12px}
+.steps .n{font-family:var(--display);font-weight:800;font-size:44px;line-height:1}
+.steps .u{width:40px;height:4px;border-radius:2px;background:var(--accent)}
+.steps h3{font-weight:700;font-size:20px;margin-top:4px}
+.steps p{margin:0;color:var(--muted);font-size:15px}
+.stars{display:flex;gap:3px;color:var(--accent)}
+.rev blockquote{margin:0;font-size:16px}
+.rev figcaption{font-size:14px;color:var(--muted);font-weight:600;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.lbl{font-size:11px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;border:1px solid currentColor;border-radius:999px;padding:3px 9px;white-space:nowrap}
+.areas{background:var(--ink);color:#F6F5F1}
+.areas .wrap{display:flex;flex-wrap:wrap;gap:clamp(28px,4vw,56px);align-items:center}
+.areas .eyebrow{color:var(--accent)}
+.chips{flex:1 1 420px;min-width:0;list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:10px}
+.chips li{display:flex;align-items:center;gap:6px;min-height:40px;padding:0 14px;border-radius:999px;border:1px solid rgba(246,245,241,.25);font-size:15px}
+.chips svg{color:var(--accent)}
+.contact .wrap{display:flex;flex-wrap:wrap;gap:clamp(28px,4vw,48px);align-items:flex-start}
+.formcard{flex:1 1 460px;min-width:0;background:#fff;border:1px solid var(--line);border-radius:16px;padding:clamp(20px,3vw,36px)}
+.field{display:flex;flex-direction:column;gap:6px;font-size:14px;font-weight:600;margin-bottom:16px}
+.field input,.field textarea,.field select{min-height:48px;border:1px solid #BDB9AE;border-radius:8px;padding:0 14px;font:inherit;font-weight:400;background:#fff;color:var(--ink)}
+.field textarea{padding:12px 14px;min-height:110px;resize:vertical}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(200px,100%),1fr));gap:0 16px}
+.details{flex:1 1 300px;min-width:0;display:flex;flex-direction:column;gap:18px;list-style:none;margin:0;padding:8px 0 0}
+.details li{display:flex;gap:14px;align-items:flex-start}
+.details .i{width:40px;height:40px;border-radius:10px;background:var(--ink);color:#F6F5F1;display:grid;place-items:center;flex:none}
+.details small{display:block;font-size:13px;color:var(--muted)}
+.details strong{font-size:16px}
+.thanks{display:none;text-align:center;padding:24px 0}
+.qstep{display:none}.qstep.on{display:block}
+footer{background:var(--ink-deep);color:#AEB6C3;font-size:14px;padding:28px 0 110px}
+footer .wrap{display:flex;flex-wrap:wrap;gap:12px 24px;justify-content:space-between}
+footer a{color:#fff}
+.mbar{position:fixed;left:12px;right:12px;bottom:12px;z-index:50;display:none;gap:10px;padding:10px;border-radius:14px;background:rgba(11,14,19,.94)}
+.mbar .btn{flex:1;min-height:48px}
+@media (max-width:760px){.mbar{display:flex}}
+@media (min-width:761px){footer{padding-bottom:28px}}
+.rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}.rv.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+{{ m.banner(d) }}
+
+<header class="top">
+  <div class="wrap bar">
+    <a class="logo" href="#top"><span class="mark">{{ m.icon(b.logo_icon, 20, 2.2) }}</span><span>{{ b.short }} {{ b.sub }}</span></a>
+    <a class="call" href="tel:{{ b.phone_tel }}">{{ m.icon('phone', 18) }}<span>{{ b.phone }}</span></a>
+  </div>
+  <div class="wrap hero" id="top">
+    <div class="hero-text">
+      <p class="eyebrow" style="color:var(--accent)">{{ d.hero.eyebrow }}</p>
+      <h1>{{ d.hero.h1 }} <span>{{ d.hero.h1_accent }}</span></h1>
+      <p class="lead">{{ d.hero.lead }}</p>
+      <div class="row">
+        <a class="btn btn-accent" href="#quote">Get a free quote</a>
+        <a class="btn btn-line" href="tel:{{ b.phone_tel }}">Call {{ b.phone }}</a>
+      </div>
+      <ul class="ticks">{% for p in d.pills[:3] %}<li>{{ m.icon('check', 18, 2.6) }}<span>{{ p }}</span></li>{% endfor %}</ul>
+    </div>
+    <div class="hero-img"><img src="{{ d.hero.image }}" alt="{{ d.hero.image_alt }}"></div>
+  </div>
+</header>
+
+<main>
+<section id="services">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">{{ d.services.eyebrow }}</p>
+      <h2>{{ d.services.heading|join(' ') }}</h2>
+    </div>
+    <div class="grid">
+      {% for s in d.services['items'][:6] %}
+      <article class="card rv"><span class="ic">{{ m.icon(s.icon, 22) }}</span><h3>{{ s.title }}</h3><p>{{ s.text }}</p></article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="white">
+  <div class="wrap">
+    <div class="sec-head"><p class="eyebrow">How it works</p><h2>Simple from first call to finished job</h2></div>
+    <ol class="steps">
+      {% for s in d.steps %}<li class="rv"><span class="n">0{{ loop.index }}</span><span class="u"></span><h3>{{ s.title }}</h3><p>{{ s.text }}</p></li>{% endfor %}
+    </ol>
+  </div>
+</section>
+
+<section id="reviews">
+  <div class="wrap">
+    <div class="sec-head"><p class="eyebrow">Reviews</p><h2>What customers say</h2>{% if d.reviews.intro %}<p style="margin:0;color:var(--muted)">{{ d.reviews.intro }}</p>{% endif %}</div>
+    <div class="grid">
+      {% for r in d.reviews['items'][:3] %}
+      <figure class="card rev rv" style="margin:0">
+        <div class="stars" role="img" aria-label="5 out of 5 stars">{% for _ in range(5) %}{{ m.star(18) }}{% endfor %}</div>
+        <blockquote>“{{ r.text }}”</blockquote>
+        <figcaption><span>{{ r.who }}</span>{% if r.label %}<span class="lbl">{{ r.label }}</span>{% endif %}</figcaption>
+      </figure>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="areas">
+  <div class="wrap">
+    <div style="flex:1 1 320px;min-width:0;display:flex;flex-direction:column;gap:12px">
+      <p class="eyebrow">Areas we cover</p>
+      <h2>{{ b.town }} and the area around it</h2>
+      <p style="margin:0;color:var(--muted-d)">Not sure if we cover you? Just ask.</p>
+    </div>
+    <ul class="chips">{% for a in d.areas %}<li>{{ m.icon('pin', 16, 2.2) }}<span>{{ a }}</span></li>{% endfor %}</ul>
+  </div>
+</section>
+
+<section class="contact" id="quote">
+  <div class="wrap">
+    <div class="formcard">
+      <h2 style="margin-bottom:8px">Get a free quote</h2>
+      <p style="margin:0 0 20px;color:var(--muted)">Tell us what you need and we’ll get back to you with a price.</p>
+      <form id="qform"{{ m.form_attrs(d) }}>
+        {{ m.form_hidden(d) }}
+        <div class="qstep on" data-step="1">
+          <div class="two">
+            <label class="field">Your name<input type="text" name="name" autocomplete="name" required></label>
+            <label class="field">Phone<input type="tel" name="phone" autocomplete="tel" required></label>
+          </div>
+          <label class="field">Email<input type="email" name="email" autocomplete="email"></label>
+          <label class="field">What do you need?<select name="job">{% for j in d.quote.jobs %}<option>{{ j[0] }}</option>{% endfor %}</select></label>
+          <label class="field">Details<textarea name="notes"></textarea></label>
+          <button type="submit" class="btn btn-accent" style="width:100%">Send my request</button>
+        </div>
+        <div class="qstep" data-step="4"><p style="font-weight:700;font-size:20px;margin:0 0 6px">Thanks, request sent!</p><p style="margin:0;color:var(--muted)">{{ m.done_text(d) }}</p></div>
+      </form>
+    </div>
+    <ul class="details">
+      <li><span class="i">{{ m.icon('phone', 18) }}</span><span><small>Phone</small><strong><a href="tel:{{ b.phone_tel }}" style="text-decoration:none">{{ b.phone }}</a></strong></span></li>
+      {% if b.email %}<li><span class="i">{{ m.icon('mail', 18) }}</span><span><small>Email</small><strong><a href="mailto:{{ b.email }}" style="text-decoration:none">{{ b.email }}</a></strong></span></li>{% endif %}
+      {% if b.hours %}<li><span class="i">{{ m.icon('clock', 18) }}</span><span><small>Opening hours</small><strong>{{ b.hours }}</strong></span></li>{% endif %}
+      <li><span class="i">{{ m.icon('pin', 18) }}</span><span><small>Based in</small><strong>{{ b.town }}, {{ b.county }}</strong></span></li>
+    </ul>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© <span id="yr">2026</span> {{ b.name }}{% if d.mode == 'example' %} (an example business){% endif %} · {{ b.company_line }}</span>
+    <span>Website by <a href="https://simonrobert-webdesign.netlify.app/">Simon Robert Web Design</a>{% if d.credits %} · Photos: {{ d.credits|safe }}{% endif %}</span>
+  </div>
+</footer>
+<div class="mbar"><a class="btn btn-line" href="tel:{{ b.phone_tel }}">Call</a><a class="btn btn-accent" href="#quote">Free quote</a></div>
+<script>
+{% include 'site.js' %}
+</script>
+</body>
+</html>

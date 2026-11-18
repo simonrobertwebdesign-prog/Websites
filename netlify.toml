@@ -1,7 +1,18 @@
 [build]
-  publish = "."
+  publish = "site"
+
+# Client previews and examples are never indexed by search engines.
+[[headers]]
+  for = "/p/*"
+  [headers.values]
+    X-Robots-Tag = "noindex"
 
 [[headers]]
-  for = "/*"
+  for = "/standard-example/*"
+  [headers.values]
+    X-Robots-Tag = "noindex"
+
+[[headers]]
+  for = "/premium-example/*"
   [headers.values]
     X-Robots-Tag = "noindex"

@@ -1,0 +1,284 @@
+{% import 'macros.j2' as m with context %}{% set b = d.business %}<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ d.seo.title }}{% if d.mode != 'live' %} ({{ d.mode }}){% endif %}</title>
+<meta name="description" content="{{ d.seo.description }}">
+{% if d.mode != 'live' %}<meta name="robots" content="noindex">{% endif %}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+{% include 'premium.css.j2' %}
+.bento{grid-auto-flow:dense}
+</style>
+</head>
+<body>
+
+{{ m.banner(d) }}
+
+<header class="nav" id="nav">
+  <div class="wrap nav-in">
+    <a class="logo" href="#top" aria-label="{{ b.name }}, back to top">
+      <span class="logo-mark">{{ m.icon(b.logo_icon, 22, 2.2) }}</span>
+      <span class="logo-name">{{ b.short }}<small>{{ b.sub }}</small></span>
+    </a>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="links">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <nav class="links" id="links" aria-label="Main">
+      <a href="#services">Services</a>
+      {% if d.work and d.work.enabled %}<a href="#work">Our work</a>{% endif %}
+      <a href="#reviews">Reviews</a>
+      <a href="#faq">FAQ</a>
+      <a class="btn btn-accent" href="#quote">Free quote</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+<section class="hero" id="hero" aria-label="Introduction" style="padding:0">
+  <img class="hero-img" src="{{ d.hero.image }}" alt="{{ d.hero.image_alt }}">
+  <div class="hero-glow" aria-hidden="true"></div>
+  <div class="wrap hero-in">
+    <p class="eyebrow rv" style="color:var(--accent)">{{ d.hero.eyebrow }}</p>
+    <h1 class="rv d1" style="margin-top:18px">{{ d.hero.h1 }} <span class="spark">{{ d.hero.h1_accent }}</span></h1>
+    <p class="lead rv d2">{{ d.hero.lead }}</p>
+    <div class="hero-ctas rv d3">
+      <a class="btn btn-accent" href="#quote">Get a free quote {{ m.icon('arrow', 18, 2.4) }}</a>
+      <a class="btn btn-ghost" href="tel:{{ b.phone_tel }}">{{ m.icon('phone', 18) }} {{ b.phone }}</a>
+    </div>
+    <ul class="pills rv d3">
+      {% for p in d.pills %}<li>{{ m.icon('check', 16, 3) }}{{ p }}</li>{% endfor %}
+    </ul>
+  </div>
+</section>
+
+<div class="marquee" aria-hidden="true">
+  <div class="track">
+    {% for _ in range(2) %}{% for t in d.marquee %}<span{% if loop.index is even %} class="o"{% endif %}>{{ t }} <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor"><path d="M13 2L4 14h7l-1 8 9-12h-7l1-8z"/></svg></span>{% endfor %}{% endfor %}
+  </div>
+</div>
+
+<section id="services">
+  <div class="wrap">
+    <div class="head">
+      <div>
+        <p class="eyebrow rv">{{ d.services.eyebrow }}</p>
+        <h2 class="rv d1">{{ m.lines(d.services.heading) }}</h2>
+      </div>
+      <p class="rv d2">{{ d.services.intro }}</p>
+    </div>
+    <div class="bento">
+      {% set ns = namespace(first=true) %}
+      {% for s in d.services['items'] %}
+      {% if s.image %}
+      <article class="tile photo span2{% if ns.first %} big row2{% set ns.first=false %}{% endif %} rv d{{ loop.index0 % 3 }}">
+        <img src="{{ s.image }}" alt="{{ s.image_alt }}" loading="lazy">
+        {% if s.tag %}<span class="tag">{{ s.tag }}</span>{% endif %}
+        <h3>{{ s.title }}</h3>
+        <p>{{ s.text }}</p>
+      </article>
+      {% else %}
+      <article class="tile rv d{{ loop.index0 % 3 }}">
+        <span class="ic">{{ m.icon(s.icon) }}</span>
+        <h3>{{ s.title }}</h3>
+        <p>{{ s.text }}</p>
+      </article>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% if d.work and d.work.enabled %}
+<section class="dark" id="work">
+  <div class="wrap">
+    <div class="head">
+      <div>
+        <p class="eyebrow rv">{{ d.work.eyebrow }}</p>
+        <h2 class="rv d1">{{ m.lines(d.work.heading) }}</h2>
+      </div>
+      <p class="rv d2">{{ d.work.intro }}</p>
+    </div>
+    <div class="ba rv" id="ba">
+      <img src="{{ d.work.after }}" alt="{{ d.work.after_alt }}" loading="lazy">
+      <img class="before" src="{{ d.work.before }}" alt="{{ d.work.before_alt }}" loading="lazy">
+      <span class="bar"></span>
+      <span class="knob"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l-6 6 6 6M15 6l6 6-6 6"/></svg></span>
+      <span class="lab l">Before</span><span class="lab r">After</span>
+      <input type="range" min="0" max="100" value="50" aria-label="Compare before and after">
+    </div>
+    {% if d.work.facts %}
+    <div class="facts">
+      {% for f in d.work.facts %}<div class="rv d{{ loop.index0 }}"><span>{{ f[0] }}</span><strong>{{ f[1] }}</strong></div>{% endfor %}
+    </div>
+    {% endif %}
+  </div>
+</section>
+{% endif %}
+
+<section>
+  <div class="wrap">
+    <div class="head">
+      <div>
+        <p class="eyebrow rv">How it works</p>
+        <h2 class="rv d1">Three steps.<br>No hassle.</h2>
+      </div>
+    </div>
+    <ol class="steps">
+      {% for s in d.steps %}<li class="rv d{{ loop.index0 }}"><span class="n">0{{ loop.index }}</span><h3>{{ s.title }}</h3><p>{{ s.text }}</p></li>{% endfor %}
+    </ol>
+  </div>
+</section>
+
+<section id="reviews" style="padding-top:0">
+  <div class="wrap">
+    <div class="head">
+      <div>
+        <p class="eyebrow rv">Reviews</p>
+        <h2 class="rv d1">{{ m.lines(d.reviews.heading) }}</h2>
+      </div>
+      {% if d.reviews.intro %}<p class="rv d2">{{ d.reviews.intro }}</p>{% endif %}
+    </div>
+    {% set r = d.reviews['items'] %}
+    <div class="revs">
+      <figure class="rev feature rv" style="margin:0">
+        <div class="stars" role="img" aria-label="5 out of 5 stars">{% for _ in range(5) %}{{ m.star() }}{% endfor %}</div>
+        <blockquote style="margin:0">“{{ r[0].text }}”</blockquote>
+        <figcaption class="who"><span>{{ r[0].who }}</span>{% if r[0].label %}<span class="ex">{{ r[0].label }}</span>{% endif %}</figcaption>
+      </figure>
+      {% if r|length > 1 %}
+      <div class="revs-side">
+        {% for x in r[1:3] %}
+        <figure class="rev rv d{{ loop.index }}" style="margin:0">
+          <div class="stars" role="img" aria-label="5 out of 5 stars">{% for _ in range(5) %}{{ m.star() }}{% endfor %}</div>
+          <blockquote>“{{ x.text }}”</blockquote>
+          <figcaption class="who"><span>{{ x.who }}</span>{% if x.label %}<span class="ex">{{ x.label }}</span>{% endif %}</figcaption>
+        </figure>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+<section id="quote" style="background:#ECEAE3">
+  <div class="wrap quote">
+    <div class="qside">
+      <p class="eyebrow rv" style="color:var(--muted)">Free quote</p>
+      <h2 class="rv d1">Get your<br>price fast.</h2>
+      <p class="rv d2" style="margin:0;color:var(--muted);font-size:17px">{{ d.quote.intro }}</p>
+      <a class="big-phone rv d2" href="tel:{{ b.phone_tel }}">{{ b.phone }}</a>
+      <ul class="qlist rv d3">
+        {% if b.hours %}<li><span class="i">{{ m.icon('clock', 20) }}</span><span>{{ b.hours }}<small>Opening hours</small></span></li>{% endif %}
+        {% if b.email %}<li><span class="i">{{ m.icon('mail', 20) }}</span><span><a href="mailto:{{ b.email }}" style="text-decoration:none">{{ b.email }}</a><small>Email</small></span></li>{% endif %}
+        <li><span class="i">{{ m.icon('pin', 20) }}</span><span>{{ b.town }}, {{ b.county }}<small>Based in</small></span></li>
+      </ul>
+    </div>
+    <div class="qcard rv d1">
+      <div class="prog" aria-hidden="true"><i id="progBar"></i></div>
+      <form id="qform"{{ m.form_attrs(d) }}>
+        {{ m.form_hidden(d) }}
+        <div class="qstep on" data-step="1">
+          <fieldset>
+            <legend>What do you need?</legend>
+            <div class="opts">
+              {% for j in d.quote.jobs %}<div class="opt"><input type="radio" name="job" id="j{{ loop.index }}" value="{{ j[0] }}"><label for="j{{ loop.index }}">{{ m.icon(j[1], 20) }}{{ j[0] }}</label></div>{% endfor %}
+            </div>
+          </fieldset>
+          <div class="qnav"><span></span><button type="button" class="btn btn-dark" data-next>Next {{ m.icon('arrow', 18, 2.4) }}</button></div>
+        </div>
+        <div class="qstep" data-step="2">
+          <fieldset>
+            <legend>When do you need it?</legend>
+            <div class="opts">
+              <div class="opt"><input type="radio" name="when" id="w1" value="As soon as possible"><label for="w1">As soon as possible</label></div>
+              <div class="opt"><input type="radio" name="when" id="w2" value="Within a month"><label for="w2">Within a month</label></div>
+              <div class="opt"><input type="radio" name="when" id="w3" value="Just planning"><label for="w3">Just planning</label></div>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend style="font-size:20px">Type of property</legend>
+            <div class="opts">
+              <div class="opt"><input type="radio" name="property" id="p1" value="House"><label for="p1">House</label></div>
+              <div class="opt"><input type="radio" name="property" id="p2" value="Flat"><label for="p2">Flat</label></div>
+              <div class="opt"><input type="radio" name="property" id="p3" value="Business"><label for="p3">Business</label></div>
+            </div>
+          </fieldset>
+          <div class="qnav"><button type="button" class="btn back" data-back>Back</button><button type="button" class="btn btn-dark" data-next>Next {{ m.icon('arrow', 18, 2.4) }}</button></div>
+        </div>
+        <div class="qstep" data-step="3">
+          <p class="qtitle">Where should we send your quote?</p>
+          <div class="two">
+            <label class="field">Your name<input type="text" name="name" autocomplete="name" required></label>
+            <label class="field">Phone<input type="tel" name="phone" autocomplete="tel" required></label>
+          </div>
+          <div class="two">
+            <label class="field">Email<input type="email" name="email" autocomplete="email"></label>
+            <label class="field">Postcode<input type="text" name="postcode" autocomplete="postal-code"></label>
+          </div>
+          <label class="field">Anything else we should know?<textarea name="notes"></textarea></label>
+          <div class="qnav"><button type="button" class="btn back" data-back>Back</button><button type="submit" class="btn btn-accent">Send my request</button></div>
+        </div>
+        <div class="qstep" data-step="4">
+          <div class="done">
+            <div class="tick">{{ m.icon('check', 34, 3) }}</div>
+            <p class="qtitle" style="margin-bottom:8px">Thanks, request sent!</p>
+            <p>{{ m.done_text(d) }}</p>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap">
+    <div class="head">
+      <div>
+        <p class="eyebrow rv">Questions</p>
+        <h2 class="rv d1">Good to know.</h2>
+      </div>
+    </div>
+    <div class="faq">
+      {% for f in d.faqs %}<details class="rv"><summary>{{ f.q }}<span class="pm" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></summary><p>{{ f.a }}</p></details>{% endfor %}
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="wrap">
+    <div class="cta rv">
+      <svg class="bolt" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13 2L4 14h7l-1 8 9-12h-7l1-8z"/></svg>
+      <div>
+        <h2>{{ d.cta.heading }}</h2>
+        <ul class="areas" aria-label="Areas covered">{% for a in d.areas %}<li>{{ a }}</li>{% endfor %}</ul>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:12px">
+        <a class="btn btn-dark" href="#quote">Get a free quote</a>
+        <a class="btn" style="background:rgba(13,16,21,.08);color:var(--on-accent)" href="tel:{{ b.phone_tel }}">Call {{ b.phone }}</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© <span id="yr">2026</span> {{ b.name }}{% if d.mode == 'example' %} (an example business){% endif %} · {{ b.company_line }}</span>
+    <span>Website by <a href="https://simonrobert-webdesign.netlify.app/">Simon Robert Web Design</a>{% if d.credits %} · Photos: {{ d.credits|safe }}{% endif %}</span>
+  </div>
+</footer>
+
+<div class="mbar" aria-label="Quick contact">
+  <a class="btn btn-ghost" href="tel:{{ b.phone_tel }}">Call</a>
+  <a class="btn btn-accent" href="#quote">Free quote</a>
+</div>
+
+<script>
+{% include 'site.js' %}
+</script>
+</body>
+</html>
