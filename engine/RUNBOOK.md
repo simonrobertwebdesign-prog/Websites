@@ -26,6 +26,7 @@ Every scheduled run starts fresh. Read this whole file first and follow it exact
 9. **At most 10 new leads per day.**
 10. Run `python3 engine/check.py --prune` before every push. **Never push if it fails.** One push per run.
 11. Anything outside the standard offer (discounts, extra pages, deadlines, payments, logins, legal questions): don't agree. Draft a holding reply and tell Simon.
+    **Price complaints** (agreed with Simon 18 Nov 2026), in this order and one step per reply: (1) don't cut the price, remind them what they get (already built, live in 7 days, 2 rounds of changes, they own it); (2) offer Standard £400 instead of Premium; (3) point out they only pay half (£200) to start; (4) last resort only: Standard for £300 if paid in full upfront. **Never offer less than £300.** Simon still approves every reply.
 12. Never handle money, bank details, card details or passwords. Simon sends payment details himself.
 
 ## Run A: inbox check (9am and 5pm)
