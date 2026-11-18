@@ -1,4 +1,4 @@
-{% import 'macros.j2' as m with context %}{% set b = d.business %}<!doctype html>
+{% import 'macros.j2' as m with context %}{% set b = d.business %}{% set deco = "M13 2L4 14h7l-1 8 9-12h-7l1-8z" if b.logo_icon == "bolt" else "M12 2l2.6 7.4L22 12l-7.4 2.6L12 22l-2.6-7.4L2 12l7.4-2.6z" %}<!doctype html>
 <html lang="en-GB">
 <head>
 <meta charset="utf-8">
@@ -32,7 +32,7 @@
       {% if d.work and d.work.enabled %}<a href="#work">Our work</a>{% endif %}
       <a href="#reviews">Reviews</a>
       <a href="#faq">FAQ</a>
-      <a class="btn btn-accent" href="#quote">Free quote</a>
+      <a class="btn btn-accent" href="#quote">{{ "Free quote" if d.free_quotes else "Get a quote" }}</a>
     </nav>
   </div>
 </header>
@@ -46,7 +46,7 @@
     <h1 class="rv d1" style="margin-top:18px">{{ d.hero.h1 }} <span class="spark">{{ d.hero.h1_accent }}</span></h1>
     <p class="lead rv d2">{{ d.hero.lead }}</p>
     <div class="hero-ctas rv d3">
-      <a class="btn btn-accent" href="#quote">Get a free quote {{ m.icon('arrow', 18, 2.4) }}</a>
+      <a class="btn btn-accent" href="#quote">{{ "Get a free quote" if d.free_quotes else "Get a quote" }} {{ m.icon('arrow', 18, 2.4) }}</a>
       <a class="btn btn-ghost" href="tel:{{ b.phone_tel }}">{{ m.icon('phone', 18) }} {{ b.phone }}</a>
     </div>
     <ul class="pills rv d3">
@@ -57,7 +57,7 @@
 
 <div class="marquee" aria-hidden="true">
   <div class="track">
-    {% for _ in range(2) %}{% for t in d.marquee %}<span{% if loop.index is even %} class="o"{% endif %}>{{ t }} <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor"><path d="M13 2L4 14h7l-1 8 9-12h-7l1-8z"/></svg></span>{% endfor %}{% endfor %}
+    {% for _ in range(2) %}{% for t in d.marquee %}<span{% if loop.index is even %} class="o"{% endif %}>{{ t }} <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor"><path d="{{ deco }}"/></svg></span>{% endfor %}{% endfor %}
   </div>
 </div>
 
@@ -167,7 +167,7 @@
 <section id="quote" style="background:#ECEAE3">
   <div class="wrap quote">
     <div class="qside">
-      <p class="eyebrow rv" style="color:var(--muted)">Free quote</p>
+      <p class="eyebrow rv" style="color:var(--muted)">{{ "Free quote" if d.free_quotes else "Get a quote" }}</p>
       <h2 class="rv d1">Get your<br>price fast.</h2>
       <p class="rv d2" style="margin:0;color:var(--muted);font-size:17px">{{ d.quote.intro }}</p>
       <a class="big-phone rv d2" href="tel:{{ b.phone_tel }}">{{ b.phone }}</a>
@@ -251,13 +251,13 @@
 <section style="padding-top:0">
   <div class="wrap">
     <div class="cta rv">
-      <svg class="bolt" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13 2L4 14h7l-1 8 9-12h-7l1-8z"/></svg>
+      <svg class="bolt" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="{{ deco }}"/></svg>
       <div>
         <h2>{{ d.cta.heading }}</h2>
         <ul class="areas" aria-label="Areas covered">{% for a in d.areas %}<li>{{ a }}</li>{% endfor %}</ul>
       </div>
       <div style="display:flex;flex-wrap:wrap;gap:12px">
-        <a class="btn btn-dark" href="#quote">Get a free quote</a>
+        <a class="btn btn-dark" href="#quote">{{ "Get a free quote" if d.free_quotes else "Get a quote" }}</a>
         <a class="btn" style="background:rgba(13,16,21,.08);color:var(--on-accent)" href="tel:{{ b.phone_tel }}">Call {{ b.phone }}</a>
       </div>
     </div>
@@ -274,7 +274,7 @@
 
 <div class="mbar" aria-label="Quick contact">
   <a class="btn btn-ghost" href="tel:{{ b.phone_tel }}">Call</a>
-  <a class="btn btn-accent" href="#quote">Free quote</a>
+  <a class="btn btn-accent" href="#quote">{{ "Free quote" if d.free_quotes else "Get a quote" }}</a>
 </div>
 
 <script>

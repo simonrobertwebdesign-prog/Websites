@@ -104,7 +104,7 @@ footer a{color:#fff}
       <h1>{{ d.hero.h1 }} <span>{{ d.hero.h1_accent }}</span></h1>
       <p class="lead">{{ d.hero.lead }}</p>
       <div class="row">
-        <a class="btn btn-accent" href="#quote">Get a free quote</a>
+        <a class="btn btn-accent" href="#quote">{{ "Get a free quote" if d.free_quotes else "Get a quote" }}</a>
         <a class="btn btn-line" href="tel:{{ b.phone_tel }}">Call {{ b.phone }}</a>
       </div>
       <ul class="ticks">{% for p in d.pills[:3] %}<li>{{ m.icon('check', 18, 2.6) }}<span>{{ p }}</span></li>{% endfor %}</ul>
@@ -166,7 +166,7 @@ footer a{color:#fff}
 <section class="contact" id="quote">
   <div class="wrap">
     <div class="formcard">
-      <h2 style="margin-bottom:8px">Get a free quote</h2>
+      <h2 style="margin-bottom:8px">{{ "Get a free quote" if d.free_quotes else "Get a quote" }}</h2>
       <p style="margin:0 0 20px;color:var(--muted)">Tell us what you need and we’ll get back to you with a price.</p>
       <form id="qform"{{ m.form_attrs(d) }}>
         {{ m.form_hidden(d) }}
@@ -199,7 +199,7 @@ footer a{color:#fff}
     <span>Website by <a href="https://simonrobert-webdesign.netlify.app/">Simon Robert Web Design</a>{% if d.credits %} · Photos: {{ d.credits|safe }}{% endif %}</span>
   </div>
 </footer>
-<div class="mbar"><a class="btn btn-line" href="tel:{{ b.phone_tel }}">Call</a><a class="btn btn-accent" href="#quote">Free quote</a></div>
+<div class="mbar"><a class="btn btn-line" href="tel:{{ b.phone_tel }}">Call</a><a class="btn btn-accent" href="#quote">{{ "Free quote" if d.free_quotes else "Get a quote" }}</a></div>
 <script>
 {% include 'site.js' %}
 </script>

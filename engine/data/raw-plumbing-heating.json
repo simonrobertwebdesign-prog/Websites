@@ -1,0 +1,183 @@
+{
+  "slug": "raw-plumbing-heating",
+  "mode": "preview",
+  "accent": "#4FC3F7",
+  "business": {
+    "name": "RAW Plumbing & Heating",
+    "short": "RAW",
+    "sub": "Plumbing & Heating",
+    "logo_icon": "flame",
+    "trade": "Plumbers",
+    "town": "Crowthorne",
+    "county": "Berkshire",
+    "phone": "01344 776751",
+    "phone_tel": "01344776751",
+    "email": "rawplumbing@me.com",
+    "hours": "Mon–Fri 8.30am–5.30pm",
+    "company_line": "RAW Plumbing and Heating Ltd · Company no. 09692738"
+  },
+  "seo": {
+    "title": "RAW Plumbing & Heating – Plumbers in Crowthorne, Berkshire",
+    "description": "Family run plumbing and heating in Crowthorne. Boilers, heating controls, underfloor heating and unvented hot water."
+  },
+  "hero": {
+    "eyebrow": "Crowthorne · Berkshire · Surrey",
+    "h1": "Heating sorted,",
+    "h1_accent": "fast.",
+    "lead": "A family run plumbing and heating business in Crowthorne. Roy and Elliott do the work and Lisa runs the office, covering everything from a dripping tap to a complete heating system.",
+    "image": "https://images.unsplash.com/photo-1732660513320-a6b489f3fece?ixlib=rb-4.1.0&auto=format&fit=crop&w=2000&q=80",
+    "image_alt": "Engineer installing underfloor heating"
+  },
+  "pills": [
+    "Which? Trusted Trader",
+    "Family run",
+    "On Checkatrade since 2009",
+    "Crowthorne based"
+  ],
+  "marquee": [
+    "Boilers",
+    "Heating controls",
+    "Underfloor heating",
+    "Hot water",
+    "Leaks",
+    "New builds"
+  ],
+  "services": {
+    "eyebrow": "What we do",
+    "heading": [
+      "From a dripping tap",
+      "to a full install."
+    ],
+    "intro": "Boiler replacements, heating control upgrades, underfloor heating and unvented hot water, plus new build installs from design to fit.",
+    "items": [
+      {
+        "title": "Boiler replacement",
+        "text": "New boilers fitted, with heating controls upgraded at the same time.",
+        "icon": "flame",
+        "image": "https://images.unsplash.com/photo-1650551182991-b07558247564?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Heating pipes and valves",
+        "tag": "Most asked for"
+      },
+      {
+        "title": "Underfloor heating",
+        "text": "Wet underfloor heating designed and installed.",
+        "icon": "house",
+        "image": "https://images.unsplash.com/photo-1618840626133-54463084a141?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Close-up of heating pipework"
+      },
+      {
+        "title": "Unvented hot water",
+        "text": "Unvented pressurised hot water systems fitted and maintained.",
+        "icon": "drop"
+      },
+      {
+        "title": "Radiators & central heating",
+        "text": "Central heating installed and serviced, radiators replaced.",
+        "icon": "board"
+      },
+      {
+        "title": "Leaks & repairs",
+        "text": "Leaks found and fixed, taps and pumps replaced.",
+        "icon": "wrench"
+      },
+      {
+        "title": "New build installs",
+        "text": "Plumbing and heating for new builds, from design to installation.",
+        "icon": "hammer"
+      }
+    ]
+  },
+  "work": {
+    "enabled": false
+  },
+  "steps": [
+    {
+      "title": "Get in touch",
+      "text": "Call, or send the quote form with a few details. Photos help."
+    },
+    {
+      "title": "We take a look",
+      "text": "We talk it through, look at the job and give you a clear quote."
+    },
+    {
+      "title": "Job done properly",
+      "text": "The work is done with care and the site left clean and tidy."
+    }
+  ],
+  "reviews": {
+    "heading": [
+      "What customers",
+      "say about us."
+    ],
+    "intro": "Real reviews from customers on Which? Trusted Traders.",
+    "items": [
+      {
+        "text": "I have used RAW plumbing on several occasions, usually an emergency and despite being fully booked they have always managed to fit a visit in to rectify the problem very quickly.",
+        "who": "Customer in Berkshire",
+        "label": "Which? review"
+      },
+      {
+        "text": "Very pleased with the Service provided by RAW Plumbing to fix a leak, from the first phone call to the office to the Plumber fixing the problem. Kept me informed of the problem plus very clean and tidy as well.",
+        "who": "Customer in Surrey",
+        "label": "Which? review"
+      },
+      {
+        "text": "Great communication and options from Lisa in the office and an efficient and clean service from Scott on the day.",
+        "who": "Customer in Berkshire",
+        "label": "Which? review"
+      }
+    ]
+  },
+  "quote": {
+    "intro": "Three quick steps and we’ll get back to you.",
+    "jobs": [
+      [
+        "Boiler",
+        "flame"
+      ],
+      [
+        "Underfloor heating",
+        "house"
+      ],
+      [
+        "Hot water",
+        "drop"
+      ],
+      [
+        "Leak or repair",
+        "wrench"
+      ],
+      [
+        "New build",
+        "hammer"
+      ],
+      [
+        "Something else",
+        "other"
+      ]
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Can I read more reviews?",
+      "a": "Yes. RAW Plumbing & Heating is a Which? Trusted Trader, and you can read all our customer reviews on our Which? page."
+    },
+    {
+      "q": "Who will I speak to?",
+      "a": "Lisa runs our office, taking calls and booking in jobs, so you’ll always speak to someone who knows the diary."
+    },
+    {
+      "q": "How do I get a quote?",
+      "a": "Use the quote form on this page or call 01344 776751. A few photos of the job help us give you an accurate price."
+    }
+  ],
+  "cta": {
+    "heading": "Need a plumber or heating engineer?"
+  },
+  "areas": [
+    "Crowthorne",
+    "Berkshire",
+    "Surrey"
+  ],
+  "credits": "Stock photos for this preview by <a href=\"https://unsplash.com/@der_zeman?utm_source=simonrobert_web_design&utm_medium=referral\">Marc Zeman</a>, <a href=\"https://unsplash.com/@tinkerman?utm_source=simonrobert_web_design&utm_medium=referral\">Immo Wegmann</a> and <a href=\"https://unsplash.com/@tama66?utm_source=simonrobert_web_design&utm_medium=referral\">Peter Herrmann</a> on <a href=\"https://unsplash.com/?utm_source=simonrobert_web_design&utm_medium=referral\">Unsplash</a>"
+}

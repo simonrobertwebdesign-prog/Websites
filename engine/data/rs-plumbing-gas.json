@@ -1,0 +1,186 @@
+{
+  "slug": "rs-plumbing-gas",
+  "mode": "preview",
+  "accent": "#3FA9F5",
+  "business": {
+    "name": "R&S Plumbing & Gas Services",
+    "short": "R&S",
+    "sub": "Plumbing & Gas",
+    "logo_icon": "drop",
+    "trade": "Plumbers",
+    "town": "Cheltenham",
+    "county": "Gloucestershire",
+    "phone": "07968 715861",
+    "phone_tel": "07968715861",
+    "email": "randsplumbing@live.co.uk",
+    "hours": "",
+    "company_line": "R & S Plumbing & Gas Services Ltd · Company no. 08694950"
+  },
+  "seo": {
+    "title": "R&S Plumbing & Gas Services – Plumber in Cheltenham",
+    "description": "Cheltenham based plumbing, heating and gas services covering all of Gloucestershire."
+  },
+  "hero": {
+    "eyebrow": "Cheltenham · Gloucestershire",
+    "h1": "Plumbing you",
+    "h1_accent": "can rely on.",
+    "lead": "Cheltenham based plumbing and gas services, covering all of Gloucestershire. High quality work, reliable service and a fair price.",
+    "image": "https://images.unsplash.com/photo-1732660513320-a6b489f3fece?ixlib=rb-4.1.0&auto=format&fit=crop&w=2000&q=80",
+    "image_alt": "Engineer fitting a heating system"
+  },
+  "pills": [
+    "Which? Trusted Trader",
+    "Cheltenham based",
+    "All of Gloucestershire",
+    "No job too small"
+  ],
+  "marquee": [
+    "Boilers",
+    "Central heating",
+    "Radiators",
+    "Gas safety",
+    "Cylinders",
+    "Plumbing repairs"
+  ],
+  "services": {
+    "eyebrow": "What we do",
+    "heading": [
+      "From a leaky tap",
+      "to a new boiler."
+    ],
+    "intro": "All the plumbing and gas services you need in your home, from regular servicing to full installations.",
+    "items": [
+      {
+        "title": "Boiler installs & repairs",
+        "text": "New boilers fitted, broken ones repaired and yearly servicing.",
+        "icon": "flame",
+        "image": "https://images.unsplash.com/photo-1650551182991-b07558247564?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Heating pipes and valves",
+        "tag": "Most asked for"
+      },
+      {
+        "title": "Central heating",
+        "text": "Heating systems installed and serviced, radiators added or replaced.",
+        "icon": "house"
+      },
+      {
+        "title": "Gas safety checks",
+        "text": "Gas safety testing and inspection for homes and landlords.",
+        "icon": "shield"
+      },
+      {
+        "title": "Unvented cylinders",
+        "text": "Unvented hot water cylinder installation and maintenance.",
+        "icon": "drop",
+        "image": "https://images.unsplash.com/photo-1618840626133-54463084a141?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Close-up of metal pipework"
+      },
+      {
+        "title": "Gas cookers",
+        "text": "Gas cooker installation and safe connection.",
+        "icon": "cup"
+      },
+      {
+        "title": "General plumbing",
+        "text": "Leaks, valves, showers and toilets. No job too small.",
+        "icon": "wrench"
+      }
+    ]
+  },
+  "work": {
+    "enabled": false
+  },
+  "steps": [
+    {
+      "title": "Get in touch",
+      "text": "Call, or send the quote form with a few details. Photos help."
+    },
+    {
+      "title": "We take a look",
+      "text": "We talk it through, look at the job and give you a clear quote."
+    },
+    {
+      "title": "Job done properly",
+      "text": "The work is done with care and the site left clean and tidy."
+    }
+  ],
+  "reviews": {
+    "heading": [
+      "What customers",
+      "say about us."
+    ],
+    "intro": "Real reviews from customers on Which? Trusted Traders.",
+    "items": [
+      {
+        "text": "Russ came out very quickly on a Saturday to an emergency repair at my elderly Mum's. Work was minor in the end and his charge reflected this. An honest guy who cares about his work.",
+        "who": "Customer in Gloucestershire",
+        "label": "Which? review"
+      },
+      {
+        "text": "Had a new boiler and pipework fitted by R&S and from initial inspection to quote to supply and fit the service by Russ and his team was exceptional. Professional, courteous and quality work completed on schedule.",
+        "who": "Customer in Gloucestershire",
+        "label": "Which? review"
+      },
+      {
+        "text": "We had Russ come to a new property we recently purchased, we wanted an additional radiator fitting, another replacing & some new valves fitted to others.",
+        "who": "Customer in Gloucestershire",
+        "label": "Which? review"
+      }
+    ]
+  },
+  "quote": {
+    "intro": "Three quick steps and we’ll get back to you.",
+    "jobs": [
+      [
+        "Boiler",
+        "flame"
+      ],
+      [
+        "Heating",
+        "house"
+      ],
+      [
+        "Gas safety",
+        "shield"
+      ],
+      [
+        "Leak or repair",
+        "wrench"
+      ],
+      [
+        "Hot water",
+        "drop"
+      ],
+      [
+        "Something else",
+        "other"
+      ]
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Can I read more reviews?",
+      "a": "Yes. R&S Plumbing & Gas Services is a Which? Trusted Trader, and you can read all our customer reviews on our Which? page."
+    },
+    {
+      "q": "Do you cover my area?",
+      "a": "We’re based in Cheltenham and cover all of Gloucestershire, and we travel further afield when asked."
+    },
+    {
+      "q": "How do I get a quote?",
+      "a": "Use the quote form on this page or call 07968 715861. A few photos of the job help us give you an accurate price."
+    }
+  ],
+  "cta": {
+    "heading": "Need a plumber in Cheltenham?"
+  },
+  "areas": [
+    "Cheltenham",
+    "Gloucester",
+    "Tewkesbury",
+    "Stroud",
+    "Cirencester",
+    "Gloucestershire"
+  ],
+  "credits": "Stock photos for this preview by <a href=\"https://unsplash.com/@der_zeman?utm_source=simonrobert_web_design&utm_medium=referral\">Marc Zeman</a>, <a href=\"https://unsplash.com/@tinkerman?utm_source=simonrobert_web_design&utm_medium=referral\">Immo Wegmann</a> and <a href=\"https://unsplash.com/@tama66?utm_source=simonrobert_web_design&utm_medium=referral\">Peter Herrmann</a> on <a href=\"https://unsplash.com/?utm_source=simonrobert_web_design&utm_medium=referral\">Unsplash</a>"
+}

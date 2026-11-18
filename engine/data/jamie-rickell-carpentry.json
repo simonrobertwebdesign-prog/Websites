@@ -1,0 +1,185 @@
+{
+  "slug": "jamie-rickell-carpentry",
+  "mode": "preview",
+  "accent": "#D9A066",
+  "business": {
+    "name": "Jamie Rickell Carpentry",
+    "short": "Jamie Rickell",
+    "sub": "Carpentry",
+    "logo_icon": "hammer",
+    "trade": "Carpenters",
+    "town": "Milton Keynes",
+    "county": "Buckinghamshire",
+    "phone": "07446 894385",
+    "phone_tel": "07446894385",
+    "email": "jamie.t.rickell@gmail.com",
+    "hours": "Mon–Fri 8am–5pm",
+    "company_line": "Jamie Rickell Carpentry Limited · Company no. 10837995"
+  },
+  "seo": {
+    "title": "Jamie Rickell Carpentry – Carpenter in Milton Keynes",
+    "description": "Bespoke carpentry in Milton Keynes: fitted wardrobes, media walls, panelling, decking and garden structures."
+  },
+  "hero": {
+    "eyebrow": "Milton Keynes · Buckinghamshire · Bedfordshire",
+    "h1": "Carpentry,",
+    "h1_accent": "made to measure.",
+    "lead": "Bespoke carpentry in Milton Keynes, from fitted wardrobes and media walls to decking and garden structures, with 15 years’ experience behind every job.",
+    "image": "https://images.unsplash.com/photo-1659930087003-2d64e33181f7?ixlib=rb-4.1.0&auto=format&fit=crop&w=2000&q=80",
+    "image_alt": "Carpenter marking a wooden board"
+  },
+  "pills": [
+    "Which? Trusted Trader",
+    "15 years’ experience",
+    "Made to measure",
+    "Milton Keynes based"
+  ],
+  "marquee": [
+    "Wardrobes",
+    "Media walls",
+    "Panelling",
+    "Decking",
+    "Pergolas",
+    "Garden rooms"
+  ],
+  "services": {
+    "eyebrow": "What we do",
+    "heading": [
+      "Built to fit",
+      "your space."
+    ],
+    "intro": "Custom furniture, cabinetry, renovations and outdoor structures, with real attention to detail.",
+    "items": [
+      {
+        "title": "Fitted wardrobes",
+        "text": "Built-in wardrobes and bedroom storage made for the room.",
+        "icon": "board",
+        "image": "https://images.unsplash.com/photo-1679797850019-3d0d8659a695?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Carpenter working on a piece of wood",
+        "tag": "Most asked for"
+      },
+      {
+        "title": "Media walls & panelling",
+        "text": "Feature walls, acoustic panels and lighting built in.",
+        "icon": "sparkle"
+      },
+      {
+        "title": "Decking & pergolas",
+        "text": "Decks, pergolas and gates for the garden.",
+        "icon": "leaf",
+        "image": "https://images.unsplash.com/photo-1790671023265-0e2e1ecfdb78?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Garden lit up in the evening"
+      },
+      {
+        "title": "Garden rooms & cabins",
+        "text": "Log cabins, summer houses and garden structures.",
+        "icon": "house"
+      },
+      {
+        "title": "Windows & frames",
+        "text": "Rotten window frames replaced and fitted properly.",
+        "icon": "hammer",
+        "image": "https://images.unsplash.com/photo-1547609434-b732edfee020?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Carpenter sawing timber"
+      },
+      {
+        "title": "Kitchens & utility rooms",
+        "text": "Rooms reconfigured, boxed in and finished neatly.",
+        "icon": "wrench"
+      }
+    ]
+  },
+  "work": {
+    "enabled": false
+  },
+  "steps": [
+    {
+      "title": "Get in touch",
+      "text": "Call, or send the quote form with a few details. Photos help."
+    },
+    {
+      "title": "We take a look",
+      "text": "We talk it through, look at the job and give you a clear quote."
+    },
+    {
+      "title": "Job done properly",
+      "text": "The work is done with care and the site left clean and tidy."
+    }
+  ],
+  "reviews": {
+    "heading": [
+      "What customers",
+      "say about us."
+    ],
+    "intro": "Real reviews from customers on Which? Trusted Traders.",
+    "items": [
+      {
+        "text": "Jamie has done such a lot of work at my property and is responsible for transforming and updating an outdated conservatory and kitchen into a space which is lovely to spend time in and functional and well designed.",
+        "who": "Customer in Central Bedfordshire",
+        "label": "Which? review"
+      },
+      {
+        "text": "Jamie did a fantastic job on our acoustic wall with feature lighting we are very pleased with the job, communication and experience from start to finish.",
+        "who": "Customer in Milton Keynes",
+        "label": "Which? review"
+      },
+      {
+        "text": "Jamie worked alongside Ardwark electrician and plumber to reconfigure our utility room, boxing in the heat pump cylinder and pipes while keeping it all accessible.",
+        "who": "Customer in Milton Keynes",
+        "label": "Which? review"
+      }
+    ]
+  },
+  "quote": {
+    "intro": "Three quick steps and we’ll get back to you.",
+    "jobs": [
+      [
+        "Wardrobes",
+        "board"
+      ],
+      [
+        "Media wall",
+        "sparkle"
+      ],
+      [
+        "Decking",
+        "leaf"
+      ],
+      [
+        "Garden room",
+        "house"
+      ],
+      [
+        "Windows",
+        "hammer"
+      ],
+      [
+        "Something else",
+        "other"
+      ]
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Can I read more reviews?",
+      "a": "Yes. Jamie Rickell Carpentry is a Which? Trusted Trader, and you can read all our customer reviews on our Which? page."
+    },
+    {
+      "q": "Can you make something bespoke?",
+      "a": "Yes. Custom furniture and cabinetry is what we do, designed around your space and your style."
+    },
+    {
+      "q": "How do I get a quote?",
+      "a": "Use the quote form on this page or call 07446 894385. A few photos of the job help us give you an accurate price."
+    }
+  ],
+  "cta": {
+    "heading": "Got a carpentry project in mind?"
+  },
+  "areas": [
+    "Milton Keynes",
+    "Buckinghamshire",
+    "Central Bedfordshire"
+  ],
+  "credits": "Stock photos for this preview by <a href=\"https://unsplash.com/@craftkitties?utm_source=simonrobert_web_design&utm_medium=referral\">Craft Kitties</a>, <a href=\"https://unsplash.com/@samuelcruz?utm_source=simonrobert_web_design&utm_medium=referral\">Samuel Cruz</a>, <a href=\"https://unsplash.com/@wenzywong?utm_source=simonrobert_web_design&utm_medium=referral\">Wenzy Wong</a> and <a href=\"https://unsplash.com/@willsudds?utm_source=simonrobert_web_design&utm_medium=referral\">Will Suddreth</a> on <a href=\"https://unsplash.com/?utm_source=simonrobert_web_design&utm_medium=referral\">Unsplash</a>"
+}

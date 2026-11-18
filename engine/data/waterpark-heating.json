@@ -1,0 +1,182 @@
+{
+  "slug": "waterpark-heating",
+  "mode": "preview",
+  "accent": "#2EC4B6",
+  "business": {
+    "name": "Waterpark Heating",
+    "short": "Waterpark",
+    "sub": "Heating",
+    "logo_icon": "flame",
+    "trade": "Heating engineers",
+    "town": "Oxford",
+    "county": "Oxfordshire",
+    "phone": "01865 639880",
+    "phone_tel": "01865639880",
+    "email": "waterparkheating@gmail.com",
+    "hours": "Mon–Sun, 24 hours",
+    "company_line": "Waterpark Heating Limited · Company no. 14152022"
+  },
+  "seo": {
+    "title": "Waterpark Heating – Plumbing & Heating in Oxford",
+    "description": "Family operated plumbing and heating in Oxford. Boilers, heating systems, gas safety and repairs from an engineer with three decades in the trade."
+  },
+  "hero": {
+    "eyebrow": "Oxford · Oxfordshire",
+    "h1": "Warm homes,",
+    "h1_accent": "honest advice.",
+    "lead": "Plumbing and heating in Oxford from Pete, who started in the trade at 15 and has spent three decades on everything from simple repairs to complex heating systems.",
+    "image": "https://images.unsplash.com/photo-1650551182991-b07558247564?ixlib=rb-4.1.0&auto=format&fit=crop&w=2000&q=80",
+    "image_alt": "Heating pipes and valves"
+  },
+  "pills": [
+    "Which? Trusted Trader",
+    "30 years in the trade",
+    "Family operated",
+    "Oxford based"
+  ],
+  "marquee": [
+    "Boilers",
+    "Heating",
+    "Gas safety",
+    "Hot water",
+    "Leaks",
+    "Repairs"
+  ],
+  "services": {
+    "eyebrow": "What we do",
+    "heading": [
+      "When the heating stops,",
+      "we’re on it."
+    ],
+    "intro": "When your heating or hot water stops working, you need someone you can rely on. Professional, friendly and dependable.",
+    "items": [
+      {
+        "title": "Boilers",
+        "text": "Boiler installation, repairs and servicing.",
+        "icon": "flame",
+        "image": "https://images.unsplash.com/photo-1732660513320-a6b489f3fece?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Engineer working on a heating system",
+        "tag": "Most asked for"
+      },
+      {
+        "title": "Heating systems",
+        "text": "Heating systems, radiators and underfloor heating.",
+        "icon": "house"
+      },
+      {
+        "title": "Gas safety",
+        "text": "Gas safety testing and inspection, including landlord checks.",
+        "icon": "shield"
+      },
+      {
+        "title": "Hot water",
+        "text": "Unvented cylinders, immersion heaters and water heaters.",
+        "icon": "drop",
+        "image": "https://images.unsplash.com/photo-1618840626133-54463084a141?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Close-up of metal pipework"
+      },
+      {
+        "title": "Leaks & plumbing",
+        "text": "Leak detection and general plumbing repairs.",
+        "icon": "wrench"
+      },
+      {
+        "title": "Gas cookers & fires",
+        "text": "Gas cookers and fires installed, repaired and serviced.",
+        "icon": "cup"
+      }
+    ]
+  },
+  "work": {
+    "enabled": false
+  },
+  "steps": [
+    {
+      "title": "Get in touch",
+      "text": "Call, or send the quote form with a few details. Photos help."
+    },
+    {
+      "title": "We take a look",
+      "text": "We talk it through, look at the job and give you a clear quote."
+    },
+    {
+      "title": "Job done properly",
+      "text": "The work is done with care and the site left clean and tidy."
+    }
+  ],
+  "reviews": {
+    "heading": [
+      "What customers",
+      "say about us."
+    ],
+    "intro": "Real reviews from customers on Which? Trusted Traders.",
+    "items": [
+      {
+        "text": "I would highly recommend Pete at Waterpark Heating. He came and carried out several general plumbing repairs at my property very efficiently. He is personable, knowledgeable and clearly takes pride in his work.",
+        "who": "Customer in Oxfordshire",
+        "label": "Which? review"
+      },
+      {
+        "text": "Pete explained everything including the costs. He guided us every step of the way, and made sure we were happy throughout.",
+        "who": "Customer in Oxfordshire",
+        "label": "Which? review"
+      },
+      {
+        "text": "Helpful, knowledgeable, informative, fair, reliable, conscientious, cheerful disposition and the job was done!",
+        "who": "Customer in Oxfordshire",
+        "label": "Which? review"
+      }
+    ]
+  },
+  "quote": {
+    "intro": "Three quick steps and we’ll get back to you.",
+    "jobs": [
+      [
+        "Boiler",
+        "flame"
+      ],
+      [
+        "Heating",
+        "house"
+      ],
+      [
+        "Gas safety",
+        "shield"
+      ],
+      [
+        "Hot water",
+        "drop"
+      ],
+      [
+        "Leak or repair",
+        "wrench"
+      ],
+      [
+        "Something else",
+        "other"
+      ]
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Can I read more reviews?",
+      "a": "Yes. Waterpark Heating is a Which? Trusted Trader, and you can read all our customer reviews on our Which? page."
+    },
+    {
+      "q": "Who will do the work?",
+      "a": "Pete, who started in the trade at 15 and has three decades of plumbing and heating experience."
+    },
+    {
+      "q": "How do I get a quote?",
+      "a": "Use the quote form on this page or call 01865 639880. A few photos of the job help us give you an accurate price."
+    }
+  ],
+  "cta": {
+    "heading": "Heating or hot water playing up?"
+  },
+  "areas": [
+    "Oxford",
+    "Oxfordshire"
+  ],
+  "credits": "Stock photos for this preview by <a href=\"https://unsplash.com/@tinkerman?utm_source=simonrobert_web_design&utm_medium=referral\">Immo Wegmann</a>, <a href=\"https://unsplash.com/@der_zeman?utm_source=simonrobert_web_design&utm_medium=referral\">Marc Zeman</a> and <a href=\"https://unsplash.com/@tama66?utm_source=simonrobert_web_design&utm_medium=referral\">Peter Herrmann</a> on <a href=\"https://unsplash.com/?utm_source=simonrobert_web_design&utm_medium=referral\">Unsplash</a>"
+}

@@ -1,0 +1,189 @@
+{
+  "slug": "mike-carroll-roofing",
+  "mode": "preview",
+  "accent": "#E8613C",
+  "business": {
+    "name": "Mike Carroll Roofing",
+    "short": "Mike Carroll",
+    "sub": "Roofing & Building",
+    "logo_icon": "roof",
+    "trade": "Roofers",
+    "town": "Stoke Mandeville",
+    "county": "Buckinghamshire",
+    "phone": "01296 612699",
+    "phone_tel": "01296612699",
+    "email": "mikecarrollroofing@gmail.com",
+    "hours": "",
+    "company_line": "Mike Carroll Limited"
+  },
+  "seo": {
+    "title": "Mike Carroll Roofing – Roofers in Buckinghamshire",
+    "description": "Family run roofing business in Stoke Mandeville. Roofs, fascias, soffits, guttering and flat roofs across Buckinghamshire."
+  },
+  "hero": {
+    "eyebrow": "Aylesbury · High Wycombe · Buckinghamshire",
+    "h1": "Roofs built",
+    "h1_accent": "to last.",
+    "lead": "A family run roofing business in Stoke Mandeville, looking after roofs, fascias, soffits and guttering across Buckinghamshire for over thirty years.",
+    "image": "https://images.unsplash.com/photo-1614418583513-8e96d9160333?ixlib=rb-4.1.0&auto=format&fit=crop&w=2000&q=80",
+    "image_alt": "Close-up of clay roof tiles"
+  },
+  "pills": [
+    "Which? Trusted Trader",
+    "Family run",
+    "30+ years’ experience",
+    "Buckinghamshire based"
+  ],
+  "marquee": [
+    "Roof repairs",
+    "New roofs",
+    "Flat roofs",
+    "Fascias",
+    "Soffits",
+    "Guttering",
+    "Cladding"
+  ],
+  "services": {
+    "eyebrow": "What we do",
+    "heading": [
+      "From one tile",
+      "to a whole roof."
+    ],
+    "intro": "Repairs, replacements and roofline work, done by a family team that has been at it for over thirty years.",
+    "items": [
+      {
+        "title": "Roof repairs & replacement",
+        "text": "Slipped or cracked tiles fixed, or a full new roof when it’s time.",
+        "icon": "roof",
+        "image": "https://images.unsplash.com/photo-1563993356056-b23a9cd265ad?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Tiled roof against a blue sky",
+        "tag": "Most asked for"
+      },
+      {
+        "title": "Fascias, soffits & guttering",
+        "text": "Replacement roofline that looks smart and keeps water away.",
+        "icon": "drop"
+      },
+      {
+        "title": "Flat & rubber roofs",
+        "text": "EPDM rubber flat roofs for extensions, porches and garages.",
+        "icon": "board"
+      },
+      {
+        "title": "Lead work & skylights",
+        "text": "Lead flashing, Velux windows and roof lights.",
+        "icon": "sparkle"
+      },
+      {
+        "title": "Cladding",
+        "text": "External cladding replaced and repaired.",
+        "icon": "house",
+        "image": "https://images.unsplash.com/photo-1593786267440-550458cc882a?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "House exterior during building work"
+      },
+      {
+        "title": "Conservatory roofs",
+        "text": "Conservatory roof repairs and conversions.",
+        "icon": "shield"
+      }
+    ]
+  },
+  "work": {
+    "enabled": false
+  },
+  "steps": [
+    {
+      "title": "Get in touch",
+      "text": "Call, or send the quote form with a few details. Photos help."
+    },
+    {
+      "title": "We take a look",
+      "text": "We talk it through, look at the job and give you a clear quote."
+    },
+    {
+      "title": "Job done properly",
+      "text": "The work is done with care and the site left clean and tidy."
+    }
+  ],
+  "reviews": {
+    "heading": [
+      "What customers",
+      "say about us."
+    ],
+    "intro": "Real reviews from customers on Which? Trusted Traders.",
+    "items": [
+      {
+        "text": "Recently had a house porch rebuilt and the flat roof on a small extension replaced. Mike provided a detailed quote with options depending on what they found as the work progressed.",
+        "who": "Customer in Buckinghamshire",
+        "label": "Which? review"
+      },
+      {
+        "text": "Mike's team replaced my facias, soffits and guttering, they arrived on time and did a great job, it all looks brilliant, they cleaned up before they left.",
+        "who": "Customer in Buckinghamshire",
+        "label": "Which? review"
+      },
+      {
+        "text": "We have two large roofs, old buildings with old tiles. Gales and tree bough impact had left us with cracked and slipped tiles. Mike's team did a super job.",
+        "who": "Customer in Buckinghamshire",
+        "label": "Which? review"
+      }
+    ]
+  },
+  "quote": {
+    "intro": "Three quick steps and we’ll get back to you.",
+    "jobs": [
+      [
+        "Roof repair",
+        "roof"
+      ],
+      [
+        "New roof",
+        "house"
+      ],
+      [
+        "Flat roof",
+        "board"
+      ],
+      [
+        "Guttering",
+        "drop"
+      ],
+      [
+        "Fascias & soffits",
+        "shield"
+      ],
+      [
+        "Something else",
+        "other"
+      ]
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Can I read more reviews?",
+      "a": "Yes. Mike Carroll Roofing is a Which? Trusted Trader, and you can read all our customer reviews on our Which? page."
+    },
+    {
+      "q": "Which areas do you cover?",
+      "a": "We work across Buckinghamshire, including Aylesbury, Amersham, Beaconsfield, Buckingham, High Wycombe, Hemel Hempstead, Leighton Buzzard and Milton Keynes."
+    },
+    {
+      "q": "How do I get a quote?",
+      "a": "Use the quote form on this page or call 01296 612699. A few photos of the job help us give you an accurate price."
+    }
+  ],
+  "cta": {
+    "heading": "Got a roof that needs looking at?"
+  },
+  "areas": [
+    "Aylesbury",
+    "Amersham",
+    "Beaconsfield",
+    "Buckingham",
+    "High Wycombe",
+    "Hemel Hempstead",
+    "Leighton Buzzard",
+    "Milton Keynes"
+  ],
+  "credits": "Stock photos for this preview by <a href=\"https://unsplash.com/@peterm4988372?utm_source=simonrobert_web_design&utm_medium=referral\">Peter Muscutt</a>, <a href=\"https://unsplash.com/@verstappen_photography?utm_source=simonrobert_web_design&utm_medium=referral\">Verstappen Photography</a> and <a href=\"https://unsplash.com/@brett_jordan?utm_source=simonrobert_web_design&utm_medium=referral\">Brett Jordan</a> on <a href=\"https://unsplash.com/?utm_source=simonrobert_web_design&utm_medium=referral\">Unsplash</a>"
+}

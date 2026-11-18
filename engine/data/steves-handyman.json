@@ -1,0 +1,189 @@
+{
+  "slug": "steves-handyman",
+  "mode": "preview",
+  "accent": "#F5C542",
+  "business": {
+    "name": "Steve’s Handyman Services",
+    "short": "Steve’s",
+    "sub": "Handyman Services",
+    "logo_icon": "wrench",
+    "trade": "Handyman",
+    "town": "Milton Keynes",
+    "county": "Buckinghamshire",
+    "phone": "07376 010188",
+    "phone_tel": "07376010188",
+    "email": "steveshms@outlook.com",
+    "hours": "",
+    "company_line": "Steve’s Handyman Services Ltd"
+  },
+  "seo": {
+    "title": "Steve’s Handyman Services – Handyman in Milton Keynes",
+    "description": "Handyman, decorating and home repairs across Milton Keynes, Buckinghamshire, Bedfordshire and Northamptonshire. No job too small."
+  },
+  "hero": {
+    "eyebrow": "Milton Keynes · Buckingham · Northampton",
+    "h1": "No job",
+    "h1_accent": "too small.",
+    "lead": "Handyman, decorating and home repairs across Milton Keynes and the surrounding area, from a friendly, family team that’s fully insured and DBS checked.",
+    "image": "https://images.unsplash.com/photo-1789841417999-67a24a247c90?ixlib=rb-4.1.0&auto=format&fit=crop&w=2000&q=80",
+    "image_alt": "Person painting a wall with a roller"
+  },
+  "pills": [
+    "Which? Trusted Trader",
+    "Fully insured",
+    "DBS checked",
+    "Free quotes"
+  ],
+  "marquee": [
+    "Decorating",
+    "Repairs",
+    "Fencing",
+    "Flat pack",
+    "Appliances",
+    "Odd jobs"
+  ],
+  "services": {
+    "eyebrow": "What we do",
+    "heading": [
+      "All the jobs",
+      "on your list."
+    ],
+    "intro": "Interior, exterior and garden jobs, big or small. Tell us what needs doing and we’ll sort it.",
+    "items": [
+      {
+        "title": "Painting & decorating",
+        "text": "Inside and out, from one room to the front of the house.",
+        "icon": "brush",
+        "image": "https://images.unsplash.com/photo-1688372198189-de6a51777a81?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Decorator painting a wall",
+        "tag": "Popular"
+      },
+      {
+        "title": "Home repairs",
+        "text": "The small jobs that keep getting put off, done properly.",
+        "icon": "wrench"
+      },
+      {
+        "title": "Fences & garden",
+        "text": "Fence posts and panels fixed, and garden maintenance.",
+        "icon": "leaf",
+        "image": "https://images.unsplash.com/photo-1547609434-b732edfee020?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Tradesman sawing timber"
+      },
+      {
+        "title": "Flat pack assembly",
+        "text": "Furniture built and fixed in place so it stays put.",
+        "icon": "hammer"
+      },
+      {
+        "title": "Appliance installs",
+        "text": "Cookers, hoods and other appliances fitted.",
+        "icon": "bolt"
+      },
+      {
+        "title": "Wallpapering",
+        "text": "Neat wallpapering for feature walls and whole rooms.",
+        "icon": "sparkle"
+      }
+    ]
+  },
+  "work": {
+    "enabled": false
+  },
+  "steps": [
+    {
+      "title": "Get in touch",
+      "text": "Call, or send the quote form with a few details. Photos help."
+    },
+    {
+      "title": "We take a look",
+      "text": "We talk it through, look at the job and give you a clear quote."
+    },
+    {
+      "title": "Job done properly",
+      "text": "The work is done with care and the site left clean and tidy."
+    }
+  ],
+  "reviews": {
+    "heading": [
+      "What customers",
+      "say about us."
+    ],
+    "intro": "Real reviews from customers on Which? Trusted Traders.",
+    "items": [
+      {
+        "text": "Steve was recommended to us - he fitted a safety rail on our front steps. He responded promptly, gave a quote, and then scheduled the work very quickly and efficiently.",
+        "who": "Customer in Milton Keynes",
+        "label": "Which? review"
+      },
+      {
+        "text": "Steve and Matt re-fixed 8 fenceposts which had been very wobbly. They used concrete fence repair posts and the fences are solid and no longer sway in the breeze.",
+        "who": "Customer in Milton Keynes",
+        "label": "Which? review"
+      },
+      {
+        "text": "Contacted Steve after seeing some good reviews on Google and Which and found he was very approachable to doing all sorts of jobs no job too small.",
+        "who": "Customer in Milton Keynes",
+        "label": "Which? review"
+      }
+    ]
+  },
+  "quote": {
+    "intro": "Three quick steps and we’ll get back to you.",
+    "jobs": [
+      [
+        "Decorating",
+        "brush"
+      ],
+      [
+        "Repair",
+        "wrench"
+      ],
+      [
+        "Fencing",
+        "leaf"
+      ],
+      [
+        "Flat pack",
+        "hammer"
+      ],
+      [
+        "Appliance",
+        "bolt"
+      ],
+      [
+        "Something else",
+        "other"
+      ]
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Can I read more reviews?",
+      "a": "Yes. Steve’s Handyman Services is a Which? Trusted Trader, and you can read all our customer reviews on our Which? page."
+    },
+    {
+      "q": "Is any job too small?",
+      "a": "No. From a single fence panel to decorating a whole house, we’re happy to help."
+    },
+    {
+      "q": "How do I get a quote?",
+      "a": "Use the quote form on this page or call 07376 010188. A few photos of the job help us give you an accurate price."
+    }
+  ],
+  "cta": {
+    "heading": "Got a list of jobs that need doing?"
+  },
+  "areas": [
+    "Milton Keynes",
+    "Bletchley",
+    "Stony Stratford",
+    "Deanshanger",
+    "Buckingham",
+    "Aylesbury",
+    "Northampton",
+    "Bicester"
+  ],
+  "credits": "Stock photos for this preview by <a href=\"https://unsplash.com/@bgoodpic?utm_source=simonrobert_web_design&utm_medium=referral\">Barney Goodman</a>, <a href=\"https://unsplash.com/@mkumbwajr?utm_source=simonrobert_web_design&utm_medium=referral\">Ali Mkumbwa</a> and <a href=\"https://unsplash.com/@willsudds?utm_source=simonrobert_web_design&utm_medium=referral\">Will Suddreth</a> on <a href=\"https://unsplash.com/?utm_source=simonrobert_web_design&utm_medium=referral\">Unsplash</a>",
+  "free_quotes": true
+}

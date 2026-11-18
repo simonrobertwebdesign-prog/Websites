@@ -1,0 +1,182 @@
+{
+  "slug": "key-choice-builders",
+  "mode": "preview",
+  "accent": "#FF8A3D",
+  "business": {
+    "name": "Key Choice Builders",
+    "short": "Key Choice",
+    "sub": "Builders",
+    "logo_icon": "house",
+    "trade": "Builders",
+    "town": "Crowthorne",
+    "county": "Berkshire",
+    "phone": "07984 434396",
+    "phone_tel": "07984434396",
+    "email": "keychoice@sky.com",
+    "hours": "",
+    "company_line": "Key Choice Builders Ltd"
+  },
+  "seo": {
+    "title": "Key Choice Builders – Builders in Crowthorne, Berkshire",
+    "description": "Family run builders in Crowthorne with over 20 years’ experience in extensions, refurbishments and repairs."
+  },
+  "hero": {
+    "eyebrow": "Extensions · Refurbishments · Repairs",
+    "h1": "Extensions",
+    "h1_accent": "done right.",
+    "lead": "A family run building company in Crowthorne with over 20 years’ experience in extensions, refurbishments and repair and maintenance work.",
+    "image": "https://images.unsplash.com/photo-1593786267440-550458cc882a?ixlib=rb-4.1.0&auto=format&fit=crop&w=2000&q=80",
+    "image_alt": "Brick house extension being built"
+  },
+  "pills": [
+    "Which? Trusted Trader",
+    "Family run",
+    "20+ years’ experience",
+    "Crowthorne based"
+  ],
+  "marquee": [
+    "Extensions",
+    "Refurbishments",
+    "Garden offices",
+    "Cladding",
+    "Repairs",
+    "Maintenance"
+  ],
+  "services": {
+    "eyebrow": "What we do",
+    "heading": [
+      "Built with care,",
+      "kept on schedule."
+    ],
+    "intro": "Clean, tidy and dependable, with a clear schedule and payment plan from the start.",
+    "items": [
+      {
+        "title": "Extensions",
+        "text": "Rear, side and kitchen extensions, from foundations to finish.",
+        "icon": "house",
+        "image": "https://images.unsplash.com/photo-1593623671658-6b842c7f9697?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Extension under construction with steel beams",
+        "tag": "Most asked for"
+      },
+      {
+        "title": "Refurbishments",
+        "text": "Whole-house refurbishments and restorations.",
+        "icon": "hammer",
+        "image": "https://images.unsplash.com/photo-1768486143865-342d8cc12c90?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Finished modern kitchen"
+      },
+      {
+        "title": "Garden offices",
+        "text": "Unused garden space turned into a modern office.",
+        "icon": "leaf"
+      },
+      {
+        "title": "Cladding & dormers",
+        "text": "Old timber and tiles replaced with low-maintenance cladding.",
+        "icon": "roof"
+      },
+      {
+        "title": "Repairs & maintenance",
+        "text": "Repair and maintenance work for homes and contracts.",
+        "icon": "wrench"
+      },
+      {
+        "title": "Project management",
+        "text": "One team managing the whole job, start to finish.",
+        "icon": "board"
+      }
+    ]
+  },
+  "work": {
+    "enabled": false
+  },
+  "steps": [
+    {
+      "title": "Get in touch",
+      "text": "Call, or send the quote form with a few details. Photos help."
+    },
+    {
+      "title": "We take a look",
+      "text": "We talk it through, look at the job and give you a clear quote."
+    },
+    {
+      "title": "Job done properly",
+      "text": "The work is done with care and the site left clean and tidy."
+    }
+  ],
+  "reviews": {
+    "heading": [
+      "What customers",
+      "say about us."
+    ],
+    "intro": "Real reviews from customers on Which? Trusted Traders.",
+    "items": [
+      {
+        "text": "Key Choice have built a new extension on piled foundations for us, comprising an extended bedroom, new ensuite bathroom, new utility room and outdoor patio. We are very pleased with the result.",
+        "who": "Customer in Berkshire",
+        "label": "Which? review"
+      },
+      {
+        "text": "Working with Key Choice builders was a great experience. Gareth and his team are very responsive and always keep you in the loop.",
+        "who": "Customer in Berkshire",
+        "label": "Which? review"
+      },
+      {
+        "text": "We needed an extension to the rear of our property to increase the size of our kitchen and create a working from home area by replacing an existing conservatory. We contacted Gareth having been impressed by previous reviews.",
+        "who": "Customer in Berkshire",
+        "label": "Which? review"
+      }
+    ]
+  },
+  "quote": {
+    "intro": "Three quick steps and we’ll get back to you.",
+    "jobs": [
+      [
+        "Extension",
+        "house"
+      ],
+      [
+        "Refurbishment",
+        "hammer"
+      ],
+      [
+        "Garden office",
+        "leaf"
+      ],
+      [
+        "Cladding",
+        "roof"
+      ],
+      [
+        "Repair",
+        "wrench"
+      ],
+      [
+        "Something else",
+        "other"
+      ]
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Can I read more reviews?",
+      "a": "Yes. Key Choice Builders is a Which? Trusted Trader, and you can read all our customer reviews on our Which? page."
+    },
+    {
+      "q": "How long have you been building?",
+      "a": "Over 20 years. We’re a family run business with a strong base of clients around the local area."
+    },
+    {
+      "q": "How do I get a quote?",
+      "a": "Use the quote form on this page or call 07984 434396. A few photos of the job help us give you an accurate price."
+    }
+  ],
+  "cta": {
+    "heading": "Planning an extension or refurbishment?"
+  },
+  "areas": [
+    "Crowthorne",
+    "Berkshire"
+  ],
+  "credits": "Stock photos for this preview by <a href=\"https://unsplash.com/@brett_jordan?utm_source=simonrobert_web_design&utm_medium=referral\">Brett Jordan</a> and <a href=\"https://unsplash.com/@claybanks?utm_source=simonrobert_web_design&utm_medium=referral\">Clay Banks</a> on <a href=\"https://unsplash.com/?utm_source=simonrobert_web_design&utm_medium=referral\">Unsplash</a>"
+}
