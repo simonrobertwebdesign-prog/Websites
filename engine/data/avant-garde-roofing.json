@@ -1,0 +1,180 @@
+{
+  "slug": "avant-garde-roofing",
+  "mode": "preview",
+  "accent": "#F28C28",
+  "business": {
+    "name": "Avant-Garde Roofing Solutions",
+    "short": "Avant-Garde",
+    "sub": "Roofing Solutions",
+    "logo_icon": "roof",
+    "trade": "Flat roofing",
+    "town": "Hartwell",
+    "county": "Northamptonshire",
+    "phone": "01908 511406",
+    "phone_tel": "01908511406",
+    "email": "paul@avant-garde-roofing.co.uk",
+    "hours": "Mon–Fri 8am–7pm",
+    "company_line": "Avant-Garde Roofing Solutions Limited · Company no. 07095012"
+  },
+  "seo": {
+    "title": "Avant-Garde Roofing Solutions – Flat Roofing in Northamptonshire",
+    "description": "Specialist approved installers of flat roof systems for homes and businesses. Fibreglass (GRP), rubber (EPDM), roof repairs and insulation."
+  },
+  "hero": {
+    "eyebrow": "Hartwell · Northamptonshire",
+    "h1": "Flat roofs,",
+    "h1_accent": "done right.",
+    "lead": "Specialist approved installers of proven flat roof systems for homes and businesses: a long term, cost effective answer to flat roofs that keep failing.",
+    "image": "https://images.unsplash.com/photo-1726589004565-bedfba94d3a2?ixlib=rb-4.1.0&auto=format&fit=crop&w=2000&q=80",
+    "image_alt": "Roofer working on a roof"
+  },
+  "pills": [
+    "Which? Trusted Trader",
+    "Approved installers",
+    "Domestic & commercial",
+    "Flat roof specialists"
+  ],
+  "marquee": [
+    "Fibreglass (GRP)",
+    "Rubber (EPDM)",
+    "Felt roofing",
+    "Roof repairs",
+    "Conservatory roofs",
+    "Guttering",
+    "Fascias & soffits",
+    "Insulation"
+  ],
+  "services": {
+    "eyebrow": "What we do",
+    "heading": [
+      "No more weathering,",
+      "no failing joints."
+    ],
+    "intro": "Our flat roof systems get rid of the problems that come with traditional flat roof materials.",
+    "items": [
+      {
+        "title": "Flat roof replacement",
+        "text": "Old and failing flat roofs stripped out and replaced with a proven system.",
+        "icon": "roof"
+      },
+      {
+        "title": "Fibreglass (GRP) roofs",
+        "text": "GRP fibreglass flat roofing.",
+        "icon": "sparkle"
+      },
+      {
+        "title": "Rubber roofing (EPDM)",
+        "text": "Flexible rubber roofing membranes.",
+        "icon": "shield"
+      },
+      {
+        "title": "Roof repairs",
+        "text": "Leaks found and fixed.",
+        "icon": "wrench"
+      },
+      {
+        "title": "Conservatory roof conversions",
+        "text": "Conservatory roofs converted.",
+        "icon": "house"
+      },
+      {
+        "title": "Guttering, fascias & soffits",
+        "text": "Roofline work so rainwater drains away properly.",
+        "icon": "drop"
+      }
+    ]
+  },
+  "work": {
+    "enabled": false
+  },
+  "steps": [
+    {
+      "title": "Get in touch",
+      "text": "Call, or send the quote form with a few details. Photos help."
+    },
+    {
+      "title": "We take a look",
+      "text": "We talk it through, look at the job and give you a clear quote."
+    },
+    {
+      "title": "Job done properly",
+      "text": "The work is done with care and the site left clean and tidy."
+    }
+  ],
+  "reviews": {
+    "heading": [
+      "What customers",
+      "say about us."
+    ],
+    "intro": "Real reviews from customers on Which? Trusted Traders.",
+    "items": [
+      {
+        "text": "Excellent service. These guys are incredibly skilled and very professional. Paul responded to our request quite quickly and provided a quote soon after. The team showed up on time and were incredibly efficient… We are so pleased with our new roof. It looks fantastic and most important of all it is watertight. Thank you.",
+        "who": "Customer in Cambridgeshire",
+        "label": "Which? review"
+      },
+      {
+        "text": "Clint and Paul are professional & reliable. They and their team are hard working. Paul did a thorough survey of the roof and provided a detailed quotation detailing the works and referencing the correct building regulations… The persistent leak has been fixed and the ceiling is as dry as a bone…",
+        "who": "Customer in Hertfordshire",
+        "label": "Which? review"
+      },
+      {
+        "text": "Paul came out on his day off to repair a leak that had nothing to do with any work they had done, and he repaired it, even though it wasn't his responsibility, now that's what I call professionalism, and brilliant customer service.",
+        "who": "Customer in Hayes",
+        "label": "Which? review"
+      }
+    ]
+  },
+  "quote": {
+    "intro": "Three quick steps and we’ll get back to you.",
+    "jobs": [
+      [
+        "Flat roof",
+        "roof"
+      ],
+      [
+        "Fibreglass",
+        "sparkle"
+      ],
+      [
+        "Rubber roof",
+        "shield"
+      ],
+      [
+        "Repair",
+        "wrench"
+      ],
+      [
+        "Conservatory",
+        "house"
+      ],
+      [
+        "Something else",
+        "other"
+      ]
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Can I read more reviews?",
+      "a": "Yes. Avant-Garde Roofing Solutions is a Which? Trusted Trader, and you can read all our customer reviews on our Which? page."
+    },
+    {
+      "q": "Do you work on commercial roofs?",
+      "a": "Yes. Our flat roof systems are designed for both commercial and domestic roofs."
+    },
+    {
+      "q": "How do I get a quote?",
+      "a": "Use the quote form on this page or call 01908 511406. A few photos of the job help us give you an accurate price."
+    }
+  ],
+  "cta": {
+    "heading": "Flat roof leaking or failing?"
+  },
+  "areas": [
+    "Hartwell",
+    "Northampton",
+    "Northamptonshire"
+  ],
+  "credits": "Stock photos for this preview by <a href=\"https://unsplash.com/@lassman?utm_source=simonrobert_web_design&utm_medium=referral\">Christer Lässman</a> on <a href=\"https://unsplash.com/?utm_source=simonrobert_web_design&utm_medium=referral\">Unsplash</a>"
+}

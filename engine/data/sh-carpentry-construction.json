@@ -1,0 +1,184 @@
+{
+  "slug": "sh-carpentry-construction",
+  "mode": "preview",
+  "accent": "#E0A458",
+  "business": {
+    "name": "SH Carpentry & Construction",
+    "short": "SH",
+    "sub": "Carpentry & Construction",
+    "logo_icon": "hammer",
+    "trade": "Builders & carpenters",
+    "town": "Wantage",
+    "county": "Oxfordshire",
+    "phone": "07919 486021",
+    "phone_tel": "07919486021",
+    "email": "shane@sh-construction.co.uk",
+    "hours": "",
+    "company_line": "SH Carpentry and Construction Limited · Company no. 09280274"
+  },
+  "seo": {
+    "title": "SH Carpentry & Construction – Builders & Carpenters in Oxfordshire",
+    "description": "Carpentry, joinery and general construction across Oxfordshire. Extensions, conversions and renovations, with over fifteen years’ experience."
+  },
+  "hero": {
+    "eyebrow": "Lyford · Wantage · Oxfordshire",
+    "h1": "Built with care,",
+    "h1_accent": "run properly.",
+    "lead": "A professional and reliable carpentry, joinery and general construction company working across Oxfordshire, with over fifteen years’ industry experience behind the business.",
+    "image": "https://images.unsplash.com/photo-1593012671976-1422185230fb?ixlib=rb-4.1.0&auto=format&fit=crop&w=2000&q=80",
+    "image_alt": "Building work on a house extension"
+  },
+  "pills": [
+    "Which? Trusted Trader",
+    "15+ years’ experience",
+    "Residential & commercial",
+    "Oxfordshire based"
+  ],
+  "marquee": [
+    "Extensions",
+    "Renovations",
+    "Garage conversions",
+    "Carpentry",
+    "Joinery",
+    "Plastering",
+    "Conservatories",
+    "Damp proofing"
+  ],
+  "services": {
+    "eyebrow": "What we do",
+    "heading": [
+      "Organised, clear,",
+      "attention to detail."
+    ],
+    "intro": "Residential and commercial construction, with a strong focus on organisation, communication and attention to detail.",
+    "items": [
+      {
+        "title": "Extensions",
+        "text": "Extensions planned and built, working alongside your architect and designer.",
+        "icon": "house",
+        "image": "https://images.unsplash.com/photo-1593786267440-550458cc882a?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Brick extension being built"
+      },
+      {
+        "title": "Renovations",
+        "text": "Renovations and design and build projects.",
+        "icon": "sparkle"
+      },
+      {
+        "title": "Carpentry & joinery",
+        "text": "Carpentry and joinery for homes and commercial projects.",
+        "icon": "hammer",
+        "image": "https://images.unsplash.com/photo-1659930087003-2d64e33181f7?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Carpenter marking a wooden board"
+      },
+      {
+        "title": "Garage conversions",
+        "text": "Garages turned into useful living space.",
+        "icon": "board"
+      },
+      {
+        "title": "Plastering",
+        "text": "Plastering and making good.",
+        "icon": "brush"
+      },
+      {
+        "title": "Damp & condensation",
+        "text": "Damp proofing, timber preservation and condensation control.",
+        "icon": "drop"
+      }
+    ]
+  },
+  "work": {
+    "enabled": false
+  },
+  "steps": [
+    {
+      "title": "Get in touch",
+      "text": "Call, or send the quote form with a few details. Photos help."
+    },
+    {
+      "title": "We take a look",
+      "text": "We talk it through, look at the job and give you a clear quote."
+    },
+    {
+      "title": "Job done properly",
+      "text": "The work is done with care and the site left clean and tidy."
+    }
+  ],
+  "reviews": {
+    "heading": [
+      "What customers",
+      "say about us."
+    ],
+    "intro": "Real reviews from customers on Which? Trusted Traders.",
+    "items": [
+      {
+        "text": "Shane and his team at SH Carpentry are quality builders. Very professional, very polite and very efficient. Nothing was too much trouble and they were very good at listening to what was wanted and needed. Shane was brilliant in liaising with building control which made the whole process easier…",
+        "who": "Customer in Oxfordshire",
+        "label": "Which? review"
+      },
+      {
+        "text": "Shane, Charlotte, and the team were excellent from start to finish. We had a reconfiguration of the downstairs, and the results are fantastic. They made the whole process completely stress-free…",
+        "who": "Customer in Oxfordshire",
+        "label": "Which? review"
+      },
+      {
+        "text": "Shane and team did a great job removing a chimney, building up outside wall, fixing and finishing the roof, soffits and facia. They were careful with the awkwardly placed solar panels and worked quickly and efficiently…",
+        "who": "Customer in Oxfordshire",
+        "label": "Which? review"
+      }
+    ]
+  },
+  "quote": {
+    "intro": "Three quick steps and we’ll get back to you.",
+    "jobs": [
+      [
+        "Extension",
+        "house"
+      ],
+      [
+        "Renovation",
+        "sparkle"
+      ],
+      [
+        "Carpentry",
+        "hammer"
+      ],
+      [
+        "Conversion",
+        "board"
+      ],
+      [
+        "Damp",
+        "drop"
+      ],
+      [
+        "Something else",
+        "other"
+      ]
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Can I read more reviews?",
+      "a": "Yes. SH Carpentry & Construction is a Which? Trusted Trader, and you can read all our customer reviews on our Which? page."
+    },
+    {
+      "q": "Do you work with architects?",
+      "a": "Yes. We work with architects, designers, consultants and other construction professionals so your project is well-coordinated and efficiently managed."
+    },
+    {
+      "q": "How do I get a quote?",
+      "a": "Use the quote form on this page or call 07919 486021. A few photos of the job help us give you an accurate price."
+    }
+  ],
+  "cta": {
+    "heading": "Planning a building project?"
+  },
+  "areas": [
+    "Wantage",
+    "Lyford",
+    "Oxfordshire"
+  ],
+  "credits": "Stock photos for this preview by <a href=\"https://unsplash.com/@brett_jordan?utm_source=simonrobert_web_design&utm_medium=referral\">Brett Jordan</a> and <a href=\"https://unsplash.com/@craftkitties?utm_source=simonrobert_web_design&utm_medium=referral\">Craft Kitties</a> on <a href=\"https://unsplash.com/?utm_source=simonrobert_web_design&utm_medium=referral\">Unsplash</a>"
+}

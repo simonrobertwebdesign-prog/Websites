@@ -1,0 +1,183 @@
+{
+  "slug": "ayla-tree-care",
+  "mode": "preview",
+  "accent": "#7BB661",
+  "business": {
+    "name": "Ayla Tree Care",
+    "short": "Ayla",
+    "sub": "Tree Care",
+    "logo_icon": "leaf",
+    "trade": "Tree surgeons",
+    "town": "Hemel Hempstead",
+    "county": "Hertfordshire",
+    "phone": "07821 589190",
+    "phone_tel": "07821589190",
+    "email": "aylatreecare@gmail.com",
+    "hours": "",
+    "company_line": "Ayla Tree Care Ltd · Company no. 10050742"
+  },
+  "seo": {
+    "title": "Ayla Tree Care – Tree Surgeon in Hemel Hempstead, Hertfordshire",
+    "description": "NPTC certified tree surgeons in Hertfordshire. Tree reductions, removals, stump grinding and hedge trimming, with a 24-hour emergency service."
+  },
+  "hero": {
+    "eyebrow": "Hemel Hempstead · Hertfordshire",
+    "h1": "Professional",
+    "h1_accent": "tree care.",
+    "lead": "A friendly and professional tree surgery company based in Hertfordshire, handling commercial and domestic tree work from crown reductions to planting.",
+    "image": "https://images.unsplash.com/photo-1754322449185-31f56117ed87?ixlib=rb-4.1.0&auto=format&fit=crop&w=2000&q=80",
+    "image_alt": "Tree surgeon cutting a branch"
+  },
+  "pills": [
+    "Which? Trusted Trader",
+    "NPTC certified",
+    "£5m public liability",
+    "24-hour emergency service"
+  ],
+  "marquee": [
+    "Tree reductions",
+    "Tree removal",
+    "Thinning",
+    "Pruning",
+    "Stump grinding",
+    "Hedge trimming",
+    "Tree planting"
+  ],
+  "services": {
+    "eyebrow": "What we do",
+    "heading": [
+      "Experienced,",
+      "qualified, friendly."
+    ],
+    "intro": "Dismantling, shaping, thinning, planting and pruning, along with stump grinding and removal.",
+    "items": [
+      {
+        "title": "Reductions & shaping",
+        "text": "Crown reductions, shaping, thinning and pruning.",
+        "icon": "leaf",
+        "image": "https://images.unsplash.com/photo-1709560723503-538158e48db8?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Tree surgeon working on a tree"
+      },
+      {
+        "title": "Tree removal",
+        "text": "Trees dismantled and removed.",
+        "icon": "hammer",
+        "image": "https://images.unsplash.com/photo-1631300313270-227604e71ea5?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Tree surgeon sitting on a branch"
+      },
+      {
+        "title": "Stump grinding",
+        "text": "Stumps ground out and removed.",
+        "icon": "wrench"
+      },
+      {
+        "title": "Hedge trimming",
+        "text": "Hedges cut back and shaped.",
+        "icon": "scissors"
+      },
+      {
+        "title": "Tree planting",
+        "text": "New trees planted.",
+        "icon": "sparkle"
+      },
+      {
+        "title": "Emergency tree work",
+        "text": "A 24-hour emergency service if needed.",
+        "icon": "clock"
+      }
+    ]
+  },
+  "work": {
+    "enabled": false
+  },
+  "steps": [
+    {
+      "title": "Get in touch",
+      "text": "Call, or send the quote form with a few details. Photos help."
+    },
+    {
+      "title": "We take a look",
+      "text": "We talk it through, look at the job and give you a clear quote."
+    },
+    {
+      "title": "Job done properly",
+      "text": "The work is done with care and the site left clean and tidy."
+    }
+  ],
+  "reviews": {
+    "heading": [
+      "What customers",
+      "say about us."
+    ],
+    "intro": "Real reviews from customers on Which? Trusted Traders.",
+    "items": [
+      {
+        "text": "Marc and his company came to the rescue at short notice, after I had been let down by my previous gardener. They did an excellent job in my garden, which needed lots of hedge cutting and strimming. They worked quickly, left the site tidy, and delivered a friendly and professional service. Highly recommended.",
+        "who": "Customer in Hertfordshire",
+        "label": "Which? review"
+      },
+      {
+        "text": "After finding Ayla on Which? Trusted Traders list I was very happy with the work they did on our weeping pear tree, hazelnut tree and on our laurel hedge… Throughout the job they were polite and hard working and we highly recommend their work.",
+        "who": "Customer in Buckinghamshire",
+        "label": "Which? review"
+      },
+      {
+        "text": "I can honestly say the work that Ayla has completed for us is top notch. The guys turned up on time every day, were polite, hard working and nothing was too much trouble for them… I can finally see the sky in my garden, we are thrilled with the results.",
+        "who": "Customer in Greater London",
+        "label": "Which? review"
+      }
+    ]
+  },
+  "quote": {
+    "intro": "Three quick steps and we’ll get back to you.",
+    "jobs": [
+      [
+        "Reduction",
+        "leaf"
+      ],
+      [
+        "Removal",
+        "hammer"
+      ],
+      [
+        "Stump",
+        "wrench"
+      ],
+      [
+        "Hedge",
+        "scissors"
+      ],
+      [
+        "Emergency",
+        "clock"
+      ],
+      [
+        "Something else",
+        "other"
+      ]
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Can I read more reviews?",
+      "a": "Yes. Ayla Tree Care is a Which? Trusted Trader, and you can read all our customer reviews on our Which? page."
+    },
+    {
+      "q": "Are you qualified and insured?",
+      "a": "Yes. We’re NPTC certified, qualified to BS3998 and carry £5 million public liability insurance."
+    },
+    {
+      "q": "Do you give free estimates?",
+      "a": "Yes. Free estimates and friendly advice. Call us or use the form on this page."
+    }
+  ],
+  "cta": {
+    "heading": "Got a tree that needs attention?"
+  },
+  "areas": [
+    "Hemel Hempstead",
+    "Hertfordshire"
+  ],
+  "credits": "Stock photos for this preview by <a href=\"https://unsplash.com/@masters25?utm_source=simonrobert_web_design&utm_medium=referral\">Zack Masters</a>, <a href=\"https://unsplash.com/@scottsalchemy?utm_source=simonrobert_web_design&utm_medium=referral\">Scott Precious</a> and <a href=\"https://unsplash.com/@hjkp?utm_source=simonrobert_web_design&utm_medium=referral\">henry perks</a> on <a href=\"https://unsplash.com/?utm_source=simonrobert_web_design&utm_medium=referral\">Unsplash</a>",
+  "free_quotes": true
+}

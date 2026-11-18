@@ -1,0 +1,184 @@
+{
+  "slug": "alderson-building",
+  "mode": "preview",
+  "accent": "#D64545",
+  "business": {
+    "name": "Alderson Building Company",
+    "short": "Alderson",
+    "sub": "Building Company",
+    "logo_icon": "house",
+    "trade": "Builders",
+    "town": "Hemel Hempstead",
+    "county": "Hertfordshire",
+    "phone": "07958 272351",
+    "phone_tel": "07958272351",
+    "email": "rayaldersonx@gmail.com",
+    "hours": "Mon–Fri 8am–5pm",
+    "company_line": "Alderson Building Company Limited · Company no. 06403779"
+  },
+  "seo": {
+    "title": "Alderson Building Company – Builders in Hemel Hempstead",
+    "description": "Long established, family run builders in Hemel Hempstead. House extensions, loft conversions, refurbishments and landscaping across Hertfordshire."
+  },
+  "hero": {
+    "eyebrow": "Hemel Hempstead · Hertfordshire",
+    "h1": "Extensions and",
+    "h1_accent": "home renovations.",
+    "lead": "A long established, family run building business in Hertfordshire, covering house extensions, loft conversions, home refurbishments and landscaping projects.",
+    "image": "https://images.unsplash.com/photo-1593786267440-550458cc882a?ixlib=rb-4.1.0&auto=format&fit=crop&w=2000&q=80",
+    "image_alt": "Brick extension being built"
+  },
+  "pills": [
+    "Which? Trusted Trader",
+    "Herts Trading Standards Approved",
+    "Family run",
+    "Long established"
+  ],
+  "marquee": [
+    "Extensions",
+    "Loft conversions",
+    "Garage conversions",
+    "Refurbishments",
+    "Kitchens",
+    "Bathrooms",
+    "Patios",
+    "Driveways"
+  ],
+  "services": {
+    "eyebrow": "What we do",
+    "heading": [
+      "All construction,",
+      "one family team."
+    ],
+    "intro": "Covering all construction projects, from house extensions and loft conversions to home refurbishments and landscaping.",
+    "items": [
+      {
+        "title": "House extensions",
+        "text": "House extensions, planned and built.",
+        "icon": "house",
+        "image": "https://images.unsplash.com/photo-1593012672015-4fabc32c67aa?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Extension under construction"
+      },
+      {
+        "title": "Loft conversions",
+        "text": "Lofts turned into usable rooms.",
+        "icon": "roof"
+      },
+      {
+        "title": "Garage conversions",
+        "text": "Garages converted into extra living space.",
+        "icon": "hammer"
+      },
+      {
+        "title": "Kitchens & bathrooms",
+        "text": "Kitchen and bathroom refurbishments.",
+        "icon": "sparkle",
+        "image": "https://images.unsplash.com/photo-1722605090433-41d1183a792d?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Kitchen with white cabinets"
+      },
+      {
+        "title": "Refurbishments",
+        "text": "Home refurbishments and plastering.",
+        "icon": "brush"
+      },
+      {
+        "title": "Patios, driveways & fencing",
+        "text": "Landscaping projects, patios, driveways and fencing.",
+        "icon": "leaf"
+      }
+    ]
+  },
+  "work": {
+    "enabled": false
+  },
+  "steps": [
+    {
+      "title": "Get in touch",
+      "text": "Call, or send the quote form with a few details. Photos help."
+    },
+    {
+      "title": "We take a look",
+      "text": "We talk it through, look at the job and give you a clear quote."
+    },
+    {
+      "title": "Job done properly",
+      "text": "The work is done with care and the site left clean and tidy."
+    }
+  ],
+  "reviews": {
+    "heading": [
+      "What customers",
+      "say about us."
+    ],
+    "intro": "Real reviews from customers on Which? Trusted Traders.",
+    "items": [
+      {
+        "text": "Roy, Liam, and Ray were fantastic from start to finish. We were extremely impressed with their workmanship and professionalism throughout the entire project. The final cost came in exactly as expected, which we greatly appreciated…",
+        "who": "Customer in Hertfordshire",
+        "label": "Which? review"
+      },
+      {
+        "text": "I chose Alderson Building Company as they are a Which Trusted Trader, and they lived up to expectations. Ray, Roy & Liam plus the rest of the team completed our cloakroom and first floor extension to a high standard and within the original estimate and time-frame…",
+        "who": "Customer in Hertfordshire",
+        "label": "Which? review"
+      },
+      {
+        "text": "This company has been exceptional they have excellent quality of work. Our quote was accurate. They definitely took pride in their work and worked hard. Very easy to get in contact with and always came back to me…",
+        "who": "Customer in Hertfordshire",
+        "label": "Which? review"
+      }
+    ]
+  },
+  "quote": {
+    "intro": "Three quick steps and we’ll get back to you.",
+    "jobs": [
+      [
+        "Extension",
+        "house"
+      ],
+      [
+        "Loft",
+        "roof"
+      ],
+      [
+        "Conversion",
+        "hammer"
+      ],
+      [
+        "Kitchen or bathroom",
+        "sparkle"
+      ],
+      [
+        "Landscaping",
+        "leaf"
+      ],
+      [
+        "Something else",
+        "other"
+      ]
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Can I read more reviews?",
+      "a": "Yes. Alderson Building Company is a Which? Trusted Trader, and you can read all our customer reviews on our Which? page."
+    },
+    {
+      "q": "Do you give free estimates?",
+      "a": "Yes. Speak to the team to discuss your planned work and arrange a free pricing estimate."
+    },
+    {
+      "q": "How do I get a quote?",
+      "a": "Use the quote form on this page or call 07958 272351. A few photos of the job help us give you an accurate price."
+    }
+  ],
+  "cta": {
+    "heading": "Planning an extension or renovation?"
+  },
+  "areas": [
+    "Hemel Hempstead",
+    "Hertfordshire"
+  ],
+  "credits": "Stock photos for this preview by <a href=\"https://unsplash.com/@brett_jordan?utm_source=simonrobert_web_design&utm_medium=referral\">Brett Jordan</a> and <a href=\"https://unsplash.com/@stephenowen23?utm_source=simonrobert_web_design&utm_medium=referral\">Stephen Owen</a> on <a href=\"https://unsplash.com/?utm_source=simonrobert_web_design&utm_medium=referral\">Unsplash</a>",
+  "free_quotes": true
+}

@@ -1,0 +1,183 @@
+{
+  "slug": "taylor-and-company",
+  "mode": "preview",
+  "accent": "#C8553D",
+  "business": {
+    "name": "Taylor & Company",
+    "short": "Taylor & Co",
+    "sub": "Building & Decorating",
+    "logo_icon": "hammer",
+    "trade": "Builders",
+    "town": "Toddington",
+    "county": "Bedfordshire",
+    "phone": "07831 866857",
+    "phone_tel": "07831866857",
+    "email": "gary.taylor006@hotmail.com",
+    "hours": "Mon–Sat 7:30am–6:30pm",
+    "company_line": "G J Taylor & Company Limited · Company no. 10081026"
+  },
+  "seo": {
+    "title": "Taylor & Company – Builders & Decorators in Toddington, Bedfordshire",
+    "description": "Family run building and decorating company in Toddington. Carpentry, plastering, painting and decorating, kitchens and maintenance."
+  },
+  "hero": {
+    "eyebrow": "Toddington · Bedfordshire",
+    "h1": "Building work,",
+    "h1_accent": "finished properly.",
+    "lead": "A family run business carrying out all types of domestic and commercial building, from carpentry and plastering to painting, decorating and kitchen fitting.",
+    "image": "https://images.unsplash.com/photo-1688372199140-cade7ae820fe?ixlib=rb-4.1.0&auto=format&fit=crop&w=2000&q=80",
+    "image_alt": "Decorator painting a wall with a roller"
+  },
+  "pills": [
+    "Which? Trusted Trader",
+    "Family run",
+    "Domestic & commercial",
+    "Bedfordshire based"
+  ],
+  "marquee": [
+    "Carpentry",
+    "Plastering",
+    "Painting & decorating",
+    "Tiling",
+    "Kitchen fitting",
+    "Plumbing",
+    "Electrics",
+    "Maintenance"
+  ],
+  "services": {
+    "eyebrow": "What we do",
+    "heading": [
+      "Personal service,",
+      "high quality work."
+    ],
+    "intro": "We take pride in our work and only use other trades who will keep to our standards.",
+    "items": [
+      {
+        "title": "Painting & decorating",
+        "text": "Interior and exterior decorating, done with care.",
+        "icon": "brush"
+      },
+      {
+        "title": "Carpentry",
+        "text": "Carpentry for domestic and commercial customers.",
+        "icon": "hammer",
+        "image": "https://images.unsplash.com/photo-1659930087003-2d64e33181f7?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Carpenter marking a wooden board"
+      },
+      {
+        "title": "Plastering",
+        "text": "Plastering and making good, ready for decorating.",
+        "icon": "board"
+      },
+      {
+        "title": "Kitchen fitting",
+        "text": "Kitchens fitted and finished, including tiling.",
+        "icon": "sparkle",
+        "image": "https://images.unsplash.com/photo-1628745277862-bc0b2d68c50c?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Modern kitchen with white worktop"
+      },
+      {
+        "title": "Plumbing & electrics",
+        "text": "Plumbing and electrical work as part of your project.",
+        "icon": "bolt"
+      },
+      {
+        "title": "Maintenance & partitioning",
+        "text": "Property maintenance, partitioning and shop fitting.",
+        "icon": "wrench"
+      }
+    ]
+  },
+  "work": {
+    "enabled": false
+  },
+  "steps": [
+    {
+      "title": "Get in touch",
+      "text": "Call, or send the quote form with a few details. Photos help."
+    },
+    {
+      "title": "We take a look",
+      "text": "We talk it through, look at the job and give you a clear quote."
+    },
+    {
+      "title": "Job done properly",
+      "text": "The work is done with care and the site left clean and tidy."
+    }
+  ],
+  "reviews": {
+    "heading": [
+      "What customers",
+      "say about us."
+    ],
+    "intro": "Real reviews from customers on Which? Trusted Traders.",
+    "items": [
+      {
+        "text": "Gary & his team did another excellent job for us decorating the exterior of our house and doing additional jobs inside… I have no hesitation in recommending this outstanding company for their workmanship and professionalism, as well as their congeniality and adaptability.",
+        "who": "Customer in Greater London",
+        "label": "Which? review"
+      },
+      {
+        "text": "Thank you Gary & your team for the hard work you put into decorating our new home. As we wanted our whole house decorated it was hard finding someone to trust but you didn't let us down…",
+        "who": "Cathy in Hertfordshire",
+        "label": "Which? review"
+      },
+      {
+        "text": "We hired Gary to undertake a full external & internal decoration of the house including remedial building work. He and his team not only did a first class job but also went out of their way to make our lives tolerable during the 6 weeks they were working…",
+        "who": "Customer in Greater London",
+        "label": "Which? review"
+      }
+    ]
+  },
+  "quote": {
+    "intro": "Three quick steps and we’ll get back to you.",
+    "jobs": [
+      [
+        "Decorating",
+        "brush"
+      ],
+      [
+        "Carpentry",
+        "hammer"
+      ],
+      [
+        "Plastering",
+        "board"
+      ],
+      [
+        "Kitchen",
+        "sparkle"
+      ],
+      [
+        "Maintenance",
+        "wrench"
+      ],
+      [
+        "Something else",
+        "other"
+      ]
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Can I read more reviews?",
+      "a": "Yes. Taylor & Company is a Which? Trusted Trader, and you can read all our customer reviews on our Which? page."
+    },
+    {
+      "q": "Do you take on commercial work?",
+      "a": "Yes. We carry out all types of domestic and commercial building work."
+    },
+    {
+      "q": "How do I get a quote?",
+      "a": "Use the quote form on this page or call 07831 866857. A few photos of the job help us give you an accurate price."
+    }
+  ],
+  "cta": {
+    "heading": "Got a building or decorating job?"
+  },
+  "areas": [
+    "Toddington",
+    "Bedfordshire"
+  ],
+  "credits": "Stock photos for this preview by <a href=\"https://unsplash.com/@mkumbwajr?utm_source=simonrobert_web_design&utm_medium=referral\">Ali Mkumbwa</a>, <a href=\"https://unsplash.com/@craftkitties?utm_source=simonrobert_web_design&utm_medium=referral\">Craft Kitties</a> and <a href=\"https://unsplash.com/@zacgudakov?utm_source=simonrobert_web_design&utm_medium=referral\">Zac Gudakov</a> on <a href=\"https://unsplash.com/?utm_source=simonrobert_web_design&utm_medium=referral\">Unsplash</a>"
+}

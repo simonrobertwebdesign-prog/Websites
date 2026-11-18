@@ -1,0 +1,186 @@
+{
+  "slug": "boxmoor-decorating",
+  "mode": "preview",
+  "accent": "#4F7CFF",
+  "business": {
+    "name": "Boxmoor Decorating",
+    "short": "Boxmoor",
+    "sub": "Decorating",
+    "logo_icon": "brush",
+    "trade": "Painters & decorators",
+    "town": "Hemel Hempstead",
+    "county": "Hertfordshire",
+    "phone": "07746 655184",
+    "phone_tel": "07746655184",
+    "email": "boxmoor-decorating@hotmail.com",
+    "hours": "Mon–Fri 7am–5:30pm, Sat 9am–2pm",
+    "company_line": "Boxmoor Decorating Limited · Company no. 12394981"
+  },
+  "seo": {
+    "title": "Boxmoor Decorating – Painters & Decorators in Hemel Hempstead",
+    "description": "Interior and exterior painting and decorating in Hemel Hempstead, covering Herts, Beds, Bucks and North London. Over 23 years’ experience."
+  },
+  "hero": {
+    "eyebrow": "Hemel Hempstead · Herts · Beds · Bucks",
+    "h1": "Decorating,",
+    "h1_accent": "done with care.",
+    "lead": "Interior and exterior painting and decorating for homes and businesses across Herts, Beds, Bucks and North London, with over 23 years’ experience behind every job.",
+    "image": "https://images.unsplash.com/photo-1562259949-e8e7689d7828?ixlib=rb-4.1.0&auto=format&fit=crop&w=2000&q=80",
+    "image_alt": "Paint roller applying blue paint to a wall"
+  },
+  "pills": [
+    "Which? Trusted Trader",
+    "Herts Trading Standards Approved",
+    "23+ years’ experience",
+    "Free quotes"
+  ],
+  "marquee": [
+    "Interior painting",
+    "Exterior painting",
+    "Wallpapering",
+    "Wall murals",
+    "Stain & varnish",
+    "Flooring",
+    "Insurance work"
+  ],
+  "services": {
+    "eyebrow": "What we do",
+    "heading": [
+      "Quality, reliable,",
+      "clean."
+    ],
+    "intro": "We take time to understand what each customer wants, then do the job properly and leave your home tidy.",
+    "items": [
+      {
+        "title": "Interior decorating",
+        "text": "Walls, ceilings and woodwork painted to a clean finish.",
+        "icon": "brush",
+        "image": "https://images.unsplash.com/photo-1688372198189-de6a51777a81?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Decorator painting a wall with a roller"
+      },
+      {
+        "title": "Exterior painting",
+        "text": "Exterior painting and decorating for homes and businesses.",
+        "icon": "house"
+      },
+      {
+        "title": "Wallpapering & murals",
+        "text": "Wallpaper hanging, including busy designs and wall murals.",
+        "icon": "board"
+      },
+      {
+        "title": "Dust-free sanding",
+        "text": "Sanding with a Mirka dust extractor system to protect your home.",
+        "icon": "sparkle",
+        "image": "https://images.unsplash.com/photo-1561297331-a9c00b9c2c44?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Sanding a wooden surface"
+      },
+      {
+        "title": "Flooring",
+        "text": "Carpets, wooden flooring and lino supplied and fitted.",
+        "icon": "hammer"
+      },
+      {
+        "title": "Finishing touches",
+        "text": "Curtain rails, picture hanging and furniture put back to finish the room.",
+        "icon": "wrench"
+      }
+    ]
+  },
+  "work": {
+    "enabled": false
+  },
+  "steps": [
+    {
+      "title": "Get in touch",
+      "text": "Call, or send the quote form with a few details. Photos help."
+    },
+    {
+      "title": "We take a look",
+      "text": "We talk it through, look at the job and give you a clear quote."
+    },
+    {
+      "title": "Job done properly",
+      "text": "The work is done with care and the site left clean and tidy."
+    }
+  ],
+  "reviews": {
+    "heading": [
+      "What customers",
+      "say about us."
+    ],
+    "intro": "Real reviews from customers on Which? Trusted Traders.",
+    "items": [
+      {
+        "text": "I'm absolutely delighted with the work from Paul and David. The wallpapering (busy design) and bedroom painting have completely transformed the room. The finish is excellent; everything was done with great care and attention to detail, and the result looks fantastic…",
+        "who": "Customer in Hertfordshire",
+        "label": "Which? review"
+      },
+      {
+        "text": "Paul, assisted by David, decorated three bedrooms for me. He was great from start to finish - giving advice on the best paints to use and colour matching perfectly. The work was finished to a very high standard and the house left clean and tidy at the end of every day…",
+        "who": "Customer in Hertfordshire",
+        "label": "Which? review"
+      },
+      {
+        "text": "Paul was excellent, he did my whole house and the process was completely stress free, the result? Absolute perfection.",
+        "who": "Customer in Hertfordshire",
+        "label": "Which? review"
+      }
+    ]
+  },
+  "quote": {
+    "intro": "Three quick steps and we’ll get back to you.",
+    "jobs": [
+      [
+        "Interior",
+        "brush"
+      ],
+      [
+        "Exterior",
+        "house"
+      ],
+      [
+        "Wallpaper",
+        "board"
+      ],
+      [
+        "Flooring",
+        "hammer"
+      ],
+      [
+        "Small jobs",
+        "wrench"
+      ],
+      [
+        "Something else",
+        "other"
+      ]
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Can I read more reviews?",
+      "a": "Yes. Boxmoor Decorating is a Which? Trusted Trader, and you can read all our customer reviews on our Which? page."
+    },
+    {
+      "q": "Do you give free quotes?",
+      "a": "Yes. We offer all customers free, no obligation quotes and consultations."
+    },
+    {
+      "q": "Which areas do you cover?",
+      "a": "We’re based in Hemel Hempstead and cover Herts, Beds, Bucks and North London."
+    }
+  ],
+  "cta": {
+    "heading": "Planning a room makeover?"
+  },
+  "areas": [
+    "Hemel Hempstead",
+    "Hertfordshire",
+    "Bedfordshire",
+    "Buckinghamshire",
+    "North London"
+  ],
+  "credits": "Stock photos for this preview by <a href=\"https://unsplash.com/@themephotos?utm_source=simonrobert_web_design&utm_medium=referral\">Theme Photos</a>, <a href=\"https://unsplash.com/@mkumbwajr?utm_source=simonrobert_web_design&utm_medium=referral\">Ali Mkumbwa</a> and <a href=\"https://unsplash.com/@paultrienekens?utm_source=simonrobert_web_design&utm_medium=referral\">Paul Trienekens</a> on <a href=\"https://unsplash.com/?utm_source=simonrobert_web_design&utm_medium=referral\">Unsplash</a>",
+  "free_quotes": true
+}

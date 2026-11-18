@@ -1,0 +1,183 @@
+{
+  "slug": "mpf-landscapes",
+  "mode": "preview",
+  "accent": "#3FA34D",
+  "business": {
+    "name": "MPF Landscapes",
+    "short": "MPF",
+    "sub": "Landscapes",
+    "logo_icon": "leaf",
+    "trade": "Landscapers",
+    "town": "Bushey",
+    "county": "Hertfordshire",
+    "phone": "07931 877875",
+    "phone_tel": "07931877875",
+    "email": "mpflandscapes@outlook.com",
+    "hours": "Mon–Sat 7:30am–4:30pm",
+    "company_line": "MPF Landscapes Ltd · Company no. 16198422"
+  },
+  "seo": {
+    "title": "MPF Landscapes – Landscaper in Bushey, Hertfordshire",
+    "description": "Patios, turfing, garden clearance, driveways and landscaping in Bushey and across Hertfordshire."
+  },
+  "hero": {
+    "eyebrow": "Bushey · Hertfordshire",
+    "h1": "Gardens you’ll",
+    "h1_accent": "want to be in.",
+    "lead": "Patios, turf, garden clearance, driveways and landscaping in Bushey and across Hertfordshire, from Scott and his team.",
+    "image": "https://images.unsplash.com/photo-1711098256574-7b497260cdc9?ixlib=rb-4.1.0&auto=format&fit=crop&w=2000&q=80",
+    "image_alt": "Landscaped garden patio with furniture and plants"
+  },
+  "pills": [
+    "Which? Trusted Trader",
+    "Herts Trading Standards Approved",
+    "Hertfordshire based",
+    "Patios & turfing"
+  ],
+  "marquee": [
+    "Patios",
+    "Turfing",
+    "Garden clearance",
+    "Driveways",
+    "Resin bound stone",
+    "Decking",
+    "Drainage",
+    "Garden walls"
+  ],
+  "services": {
+    "eyebrow": "What we do",
+    "heading": [
+      "From overgrown",
+      "to outdoor room."
+    ],
+    "intro": "Hard landscaping, turfing and garden work, from a single patio to a full garden makeover.",
+    "items": [
+      {
+        "title": "Patios",
+        "text": "New patios and natural stone surfacing.",
+        "icon": "sparkle",
+        "image": "https://images.unsplash.com/photo-1719324923613-ff0884b031ed?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Paved garden patio with table and chairs"
+      },
+      {
+        "title": "Turfing & lawns",
+        "text": "New turf laid, lawns mowed and treated.",
+        "icon": "leaf",
+        "image": "https://images.unsplash.com/photo-1642541744624-7a2a89545a32?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Long green lawn with hedges"
+      },
+      {
+        "title": "Garden clearance",
+        "text": "Overgrown gardens cleared and made ready to use.",
+        "icon": "wrench"
+      },
+      {
+        "title": "Driveways & resin",
+        "text": "Driveway installation and resin bound stone surfacing.",
+        "icon": "car"
+      },
+      {
+        "title": "Decking & garden structures",
+        "text": "Decking, sheds, shed bases and garden structures.",
+        "icon": "house"
+      },
+      {
+        "title": "Drainage & walls",
+        "text": "Garden drainage, garden walling and drystone walling.",
+        "icon": "drop"
+      }
+    ]
+  },
+  "work": {
+    "enabled": false
+  },
+  "steps": [
+    {
+      "title": "Get in touch",
+      "text": "Call, or send the quote form with a few details. Photos help."
+    },
+    {
+      "title": "We take a look",
+      "text": "We talk it through, look at the job and give you a clear quote."
+    },
+    {
+      "title": "Job done properly",
+      "text": "The work is done with care and the site left clean and tidy."
+    }
+  ],
+  "reviews": {
+    "heading": [
+      "What customers",
+      "say about us."
+    ],
+    "intro": "Real reviews from customers on Which? Trusted Traders.",
+    "items": [
+      {
+        "text": "Scott and his team did a fantastic job of our garden patio. His team arrived promptly and worked in a very clean and very professional way. They took away all the soil they had dug out in our garden and laid a good base for the patio…",
+        "who": "Customer in Hertfordshire",
+        "label": "Which? review"
+      },
+      {
+        "text": "Scott and his team were brilliant from quote to finish. Scott was able to work within the budget I had and produce high quality work. They were reliable, clean and always friendly with neighbours etc…",
+        "who": "Customer in Hertfordshire",
+        "label": "Which? review"
+      },
+      {
+        "text": "Scott and his team did a fantastic job in our garden. Scott came over really quickly and gave us a quote. His team were timely, clean and very professional…",
+        "who": "Customer in Greater London",
+        "label": "Which? review"
+      }
+    ]
+  },
+  "quote": {
+    "intro": "Three quick steps and we’ll get back to you.",
+    "jobs": [
+      [
+        "Patio",
+        "sparkle"
+      ],
+      [
+        "Turf",
+        "leaf"
+      ],
+      [
+        "Clearance",
+        "wrench"
+      ],
+      [
+        "Driveway",
+        "car"
+      ],
+      [
+        "Decking",
+        "house"
+      ],
+      [
+        "Something else",
+        "other"
+      ]
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Can I read more reviews?",
+      "a": "Yes. MPF Landscapes is a Which? Trusted Trader, and you can read all our customer reviews on our Which? page."
+    },
+    {
+      "q": "Which areas do you cover?",
+      "a": "We’re based in Bushey and work across Hertfordshire."
+    },
+    {
+      "q": "How do I get a quote?",
+      "a": "Use the quote form on this page or call 07931 877875. A few photos of the job help us give you an accurate price."
+    }
+  ],
+  "cta": {
+    "heading": "Ready to sort out the garden?"
+  },
+  "areas": [
+    "Bushey",
+    "Hertfordshire"
+  ],
+  "credits": "Stock photos for this preview by <a href=\"https://unsplash.com/@elise_flauntdigital?utm_source=simonrobert_web_design&utm_medium=referral\">Elise Brown</a>, <a href=\"https://unsplash.com/@tilemerchant?utm_source=simonrobert_web_design&utm_medium=referral\">Tile Merchant Ireland</a> and <a href=\"https://unsplash.com/@paularky?utm_source=simonrobert_web_design&utm_medium=referral\">Paul Arky</a> on <a href=\"https://unsplash.com/?utm_source=simonrobert_web_design&utm_medium=referral\">Unsplash</a>"
+}

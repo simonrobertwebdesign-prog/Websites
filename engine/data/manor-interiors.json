@@ -1,0 +1,179 @@
+{
+  "slug": "manor-interiors",
+  "mode": "preview",
+  "accent": "#2E86AB",
+  "business": {
+    "name": "Manor Interiors",
+    "short": "Manor",
+    "sub": "Interiors",
+    "logo_icon": "drop",
+    "trade": "Plumbing & heating",
+    "town": "Cholsey",
+    "county": "Oxfordshire",
+    "phone": "07870 257119",
+    "phone_tel": "07870257119",
+    "email": "manor@manor-interiors.com",
+    "hours": "Mon–Fri 7:30am–5pm",
+    "company_line": "Manor Interiors (Oxfordshire) Limited · Company no. 11841727"
+  },
+  "seo": {
+    "title": "Manor Interiors – Plumbing, Heating & Home Improvements in Oxfordshire",
+    "description": "Family-run plumbing, heating and home improvement business in Cholsey, Oxfordshire, with over 30 years’ experience."
+  },
+  "hero": {
+    "eyebrow": "Cholsey · Wallingford · Oxfordshire",
+    "h1": "Plumbing, heating",
+    "h1_accent": "and so much more.",
+    "lead": "A family-run plumbing, heating and home improvement business in Oxfordshire, with over 30 years’ experience and every job completed to the highest standards.",
+    "image": "https://images.unsplash.com/photo-1771681278369-e2a5480b8c29?ixlib=rb-4.1.0&auto=format&fit=crop&w=2000&q=80",
+    "image_alt": "Modern bathroom with marble details"
+  },
+  "pills": [
+    "Which? Trusted Trader",
+    "Family run",
+    "30+ years’ experience",
+    "Oxfordshire based"
+  ],
+  "marquee": [
+    "Boilers",
+    "Heating",
+    "Bathrooms",
+    "Kitchens",
+    "Water softeners",
+    "Underfloor heating",
+    "Extensions",
+    "Renewables"
+  ],
+  "services": {
+    "eyebrow": "What we do",
+    "heading": [
+      "Quality and care",
+      "in every job."
+    ],
+    "intro": "From a new boiler to a full renovation, one family-run team for plumbing, heating, kitchens, bathrooms and building work.",
+    "items": [
+      {
+        "title": "Plumbing & heating",
+        "text": "Boilers installed, repaired and serviced, radiators, underfloor heating and power flushing.",
+        "icon": "flame",
+        "image": "https://images.unsplash.com/photo-1618840626133-54463084a141?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Close-up of metal pipework"
+      },
+      {
+        "title": "Bathrooms & wet rooms",
+        "text": "Bathroom design, installation and tiling, wet rooms and accessible showers.",
+        "icon": "sparkle"
+      },
+      {
+        "title": "Kitchens",
+        "text": "Kitchen design, fitting, worktops and tiling.",
+        "icon": "board",
+        "image": "https://images.unsplash.com/photo-1628745277862-bc0b2d68c50c?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Modern kitchen with white worktop"
+      },
+      {
+        "title": "Water softeners & hot water",
+        "text": "Water softeners and unvented cylinders installed and maintained.",
+        "icon": "drop"
+      },
+      {
+        "title": "Building work",
+        "text": "Extensions, garage and loft conversions, porches and plastering.",
+        "icon": "house"
+      },
+      {
+        "title": "Carpentry & decorating",
+        "text": "Joinery, garden rooms and interior decorating.",
+        "icon": "hammer"
+      }
+    ]
+  },
+  "work": {
+    "enabled": false
+  },
+  "steps": [
+    {
+      "title": "Get in touch",
+      "text": "Call, or send the quote form with a few details. Photos help."
+    },
+    {
+      "title": "We take a look",
+      "text": "We talk it through, look at the job and give you a clear quote."
+    },
+    {
+      "title": "Job done properly",
+      "text": "The work is done with care and the site left clean and tidy."
+    }
+  ],
+  "reviews": {
+    "heading": [
+      "What customers",
+      "say about us."
+    ],
+    "intro": "Real reviews from customers on Which? Trusted Traders.",
+    "items": [
+      {
+        "text": "I've used Manor Interiors for over 10 years and highly recommend them to everyone! They initially installed an oil heating system into my old cottage… They have guided me through all the jargon and simply made the process of renovating stress free… Their quality of work is exceptional.",
+        "who": "Customer in Oxfordshire",
+        "label": "Which? review"
+      },
+      {
+        "text": "They removed the wet unit, went and got me a great replacement and installed it for me. All the same day! It was amazing… Very professional and super friendly.",
+        "who": "Customer in Oxfordshire",
+        "label": "Which? review"
+      }
+    ]
+  },
+  "quote": {
+    "intro": "Three quick steps and we’ll get back to you.",
+    "jobs": [
+      [
+        "Boiler",
+        "flame"
+      ],
+      [
+        "Bathroom",
+        "sparkle"
+      ],
+      [
+        "Kitchen",
+        "board"
+      ],
+      [
+        "Water softener",
+        "drop"
+      ],
+      [
+        "Building work",
+        "house"
+      ],
+      [
+        "Something else",
+        "other"
+      ]
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Can I read more reviews?",
+      "a": "Yes. Manor Interiors is a Which? Trusted Trader, and you can read all our customer reviews on our Which? page."
+    },
+    {
+      "q": "Do you do more than plumbing?",
+      "a": "Yes. As well as plumbing and heating, we design and fit kitchens and bathrooms and carry out building work such as extensions and conversions."
+    },
+    {
+      "q": "How do I get a quote?",
+      "a": "Use the quote form on this page or call 07870 257119. A few photos of the job help us give you an accurate price."
+    }
+  ],
+  "cta": {
+    "heading": "Planning work on your home?"
+  },
+  "areas": [
+    "Cholsey",
+    "Wallingford",
+    "Oxfordshire"
+  ],
+  "credits": "Stock photos for this preview by <a href=\"https://unsplash.com/@claybanks?utm_source=simonrobert_web_design&utm_medium=referral\">Clay Banks</a>, <a href=\"https://unsplash.com/@tama66?utm_source=simonrobert_web_design&utm_medium=referral\">Peter Herrmann</a> and <a href=\"https://unsplash.com/@zacgudakov?utm_source=simonrobert_web_design&utm_medium=referral\">Zac Gudakov</a> on <a href=\"https://unsplash.com/?utm_source=simonrobert_web_design&utm_medium=referral\">Unsplash</a>"
+}
