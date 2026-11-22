@@ -1,0 +1,197 @@
+{
+  "slug": "kings-plumbing-heating",
+  "mode": "preview",
+  "accent": "#EF7D1A",
+  "business": {
+    "name": "Kings Plumbing & Heating",
+    "short": "Kings",
+    "sub": "Plumbing & Heating",
+    "logo_icon": "drop",
+    "trade": "Plumbers & heating engineers",
+    "town": "Maidenhead",
+    "county": "Berkshire",
+    "phone": "01628 337477",
+    "phone_tel": "01628337477",
+    "email": "info@kingsplumbing.co.uk",
+    "hours": "",
+    "company_line": "Kings Plumbing & Heating Limited · Company no. 04553090"
+  },
+  "seo": {
+    "title": "Kings Plumbing & Heating – Plumbers & Heating Engineers in Maidenhead",
+    "description": "Family-run plumbing, heating and bathrooms in Maidenhead since 1979. Boilers, central heating, bathroom refurbishments and power flushing. Gas Safe registered."
+  },
+  "hero": {
+    "eyebrow": "Maidenhead · Berkshire",
+    "h1": "Plumbing & heating,",
+    "h1_accent": "since 1979.",
+    "lead": "A family-run business with qualified, experienced plumbers, ready for anything from emergencies to efficient central heating systems and bespoke bathroom installations.",
+    "image": "https://images.unsplash.com/photo-1676210134190-3f2c0d5cf58d?ixlib=rb-4.1.0&auto=format&fit=crop&w=2000&q=80",
+    "image_alt": "Heating engineer working on a hot water cylinder"
+  },
+  "pills": [
+    "Which? Trusted Trader",
+    "Serving Maidenhead since 1979",
+    "Gas Safe registered",
+    "Worcester Bosch accredited"
+  ],
+  "marquee": [
+    "Boiler installation",
+    "Boiler servicing",
+    "Central heating",
+    "Radiators",
+    "Bathrooms",
+    "Wet rooms",
+    "Power flushing",
+    "Unvented cylinders",
+    "Water softeners",
+    "Emergency plumbing"
+  ],
+  "services": {
+    "eyebrow": "What we do",
+    "heading": [
+      "Family run,",
+      "proud of our work."
+    ],
+    "intro": "We are equipped to deal with a vast range of plumbing and heating work, and we pride ourselves on our professionalism, reliability and expertise.",
+    "items": [
+      {
+        "title": "Boiler installation",
+        "text": "Efficient boilers, with the system designed to fit neatly into your home. We look at the whole system, not just the boiler.",
+        "icon": "flame",
+        "image": "https://images.unsplash.com/photo-1676210134188-4c05dd172f89?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Plumber working on pipework in a wall"
+      },
+      {
+        "title": "Bathrooms & wet rooms",
+        "text": "Bathroom design and refurbishment, with tile samples and computer aided designs so your final decision is the right one.",
+        "icon": "sparkle",
+        "image": "https://images.unsplash.com/photo-1763485955497-f5ef5d178698?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Modern bathroom with double vanity and walk-in shower"
+      },
+      {
+        "title": "Servicing & repairs",
+        "text": "Boiler servicing, boiler repairs and gas safety checks.",
+        "icon": "wrench"
+      },
+      {
+        "title": "Central heating & radiators",
+        "text": "Radiators and central heating systems, plus power flushing.",
+        "icon": "house"
+      },
+      {
+        "title": "Hot water & water softeners",
+        "text": "Unvented cylinders and water softeners installed and maintained.",
+        "icon": "drop"
+      },
+      {
+        "title": "Emergency plumbing",
+        "text": "No call out charge, and we make sure we are there when you call.",
+        "icon": "shield"
+      }
+    ]
+  },
+  "work": {
+    "enabled": false
+  },
+  "steps": [
+    {
+      "title": "Get in touch",
+      "text": "Call, or send the quote form with a few details. Photos help."
+    },
+    {
+      "title": "We take a look",
+      "text": "We talk it through, look at the job and give you a clear quote."
+    },
+    {
+      "title": "Job done properly",
+      "text": "The work is done with care and the site left clean and tidy."
+    }
+  ],
+  "reviews": {
+    "heading": [
+      "What customers",
+      "say about us."
+    ],
+    "intro": "Real reviews from customers on Which? Trusted Traders.",
+    "items": [
+      {
+        "text": "Russ designed, project managed and fitted a lovely bathroom that replaced a very dated and bodged 90s suite. It looks so incredibly nice… It's clear Russ is very knowledgeable and has high standards, so I have no hesitation in recommending this company.",
+        "who": "Customer in Berkshire",
+        "label": "Which? review"
+      },
+      {
+        "text": "Kings completely removed my ancient and failing central heating system and installed a new one. Everything now works perfectly. Russell, who did most of the work, was unfailingly pleasant and left everything tidy. I would recommend Kings.",
+        "who": "Customer in Berkshire",
+        "label": "Which? review"
+      },
+      {
+        "text": "Since 2013 when Mike & Russell replaced our central heating system, we have been fortunate to be able to call on them for all our heating and plumbing needs… They are completely reliable and their work is first class!",
+        "who": "Customer in Windsor and Maidenhead",
+        "label": "Which? review"
+      }
+    ]
+  },
+  "quote": {
+    "intro": "Three quick steps and we’ll get back to you.",
+    "jobs": [
+      [
+        "New boiler",
+        "flame"
+      ],
+      [
+        "Service or repair",
+        "wrench"
+      ],
+      [
+        "Bathroom",
+        "sparkle"
+      ],
+      [
+        "Heating",
+        "house"
+      ],
+      [
+        "Plumbing",
+        "drop"
+      ],
+      [
+        "Something else",
+        "other"
+      ]
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Can I read more reviews?",
+      "a": "Yes. Kings Plumbing & Heating is a Which? Trusted Trader, and you can read all our customer reviews on our Which? page."
+    },
+    {
+      "q": "Do you charge a call out fee?",
+      "a": "No. There’s no call out charge."
+    },
+    {
+      "q": "How do you keep disruption down on a bathroom job?",
+      "a": "We keep dust down to a minimum, make sure you have the facilities you need each evening, and clean and tidy up each night."
+    },
+    {
+      "q": "Which areas do you cover?",
+      "a": "Maidenhead and the surrounding areas."
+    },
+    {
+      "q": "How do I get a quote?",
+      "a": "Use the quote form on this page or call 01628 337477. A few photos of the job help us give you an accurate price."
+    }
+  ],
+  "cta": {
+    "heading": "Boiler, heating or bathroom job?"
+  },
+  "areas": [
+    "Maidenhead",
+    "Marlow",
+    "Holyport",
+    "Burnham",
+    "Hurley"
+  ],
+  "credits": "Stock photos for this preview by <a href=\"https://unsplash.com/@shaker_jpg?utm_source=simonrobert_web_design&utm_medium=referral\">Timur Shakerzianov</a> and <a href=\"https://unsplash.com/@petepxl?utm_source=simonrobert_web_design&utm_medium=referral\">Peter Muniz</a> on <a href=\"https://unsplash.com/?utm_source=simonrobert_web_design&utm_medium=referral\">Unsplash</a>",
+  "free_quotes": true
+}
