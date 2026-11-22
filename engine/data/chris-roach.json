@@ -1,0 +1,187 @@
+{
+  "slug": "chris-roach",
+  "mode": "preview",
+  "accent": "#4A90C2",
+  "business": {
+    "name": "Chris Roach",
+    "short": "Chris Roach",
+    "sub": "Painting & Decorating",
+    "logo_icon": "brush",
+    "trade": "Painters & decorators",
+    "town": "Ruislip",
+    "county": "Middlesex",
+    "phone": "07889 397 102",
+    "phone_tel": "07889397102",
+    "email": "chrisroachlimited@gmail.com",
+    "hours": "Mon–Fri 9am–5pm",
+    "company_line": "Chris Roach Limited · Company no. 04699002"
+  },
+  "seo": {
+    "title": "Chris Roach – Painter & Decorator in Ruislip",
+    "description": "Domestic painting and decorating in Ruislip, Eastcote, Pinner, Northwood and nearby. Established in 1986, with over 45 years’ experience."
+  },
+  "hero": {
+    "eyebrow": "Ruislip · Eastcote · Pinner · Northwood",
+    "h1": "Decorating,",
+    "h1_accent": "done properly.",
+    "lead": "A time-served decorator with over 45 years’ experience, offering a hassle-free service from careful preparation to a professional finish. Established in 1986.",
+    "image": "https://images.unsplash.com/photo-1688372199140-cade7ae820fe?ixlib=rb-4.1.0&auto=format&fit=crop&w=2000&q=80",
+    "image_alt": "Decorator painting a wall with a roller"
+  },
+  "pills": [
+    "Which? Trusted Trader",
+    "Established 1986",
+    "45+ years’ experience",
+    "Public liability insured"
+  ],
+  "marquee": [
+    "Interior decorating",
+    "Painting",
+    "Wallpapering",
+    "Hand painted kitchens",
+    "Dust-free sanding",
+    "Water based paints"
+  ],
+  "services": {
+    "eyebrow": "What we do",
+    "heading": [
+      "Reliable, trustworthy,",
+      "honest, respectful."
+    ],
+    "intro": "Every job starts with full protection of your home and thorough preparation, for a clean working environment and a professional finish.",
+    "items": [
+      {
+        "title": "Interior decorating",
+        "text": "Walls, ceilings and woodwork decorated to a professional standard.",
+        "icon": "brush",
+        "image": "https://images.unsplash.com/photo-1562259949-e8e7689d7828?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Paint roller applying blue paint to a wall"
+      },
+      {
+        "title": "Wallpapering",
+        "text": "Wallpaper hung neatly, including murals.",
+        "icon": "board"
+      },
+      {
+        "title": "Hand painted kitchens",
+        "text": "Refurbish your old kitchen with a hand painted finish instead of replacing it.",
+        "icon": "sparkle",
+        "image": "https://images.unsplash.com/photo-1722605090433-41d1183a792d?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Kitchen with white cabinets and marble worktops"
+      },
+      {
+        "title": "Dust-free sanding",
+        "text": "Preparation with a 95% dust-free sanding system.",
+        "icon": "shield"
+      },
+      {
+        "title": "Water based paints",
+        "text": "The latest water based paints, for a clean and healthy working environment.",
+        "icon": "drop"
+      },
+      {
+        "title": "Careful protection",
+        "text": "Furniture and floors protected before any work starts.",
+        "icon": "house"
+      }
+    ]
+  },
+  "work": {
+    "enabled": false
+  },
+  "steps": [
+    {
+      "title": "Get in touch",
+      "text": "Call, or send the quote form with a few details. Photos help."
+    },
+    {
+      "title": "We take a look",
+      "text": "We talk it through, look at the job and give you a clear quote."
+    },
+    {
+      "title": "Job done properly",
+      "text": "The work is done with care and the site left clean and tidy."
+    }
+  ],
+  "reviews": {
+    "heading": [
+      "What customers",
+      "say about us."
+    ],
+    "intro": "Real reviews from customers on Which? Trusted Traders.",
+    "items": [
+      {
+        "text": "First rate work, neat & tidy and completely professional. Turned up every day dead on time and worked late as necessary. Removed fitting including radiator, door knobs etc. rather than paint/paste around them; and refitted later… Overall, brilliant job.",
+        "who": "Customer in Greater London",
+        "label": "Which? review"
+      },
+      {
+        "text": "We have asked Chris back to do various decorating jobs over many years. Genuinely delighted with all his work. Chris is everything you could ask for in a tradesman - helpful, reliable and a good communicator. Very happy to recommend him.",
+        "who": "Customer in Greater London",
+        "label": "Which? review"
+      },
+      {
+        "text": "Chris recently completed redecorating my sitting room which has a very high ceiling and had unsightly cracks in the plaster. He is meticulous and methodical in his preparation, takes great care in covering and protecting furniture and flooring, etc and I am delighted with the end result…",
+        "who": "Customer in Greater London",
+        "label": "Which? review"
+      }
+    ]
+  },
+  "quote": {
+    "intro": "Three quick steps and we’ll get back to you.",
+    "jobs": [
+      [
+        "Painting",
+        "brush"
+      ],
+      [
+        "Wallpaper",
+        "board"
+      ],
+      [
+        "Kitchen",
+        "sparkle"
+      ],
+      [
+        "Whole house",
+        "house"
+      ],
+      [
+        "Small job",
+        "wrench"
+      ],
+      [
+        "Something else",
+        "other"
+      ]
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Can I read more reviews?",
+      "a": "Yes. Chris Roach is a Which? Trusted Trader, and you can read all our customer reviews on our Which? page."
+    },
+    {
+      "q": "Which areas do you cover?",
+      "a": "Ruislip, Eastcote, Pinner, Northwood, Rickmansworth, The Chalfonts, Gerrards Cross, Chorleywood and the surrounding areas."
+    },
+    {
+      "q": "How do I get a quote?",
+      "a": "Use the quote form on this page or call 07889 397 102. A few photos of the job help us give you an accurate price."
+    }
+  ],
+  "cta": {
+    "heading": "Got a room that needs decorating?"
+  },
+  "areas": [
+    "Ruislip",
+    "Eastcote",
+    "Pinner",
+    "Northwood",
+    "Rickmansworth",
+    "The Chalfonts",
+    "Gerrards Cross",
+    "Chorleywood"
+  ],
+  "credits": "Stock photos for this preview by <a href=\"https://unsplash.com/@mkumbwajr?utm_source=simonrobert_web_design&utm_medium=referral\">Ali Mkumbwa</a>, <a href=\"https://unsplash.com/@themephotos?utm_source=simonrobert_web_design&utm_medium=referral\">Theme Photos</a> and <a href=\"https://unsplash.com/@stephenowen23?utm_source=simonrobert_web_design&utm_medium=referral\">Stephen Owen</a> on <a href=\"https://unsplash.com/?utm_source=simonrobert_web_design&utm_medium=referral\">Unsplash</a>"
+}

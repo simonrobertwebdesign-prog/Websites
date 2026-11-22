@@ -1,0 +1,183 @@
+{
+  "slug": "k-spencer-building",
+  "mode": "preview",
+  "accent": "#2A9D8F",
+  "business": {
+    "name": "K Spencer Building & Maintenance",
+    "short": "K Spencer",
+    "sub": "Building & Maintenance",
+    "logo_icon": "hammer",
+    "trade": "Builders",
+    "town": "Birmingham",
+    "county": "West Midlands",
+    "phone": "07973 713050",
+    "phone_tel": "07973713050",
+    "email": "kspencerbuildingandmaintenance@yahoo.co.uk",
+    "hours": "",
+    "company_line": "K. Spencer Building & Maintenance Limited · Company no. 06517070"
+  },
+  "seo": {
+    "title": "K Spencer Building & Maintenance – Builder in Birmingham",
+    "description": "Extensions, loft and garage conversions, plastering, porches, conservatories and brickwork in Birmingham and the West Midlands."
+  },
+  "hero": {
+    "eyebrow": "Birmingham · West Midlands",
+    "h1": "Building work,",
+    "h1_accent": "done right.",
+    "lead": "Extensions, loft and garage conversions, plastering, porches, conservatories and brickwork across Birmingham and the West Midlands.",
+    "image": "https://images.unsplash.com/photo-1593012672015-4fabc32c67aa?ixlib=rb-4.1.0&auto=format&fit=crop&w=2000&q=80",
+    "image_alt": "Extension under construction"
+  },
+  "pills": [
+    "Which? Trusted Trader",
+    "Birmingham based",
+    "Extensions & conversions",
+    "Building & maintenance"
+  ],
+  "marquee": [
+    "Extensions",
+    "Loft conversions",
+    "Garage conversions",
+    "Plastering",
+    "Porches",
+    "Conservatories",
+    "Bricklaying",
+    "Re-pointing"
+  ],
+  "services": {
+    "eyebrow": "What we do",
+    "heading": [
+      "Building work,",
+      "big or small."
+    ],
+    "intro": "From house building and extensions to plastering, brickwork and guttering repairs.",
+    "items": [
+      {
+        "title": "Extensions",
+        "text": "House extensions, planned and built.",
+        "icon": "house",
+        "image": "https://images.unsplash.com/photo-1593786267440-550458cc882a?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Brick extension being built"
+      },
+      {
+        "title": "Loft & garage conversions",
+        "text": "Lofts and garages turned into useful rooms.",
+        "icon": "roof"
+      },
+      {
+        "title": "Plastering",
+        "text": "Plastering and making good.",
+        "icon": "brush"
+      },
+      {
+        "title": "Porches & conservatories",
+        "text": "Porches, conservatories and orangeries.",
+        "icon": "sparkle"
+      },
+      {
+        "title": "Brickwork",
+        "text": "Bricklaying and re-pointing.",
+        "icon": "hammer",
+        "image": "https://images.unsplash.com/photo-1593012671976-1422185230fb?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Building work on a house extension"
+      },
+      {
+        "title": "Repairs & maintenance",
+        "text": "Guttering repairs and property maintenance.",
+        "icon": "wrench"
+      }
+    ]
+  },
+  "work": {
+    "enabled": false
+  },
+  "steps": [
+    {
+      "title": "Get in touch",
+      "text": "Call, or send the quote form with a few details. Photos help."
+    },
+    {
+      "title": "We take a look",
+      "text": "We talk it through, look at the job and give you a clear quote."
+    },
+    {
+      "title": "Job done properly",
+      "text": "The work is done with care and the site left clean and tidy."
+    }
+  ],
+  "reviews": {
+    "heading": [
+      "What customers",
+      "say about us."
+    ],
+    "intro": "Real reviews from customers on Which? Trusted Traders.",
+    "items": [
+      {
+        "text": "Kevin did some sealing works on the roof, repaired a wooden door, applied sealant to windows and fixed some leaks, removed and replaced base boards on a door and tiled an upstairs balcony. He worked quickly and quietly with no fuss. I cannot recommend Kevin highly enough.",
+        "who": "Customer in West Midlands",
+        "label": "Which? review"
+      },
+      {
+        "text": "Kev took out the shower unit in my bathroom and installed a bath. He did a fantastic job and I'm so pleased with the result. He was punctual, friendly and efficient and did over and above the agreed work - always going the extra mile…",
+        "who": "Customer in Worcestershire",
+        "label": "Which? review"
+      },
+      {
+        "text": "We have used Kevin twice to fit our kitchen including knocking walls down, plastering, brickwork and plumbing. Did a great job both times. Will definitely use him again for more work. Very clean and tidy and friendly.",
+        "who": "BeckyM",
+        "label": "Which? review"
+      }
+    ]
+  },
+  "quote": {
+    "intro": "Three quick steps and we’ll get back to you.",
+    "jobs": [
+      [
+        "Extension",
+        "house"
+      ],
+      [
+        "Conversion",
+        "roof"
+      ],
+      [
+        "Plastering",
+        "brush"
+      ],
+      [
+        "Porch",
+        "sparkle"
+      ],
+      [
+        "Repair",
+        "wrench"
+      ],
+      [
+        "Something else",
+        "other"
+      ]
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Can I read more reviews?",
+      "a": "Yes. K Spencer Building & Maintenance is a Which? Trusted Trader, and you can read all our customer reviews on our Which? page."
+    },
+    {
+      "q": "What kind of work do you take on?",
+      "a": "Extensions, loft and garage conversions, plastering, porches, conservatories, brickwork and general maintenance."
+    },
+    {
+      "q": "How do I get a quote?",
+      "a": "Use the quote form on this page or call 07973 713050. A few photos of the job help us give you an accurate price."
+    }
+  ],
+  "cta": {
+    "heading": "Got a building job in mind?"
+  },
+  "areas": [
+    "Birmingham",
+    "West Midlands"
+  ],
+  "credits": "Stock photos for this preview by <a href=\"https://unsplash.com/@brett_jordan?utm_source=simonrobert_web_design&utm_medium=referral\">Brett Jordan</a> on <a href=\"https://unsplash.com/?utm_source=simonrobert_web_design&utm_medium=referral\">Unsplash</a>"
+}

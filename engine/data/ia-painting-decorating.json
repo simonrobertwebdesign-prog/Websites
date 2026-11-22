@@ -1,0 +1,182 @@
+{
+  "slug": "ia-painting-decorating",
+  "mode": "preview",
+  "accent": "#7B2CBF",
+  "business": {
+    "name": "I&A Painting & Decorating",
+    "short": "I&A",
+    "sub": "Painting & Decorating",
+    "logo_icon": "brush",
+    "trade": "Painters & decorators",
+    "town": "Welwyn Garden City",
+    "county": "Hertfordshire",
+    "phone": "07967 649896",
+    "phone_tel": "07967649896",
+    "email": "igarkov46@yahoo.co.uk",
+    "hours": "Mon–Sat 8am–6pm",
+    "company_line": "I&A Painting and Decorating Ltd · Company no. 12192781"
+  },
+  "seo": {
+    "title": "I&A Painting & Decorating – Decorator in Welwyn Garden City",
+    "description": "Interior and exterior painting and decorating in Welwyn Garden City and Hertfordshire. Wallpapering, paint effects, panelling and tiling."
+  },
+  "hero": {
+    "eyebrow": "Welwyn Garden City · Hertfordshire",
+    "h1": "From one room",
+    "h1_accent": "to the whole house.",
+    "lead": "Internal and external painting and decorating, from the smallest room in the house to the entire house. We’ll discuss your vision and how to achieve it.",
+    "image": "https://images.unsplash.com/photo-1693985120993-e9b203ce7631?ixlib=rb-4.1.0&auto=format&fit=crop&w=2000&q=80",
+    "image_alt": "Painter using a roller on a wall"
+  },
+  "pills": [
+    "Which? Trusted Trader",
+    "Interior & exterior",
+    "Specialist paint effects",
+    "Free quotations"
+  ],
+  "marquee": [
+    "Painting",
+    "Decorating",
+    "Wallpapering",
+    "Paint effects",
+    "Beading & panelling",
+    "Tiling",
+    "Floor tiling",
+    "Flooring"
+  ],
+  "services": {
+    "eyebrow": "What we do",
+    "heading": [
+      "A job",
+      "well done."
+    ],
+    "intro": "Painting, decorating and much more, with a free quotation for every job.",
+    "items": [
+      {
+        "title": "Interior decorating",
+        "text": "Rooms painted and decorated, walls, doors and woodwork.",
+        "icon": "brush",
+        "image": "https://images.unsplash.com/photo-1652829069862-87874e119527?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Close-up of a paint roller"
+      },
+      {
+        "title": "Exterior painting",
+        "text": "Exterior painting and decorating.",
+        "icon": "house"
+      },
+      {
+        "title": "Wallpapering",
+        "text": "Wallpaper hung neatly.",
+        "icon": "board"
+      },
+      {
+        "title": "Paint effects & panelling",
+        "text": "Specialist paint effects, beading and panelling.",
+        "icon": "sparkle"
+      },
+      {
+        "title": "Tiling",
+        "text": "Wall and floor tiling.",
+        "icon": "hammer"
+      },
+      {
+        "title": "Flooring",
+        "text": "Laminate, vinyl and wood flooring laid.",
+        "icon": "wrench"
+      }
+    ]
+  },
+  "work": {
+    "enabled": false
+  },
+  "steps": [
+    {
+      "title": "Get in touch",
+      "text": "Call, or send the quote form with a few details. Photos help."
+    },
+    {
+      "title": "We take a look",
+      "text": "We talk it through, look at the job and give you a clear quote."
+    },
+    {
+      "title": "Job done properly",
+      "text": "The work is done with care and the site left clean and tidy."
+    }
+  ],
+  "reviews": {
+    "heading": [
+      "What customers",
+      "say about us."
+    ],
+    "intro": "Real reviews from customers on Which? Trusted Traders.",
+    "items": [
+      {
+        "text": "Ivan recently completed a full decoration of our new home, covering everything from the walls to the doors and woodwork. He is a true professional who takes immense pride in his work, delivering precise results with impressive efficiency…",
+        "who": "Customer in Hertfordshire",
+        "label": "Which? review"
+      },
+      {
+        "text": "Thorough, professional painting of the outside of the house over 4 continuous days at a fair price. It now looks great! Ivan was helpful and responsive on site.",
+        "who": "Customer in Hertfordshire",
+        "label": "Which? review"
+      },
+      {
+        "text": "Ivan recently completed the full painting and decorating of my property and I couldn’t be happier with the result. I contacted him at very short notice. Despite the tight timeframe, he managed to complete the entire job within five days, which was incredibly impressive…",
+        "who": "Customer in Hertfordshire",
+        "label": "Which? review"
+      }
+    ]
+  },
+  "quote": {
+    "intro": "Three quick steps and we’ll get back to you.",
+    "jobs": [
+      [
+        "Interior",
+        "brush"
+      ],
+      [
+        "Exterior",
+        "house"
+      ],
+      [
+        "Wallpaper",
+        "board"
+      ],
+      [
+        "Panelling",
+        "sparkle"
+      ],
+      [
+        "Tiling or flooring",
+        "hammer"
+      ],
+      [
+        "Something else",
+        "other"
+      ]
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Can I read more reviews?",
+      "a": "Yes. I&A Painting & Decorating is a Which? Trusted Trader, and you can read all our customer reviews on our Which? page."
+    },
+    {
+      "q": "Do you give free quotes?",
+      "a": "Yes. Get in touch to discuss the work and a free quotation will be provided."
+    },
+    {
+      "q": "How do I get a quote?",
+      "a": "Use the quote form on this page or call 07967 649896. A few photos of the job help us give you an accurate price."
+    }
+  ],
+  "cta": {
+    "heading": "Ready for a fresh look?"
+  },
+  "areas": [
+    "Welwyn Garden City",
+    "Hertfordshire"
+  ],
+  "credits": "Stock photos for this preview by <a href=\"https://unsplash.com/@and73w?utm_source=simonrobert_web_design&utm_medium=referral\">Andrew Itaga</a> and <a href=\"https://unsplash.com/@inkyhills?utm_source=simonrobert_web_design&utm_medium=referral\">Callum Hill</a> on <a href=\"https://unsplash.com/?utm_source=simonrobert_web_design&utm_medium=referral\">Unsplash</a>",
+  "free_quotes": true
+}

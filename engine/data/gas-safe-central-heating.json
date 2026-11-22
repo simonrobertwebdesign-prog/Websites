@@ -1,0 +1,188 @@
+{
+  "slug": "gas-safe-central-heating",
+  "mode": "preview",
+  "accent": "#0077B6",
+  "business": {
+    "name": "Gas Safe Central Heating",
+    "short": "Gas Safe",
+    "sub": "Central Heating",
+    "logo_icon": "flame",
+    "trade": "Heating engineers",
+    "town": "Solihull",
+    "county": "West Midlands",
+    "phone": "0800 834 773",
+    "phone_tel": "0800834773",
+    "email": "info@gassafecentralheating.com",
+    "hours": "Mon–Fri 8am–8pm, Sat–Sun 8am–5pm",
+    "company_line": "Gas Safe Central Heating Limited · Company no. 06929869"
+  },
+  "seo": {
+    "title": "Gas Safe Central Heating – Boilers & Heating in Solihull & Birmingham",
+    "description": "Central heating installations, boiler servicing, breakdowns and gas work across Birmingham, Solihull, the West Midlands and Worcestershire."
+  },
+  "hero": {
+    "eyebrow": "Knowle · Solihull · Birmingham",
+    "h1": "Central heating,",
+    "h1_accent": "fixed prices.",
+    "lead": "An established Midlands company specialising in central heating installations, boiler servicing, breakdowns and gas work, with over 30 years’ experience in the sector.",
+    "image": "https://images.unsplash.com/photo-1732660513320-a6b489f3fece?ixlib=rb-4.1.0&auto=format&fit=crop&w=2000&q=80",
+    "image_alt": "Heating engineer at work"
+  },
+  "pills": [
+    "Which? Trusted Trader",
+    "Worcester Bosch Gold accredited",
+    "30+ years’ experience",
+    "No hourly charge"
+  ],
+  "marquee": [
+    "Boiler installation",
+    "Boiler servicing",
+    "Breakdowns",
+    "Central heating",
+    "Radiators",
+    "Gas safety checks",
+    "Unvented cylinders",
+    "Plumbing"
+  ],
+  "services": {
+    "eyebrow": "What we do",
+    "heading": [
+      "Fixed prices,",
+      "no hourly charge."
+    ],
+    "intro": "We talk every customer through all stages of the job, respect your property, and clean up when we’re done.",
+    "items": [
+      {
+        "title": "Central heating installations",
+        "text": "New central heating systems and boilers installed.",
+        "icon": "flame",
+        "image": "https://images.unsplash.com/photo-1650551182991-b07558247564?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Heating pipes and valves"
+      },
+      {
+        "title": "Boiler servicing",
+        "text": "Regular boiler servicing.",
+        "icon": "wrench"
+      },
+      {
+        "title": "Breakdowns & repairs",
+        "text": "Boiler breakdowns and repairs, with a fixed price repair policy.",
+        "icon": "clock"
+      },
+      {
+        "title": "Gas work & safety checks",
+        "text": "Gas installation work and gas safety testing.",
+        "icon": "shield"
+      },
+      {
+        "title": "Radiators",
+        "text": "Radiators and central heating upgrades.",
+        "icon": "house"
+      },
+      {
+        "title": "Plumbing & hot water",
+        "text": "Plumbing, emergency plumbing and unvented cylinders.",
+        "icon": "drop"
+      }
+    ]
+  },
+  "work": {
+    "enabled": false
+  },
+  "steps": [
+    {
+      "title": "Get in touch",
+      "text": "Call, or send the quote form with a few details. Photos help."
+    },
+    {
+      "title": "We take a look",
+      "text": "We talk it through, look at the job and give you a clear quote."
+    },
+    {
+      "title": "Job done properly",
+      "text": "The work is done with care and the site left clean and tidy."
+    }
+  ],
+  "reviews": {
+    "heading": [
+      "What customers",
+      "say about us."
+    ],
+    "intro": "Real reviews from customers on Which? Trusted Traders.",
+    "items": [
+      {
+        "text": "I have use Gas Safe for many years for boiler installation and servicing. Steve has always provided outstanding service and reacts very quickly if you have a problem. They have just installed our first combi boiler and we are delighted with the installation…",
+        "who": "Customer in Warwickshire",
+        "label": "Which? review"
+      },
+      {
+        "text": "I’ve used Gas Safe for several years and always get the best service . Extremely reliable and trustworthy. Wouldn’t use anyone else for I know they will get the job done .",
+        "who": "Customer in West Midlands",
+        "label": "Which? review"
+      },
+      {
+        "text": "I have used Gas Safe for well over 10 years for boiler installation and servicing. Steve and his team have always provided top quality customer service, nothing is too much trouble and they always respond promptly when needed…",
+        "who": "Customer in Warwickshire",
+        "label": "Which? review"
+      }
+    ]
+  },
+  "quote": {
+    "intro": "Three quick steps and we’ll get back to you.",
+    "jobs": [
+      [
+        "New boiler",
+        "flame"
+      ],
+      [
+        "Service",
+        "wrench"
+      ],
+      [
+        "Breakdown",
+        "clock"
+      ],
+      [
+        "Gas safety",
+        "shield"
+      ],
+      [
+        "Plumbing",
+        "drop"
+      ],
+      [
+        "Something else",
+        "other"
+      ]
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Can I read more reviews?",
+      "a": "Yes. Gas Safe Central Heating is a Which? Trusted Trader, and you can read all our customer reviews on our Which? page."
+    },
+    {
+      "q": "Do you charge by the hour?",
+      "a": "No. We have a fixed price policy and no hourly charge, and we offer a free, no obligation quote and advice."
+    },
+    {
+      "q": "Which areas do you cover?",
+      "a": "Birmingham, Solihull, the West Midlands and Worcestershire, within about 50 miles of Birmingham."
+    }
+  ],
+  "cta": {
+    "heading": "Boiler playing up?"
+  },
+  "areas": [
+    "Birmingham",
+    "Solihull",
+    "Knowle",
+    "Coventry",
+    "Warwick",
+    "Leamington Spa",
+    "Stratford-upon-Avon",
+    "Worcester"
+  ],
+  "credits": "Stock photos for this preview by <a href=\"https://unsplash.com/@der_zeman?utm_source=simonrobert_web_design&utm_medium=referral\">Marc Zeman</a> and <a href=\"https://unsplash.com/@tinkerman?utm_source=simonrobert_web_design&utm_medium=referral\">Immo Wegmann</a> on <a href=\"https://unsplash.com/?utm_source=simonrobert_web_design&utm_medium=referral\">Unsplash</a>",
+  "free_quotes": true
+}

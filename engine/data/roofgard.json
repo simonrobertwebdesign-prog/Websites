@@ -1,0 +1,182 @@
+{
+  "slug": "roofgard",
+  "mode": "preview",
+  "accent": "#C0392B",
+  "business": {
+    "name": "Roofgard",
+    "short": "Roofgard",
+    "sub": "Roofing",
+    "logo_icon": "roof",
+    "trade": "Roofers",
+    "town": "Leamington Spa",
+    "county": "Warwickshire",
+    "phone": "01926 346364",
+    "phone_tel": "01926346364",
+    "email": "roofgard@mail.com",
+    "hours": "",
+    "company_line": "Roofgard Ltd · Company no. 14965353"
+  },
+  "seo": {
+    "title": "Roofgard – Roofer in Leamington Spa, Warwickshire",
+    "description": "Roof replacements, repairs, flat roofing, lead work, chimneys and roofline work in Leamington Spa and Warwickshire."
+  },
+  "hero": {
+    "eyebrow": "Radford Semele · Leamington Spa · Warwickshire",
+    "h1": "Roofing work,",
+    "h1_accent": "done properly.",
+    "lead": "Roof replacements and repairs, flat roofs, lead work, chimneys and roofline in Leamington Spa and across Warwickshire. We look forward to discussing your roofing needs.",
+    "image": "https://images.unsplash.com/photo-1633759593085-1eaeb724fc88?ixlib=rb-4.1.0&auto=format&fit=crop&w=2000&q=80",
+    "image_alt": "Roofer stripping an old roof"
+  },
+  "pills": [
+    "Which? Trusted Trader",
+    "Leamington Spa based",
+    "Pitched & flat roofs",
+    "Lead work"
+  ],
+  "marquee": [
+    "Roof replacement",
+    "Roof repairs",
+    "Flat roofing",
+    "GRP",
+    "Rubber (EPDM)",
+    "Lead work",
+    "Chimneys",
+    "Fascias & soffits"
+  ],
+  "services": {
+    "eyebrow": "What we do",
+    "heading": [
+      "Your roof,",
+      "looked after."
+    ],
+    "intro": "From a single repair to a full re-roof, plus flat roofs, lead work and roofline.",
+    "items": [
+      {
+        "title": "Roof replacement",
+        "text": "Old roofs stripped and re-covered.",
+        "icon": "roof",
+        "image": "https://images.unsplash.com/photo-1518736346281-76873166a64a?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Dark grey roof tiles"
+      },
+      {
+        "title": "Roof repairs",
+        "text": "Leaks found and fixed, and repointing.",
+        "icon": "wrench"
+      },
+      {
+        "title": "Flat roofing",
+        "text": "GRP fibreglass and rubber (EPDM) flat roofs.",
+        "icon": "shield"
+      },
+      {
+        "title": "Lead work & chimneys",
+        "text": "Lead work and chimney repairs.",
+        "icon": "hammer"
+      },
+      {
+        "title": "Roof lights & skylights",
+        "text": "Roof lights and skylights fitted.",
+        "icon": "sparkle"
+      },
+      {
+        "title": "Guttering, fascias & soffits",
+        "text": "Roofline and guttering so rainwater drains away properly.",
+        "icon": "drop"
+      }
+    ]
+  },
+  "work": {
+    "enabled": false
+  },
+  "steps": [
+    {
+      "title": "Get in touch",
+      "text": "Call, or send the quote form with a few details. Photos help."
+    },
+    {
+      "title": "We take a look",
+      "text": "We talk it through, look at the job and give you a clear quote."
+    },
+    {
+      "title": "Job done properly",
+      "text": "The work is done with care and the site left clean and tidy."
+    }
+  ],
+  "reviews": {
+    "heading": [
+      "What customers",
+      "say about us."
+    ],
+    "intro": "Real reviews from customers on Which? Trusted Traders.",
+    "items": [
+      {
+        "text": "Would absolutely recommend RoofGard. Rich is a credit to his profession his communication and time keeping is excellent. We had a few issues with the roof and upon Rich’s visual inspection he provided us with a video of the work required which was appreciated…",
+        "who": "Customer in Warwickshire",
+        "label": "Which? review"
+      },
+      {
+        "text": "Richard quoted for a roof replacement, easy guy to get on with, the works commenced ahead of schedule and were completed in a timely manor. The guys on site just got on with the job, no hassle no dramas.The building inspector came out and praised the quality of the installation…",
+        "who": "Customer in Warwickshire",
+        "label": "Which? review"
+      },
+      {
+        "text": "Richard and the team stripped and recovered a large single-storey roof. Team arrived when they said they would, worked hard, and did a quality job. Definitely recommended.",
+        "who": "Customer in Warwickshire",
+        "label": "Which? review"
+      }
+    ]
+  },
+  "quote": {
+    "intro": "Three quick steps and we’ll get back to you.",
+    "jobs": [
+      [
+        "New roof",
+        "roof"
+      ],
+      [
+        "Repair",
+        "wrench"
+      ],
+      [
+        "Flat roof",
+        "shield"
+      ],
+      [
+        "Lead or chimney",
+        "hammer"
+      ],
+      [
+        "Guttering",
+        "drop"
+      ],
+      [
+        "Something else",
+        "other"
+      ]
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Can I read more reviews?",
+      "a": "Yes. Roofgard is a Which? Trusted Trader, and you can read all our customer reviews on our Which? page."
+    },
+    {
+      "q": "Do you do emergency roof repairs?",
+      "a": "Yes. We offer an emergency roofing service. Call us to talk it through."
+    },
+    {
+      "q": "How do I get a quote?",
+      "a": "Use the quote form on this page or call 01926 346364. A few photos of the job help us give you an accurate price."
+    }
+  ],
+  "cta": {
+    "heading": "Roof leaking or past its best?"
+  },
+  "areas": [
+    "Leamington Spa",
+    "Radford Semele",
+    "Warwickshire"
+  ],
+  "credits": "Stock photos for this preview by <a href=\"https://unsplash.com/@zamclicks?utm_source=simonrobert_web_design&utm_medium=referral\">Zohair Mirza</a> and <a href=\"https://unsplash.com/@jasmund?utm_source=simonrobert_web_design&utm_medium=referral\">Michael Jasmund</a> on <a href=\"https://unsplash.com/?utm_source=simonrobert_web_design&utm_medium=referral\">Unsplash</a>"
+}

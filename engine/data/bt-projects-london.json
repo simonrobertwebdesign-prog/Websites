@@ -1,0 +1,183 @@
+{
+  "slug": "bt-projects-london",
+  "mode": "preview",
+  "accent": "#1D7874",
+  "business": {
+    "name": "BT Projects",
+    "short": "BT Projects",
+    "sub": "Kitchens & Bathrooms",
+    "logo_icon": "drop",
+    "trade": "Kitchen & bathroom fitters",
+    "town": "Barnet",
+    "county": "Greater London",
+    "phone": "07426 084786",
+    "phone_tel": "07426084786",
+    "email": "info@btprojectslondon.co.uk",
+    "hours": "Mon–Sat 8am–6pm",
+    "company_line": "BT Projects (London) Limited · Company no. 10382691"
+  },
+  "seo": {
+    "title": "BT Projects – Kitchens & Bathrooms in Barnet, London",
+    "description": "Kitchen and bathroom design and installation in Barnet and London, from concept through installation and finishing touches."
+  },
+  "hero": {
+    "eyebrow": "Barnet · North London",
+    "h1": "Kitchens & bathrooms,",
+    "h1_accent": "concept to finish.",
+    "lead": "Experienced kitchen and bathroom designers and installers. Our skilled team take care of everything from concept, through installation and finishing touches.",
+    "image": "https://images.unsplash.com/photo-1696987007764-7f8b85dd3033?ixlib=rb-4.1.0&auto=format&fit=crop&w=2000&q=80",
+    "image_alt": "Bathroom with two sinks and a shower"
+  },
+  "pills": [
+    "Which? Trusted Trader",
+    "Design & installation",
+    "Kitchens & bathrooms",
+    "Barnet based"
+  ],
+  "marquee": [
+    "Bathrooms",
+    "Wet rooms",
+    "Accessible bathrooms",
+    "Kitchens",
+    "Tiling",
+    "Flooring",
+    "Extensions",
+    "Refurbishments"
+  ],
+  "services": {
+    "eyebrow": "What we do",
+    "heading": [
+      "Every detail",
+      "considered."
+    ],
+    "intro": "Every aesthetic is considered, with our customers’ expectations at the forefront of everything we do.",
+    "items": [
+      {
+        "title": "Bathrooms",
+        "text": "Bathroom design, installation and refurbishment.",
+        "icon": "drop",
+        "image": "https://images.unsplash.com/photo-1638799869566-b17fa794c4de?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Bathroom with bath and walk-in shower"
+      },
+      {
+        "title": "Wet rooms & accessible bathrooms",
+        "text": "Wet rooms and accessible bathrooms and showers.",
+        "icon": "shield"
+      },
+      {
+        "title": "Kitchens",
+        "text": "Kitchen installation, refurbishment and tiling.",
+        "icon": "sparkle",
+        "image": "https://images.unsplash.com/photo-1628745277862-bc0b2d68c50c?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Kitchen with white and wood units"
+      },
+      {
+        "title": "Tiling & flooring",
+        "text": "Ceramic tiling, wood, laminate and vinyl flooring.",
+        "icon": "board"
+      },
+      {
+        "title": "Building work",
+        "text": "Extensions, loft and garage conversions, plastering and porches.",
+        "icon": "house"
+      },
+      {
+        "title": "Property refurbishment",
+        "text": "Full refurbishments, plumbing and home maintenance.",
+        "icon": "hammer"
+      }
+    ]
+  },
+  "work": {
+    "enabled": false
+  },
+  "steps": [
+    {
+      "title": "Get in touch",
+      "text": "Call, or send the quote form with a few details. Photos help."
+    },
+    {
+      "title": "We take a look",
+      "text": "We talk it through, look at the job and give you a clear quote."
+    },
+    {
+      "title": "Job done properly",
+      "text": "The work is done with care and the site left clean and tidy."
+    }
+  ],
+  "reviews": {
+    "heading": [
+      "What customers",
+      "say about us."
+    ],
+    "intro": "Real reviews from customers on Which? Trusted Traders.",
+    "items": [
+      {
+        "text": "BT projects renovated our bathroom and we were very happy with the result. Tudor and team were very easy to communicate with and were very helpful in answering all questions. The bathroom was completed to a high standard and was exactly as we wanted it. I would highly recommend BT projects for bathroom renovation.",
+        "who": "Customer in Greater London",
+        "label": "Which? review"
+      },
+      {
+        "text": "From our very first meeting with Tudor Bratu, we had a good feeling about working with him. We were absolutely right, Tudor, Catalin, and their team of craftsmen have been truly excellent… The work started on time, finished on time, and bang on budget.",
+        "who": "Customer in Greater London",
+        "label": "Which? review"
+      },
+      {
+        "text": "BT Projects, led by Catalin delivered an exceptional bathroom renovation experience. Catalin and John demonstrated professionalism from the initial measurement visit through to the final installation of a delayed sink unit…",
+        "who": "Customer in Greater London",
+        "label": "Which? review"
+      }
+    ]
+  },
+  "quote": {
+    "intro": "Three quick steps and we’ll get back to you.",
+    "jobs": [
+      [
+        "Bathroom",
+        "drop"
+      ],
+      [
+        "Wet room",
+        "shield"
+      ],
+      [
+        "Kitchen",
+        "sparkle"
+      ],
+      [
+        "Tiling or flooring",
+        "board"
+      ],
+      [
+        "Building work",
+        "house"
+      ],
+      [
+        "Something else",
+        "other"
+      ]
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Can I read more reviews?",
+      "a": "Yes. BT Projects is a Which? Trusted Trader, and you can read all our customer reviews on our Which? page."
+    },
+    {
+      "q": "Do you design as well as fit?",
+      "a": "Yes. We take care of everything from concept, through installation and finishing touches."
+    },
+    {
+      "q": "How do I get a quote?",
+      "a": "Use the quote form on this page or call 07426 084786. A few photos of the job help us give you an accurate price."
+    }
+  ],
+  "cta": {
+    "heading": "Planning a new kitchen or bathroom?"
+  },
+  "areas": [
+    "Barnet",
+    "Greater London"
+  ],
+  "credits": "Stock photos for this preview by <a href=\"https://unsplash.com/@claybanks?utm_source=simonrobert_web_design&utm_medium=referral\">Clay Banks</a>, <a href=\"https://unsplash.com/@lotusdnp?utm_source=simonrobert_web_design&utm_medium=referral\">Lotus Design N Print</a> and <a href=\"https://unsplash.com/@zacgudakov?utm_source=simonrobert_web_design&utm_medium=referral\">Zac Gudakov</a> on <a href=\"https://unsplash.com/?utm_source=simonrobert_web_design&utm_medium=referral\">Unsplash</a>"
+}

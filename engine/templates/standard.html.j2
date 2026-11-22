@@ -186,7 +186,7 @@ body.has-badge .mbar{bottom:76px}body.has-badge footer{padding-bottom:84px}
     </div>
     <ul class="details">
       <li><span class="i">{{ m.icon('phone', 18) }}</span><span><small>Phone</small><strong><a href="tel:{{ b.phone_tel }}" style="text-decoration:none">{{ b.phone }}</a></strong></span></li>
-      {% if b.email %}<li><span class="i">{{ m.icon('mail', 18) }}</span><span><small>Email</small><strong><a href="mailto:{{ b.email }}" style="text-decoration:none">{{ b.email }}</a></strong></span></li>{% endif %}
+      {% if b.email %}<li><span class="i">{{ m.icon('mail', 18) }}</span><span style="min-width:0"><small>Email</small><strong><a href="mailto:{{ b.email }}" style="text-decoration:none;overflow-wrap:anywhere">{{ b.email }}</a></strong></span></li>{% endif %}
       {% if b.hours %}<li><span class="i">{{ m.icon('clock', 18) }}</span><span><small>Opening hours</small><strong>{{ b.hours }}</strong></span></li>{% endif %}
       <li><span class="i">{{ m.icon('pin', 18) }}</span><span><small>Based in</small><strong>{{ b.town }}, {{ b.county }}</strong></span></li>
     </ul>

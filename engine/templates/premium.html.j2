@@ -173,7 +173,7 @@
       <a class="big-phone rv d2" href="tel:{{ b.phone_tel }}">{{ b.phone }}</a>
       <ul class="qlist rv d3">
         {% if b.hours %}<li><span class="i">{{ m.icon('clock', 20) }}</span><span>{{ b.hours }}<small>Opening hours</small></span></li>{% endif %}
-        {% if b.email %}<li><span class="i">{{ m.icon('mail', 20) }}</span><span><a href="mailto:{{ b.email }}" style="text-decoration:none">{{ b.email }}</a><small>Email</small></span></li>{% endif %}
+        {% if b.email %}<li><span class="i">{{ m.icon('mail', 20) }}</span><span style="min-width:0"><a href="mailto:{{ b.email }}" style="text-decoration:none;overflow-wrap:anywhere">{{ b.email }}</a><small>Email</small></span></li>{% endif %}
         <li><span class="i">{{ m.icon('pin', 20) }}</span><span>{{ b.town }}, {{ b.county }}<small>Based in</small></span></li>
       </ul>
     </div>

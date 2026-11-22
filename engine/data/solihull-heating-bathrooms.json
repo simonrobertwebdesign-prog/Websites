@@ -1,0 +1,187 @@
+{
+  "slug": "solihull-heating-bathrooms",
+  "mode": "preview",
+  "accent": "#E76F51",
+  "business": {
+    "name": "Solihull Heating & Bathrooms",
+    "short": "SHB",
+    "sub": "Heating & Bathrooms",
+    "logo_icon": "drop",
+    "trade": "Heating & bathrooms",
+    "town": "Solihull",
+    "county": "West Midlands",
+    "phone": "0121 371 0437",
+    "phone_tel": "01213710437",
+    "email": "james@shb-ltd.co.uk",
+    "hours": "",
+    "company_line": "Solihull Heating and Bathrooms Limited · Company no. 09073192"
+  },
+  "seo": {
+    "title": "Solihull Heating & Bathrooms – Boilers & Bathrooms in Solihull",
+    "description": "Boilers, central heating, plumbing and bathrooms across Solihull, Birmingham, Sutton Coldfield and Lichfield. Gas Safe registered engineers."
+  },
+  "hero": {
+    "eyebrow": "Solihull · Birmingham · Sutton Coldfield",
+    "h1": "Heating & bathrooms,",
+    "h1_accent": "in safe hands.",
+    "lead": "Teams covering Solihull, Birmingham and the south of the Midlands, plus Sutton Coldfield, Lichfield and the north. Over a decade’s experience.",
+    "image": "https://images.unsplash.com/photo-1638799869566-b17fa794c4de?ixlib=rb-4.1.0&auto=format&fit=crop&w=2000&q=80",
+    "image_alt": "Bathroom with bath and walk-in shower"
+  },
+  "pills": [
+    "Which? Trusted Trader",
+    "Gas Safe registered engineers",
+    "NIC electricians",
+    "Accessible bathrooms"
+  ],
+  "marquee": [
+    "Boilers",
+    "Central heating",
+    "Bathrooms",
+    "Wet rooms",
+    "Accessible showers",
+    "Plumbing",
+    "Water softeners",
+    "Unvented cylinders"
+  ],
+  "services": {
+    "eyebrow": "What we do",
+    "heading": [
+      "Prompt, punctual,",
+      "safe and tidy."
+    ],
+    "intro": "Repairs and call outs are prompt and punctual, and we work to fixed deadlines and stick to them.",
+    "items": [
+      {
+        "title": "Boilers & central heating",
+        "text": "Boilers installed, serviced and repaired, and full heating systems.",
+        "icon": "flame",
+        "image": "https://images.unsplash.com/photo-1732660513320-a6b489f3fece?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Heating engineer at work"
+      },
+      {
+        "title": "Bathrooms",
+        "text": "Bathroom design and refurbishment.",
+        "icon": "sparkle",
+        "image": "https://images.unsplash.com/photo-1696987007764-7f8b85dd3033?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Bathroom with two sinks and a shower"
+      },
+      {
+        "title": "Accessible bathrooms",
+        "text": "Bathrooms adapted for ease of use for disabled people and wheelchair users.",
+        "icon": "shield"
+      },
+      {
+        "title": "Plumbing",
+        "text": "Plumbing and emergency plumbing.",
+        "icon": "wrench"
+      },
+      {
+        "title": "Hot water & water softeners",
+        "text": "Unvented cylinders and water softeners installed and maintained.",
+        "icon": "drop"
+      },
+      {
+        "title": "Gas safety",
+        "text": "Gas safety testing and inspection.",
+        "icon": "check"
+      }
+    ]
+  },
+  "work": {
+    "enabled": false
+  },
+  "steps": [
+    {
+      "title": "Get in touch",
+      "text": "Call, or send the quote form with a few details. Photos help."
+    },
+    {
+      "title": "We take a look",
+      "text": "We talk it through, look at the job and give you a clear quote."
+    },
+    {
+      "title": "Job done properly",
+      "text": "The work is done with care and the site left clean and tidy."
+    }
+  ],
+  "reviews": {
+    "heading": [
+      "What customers",
+      "say about us."
+    ],
+    "intro": "Real reviews from customers on Which? Trusted Traders.",
+    "items": [
+      {
+        "text": "Great work done by the boys from Solihull heating and Bathrooms. They did a brilliant job at replacing my full heating system. They're very polite and their work is to a very high standard. Thanks James and team, again. Highly recommend",
+        "who": "Chris Steen",
+        "label": "Which? review"
+      },
+      {
+        "text": "Very impressed - rang in to discuss a leaky boiler issue and they took the time to really discuss all my options and what the problem could be rather than just try and send someone out straight away. I felt valued and admire their professionalism. Would defo recommend!",
+        "who": "Tony K",
+        "label": "Which? review"
+      },
+      {
+        "text": "Great time keeping, polite, great job, very tidy. Great to be fitted in one day.",
+        "who": "Nicholas B, West Midlands",
+        "label": "Which? review"
+      }
+    ]
+  },
+  "quote": {
+    "intro": "Three quick steps and we’ll get back to you.",
+    "jobs": [
+      [
+        "Boiler",
+        "flame"
+      ],
+      [
+        "Heating",
+        "house"
+      ],
+      [
+        "Bathroom",
+        "sparkle"
+      ],
+      [
+        "Accessible bathroom",
+        "shield"
+      ],
+      [
+        "Plumbing",
+        "wrench"
+      ],
+      [
+        "Something else",
+        "other"
+      ]
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Can I read more reviews?",
+      "a": "Yes. Solihull Heating & Bathrooms is a Which? Trusted Trader, and you can read all our customer reviews on our Which? page."
+    },
+    {
+      "q": "Are your engineers qualified?",
+      "a": "Yes. All our engineers are Gas Safe registered and NVQ qualified, and electrical work is done by our NIC electricians."
+    },
+    {
+      "q": "Which areas do you cover?",
+      "a": "Solihull, Birmingham and the south of the Midlands, plus Sutton Coldfield, Lichfield and the north of the region."
+    }
+  ],
+  "cta": {
+    "heading": "Boiler or bathroom project?"
+  },
+  "areas": [
+    "Solihull",
+    "Birmingham",
+    "Sutton Coldfield",
+    "Lichfield",
+    "West Midlands"
+  ],
+  "credits": "Stock photos for this preview by <a href=\"https://unsplash.com/@lotusdnp?utm_source=simonrobert_web_design&utm_medium=referral\">Lotus Design N Print</a>, <a href=\"https://unsplash.com/@der_zeman?utm_source=simonrobert_web_design&utm_medium=referral\">Marc Zeman</a> and <a href=\"https://unsplash.com/@claybanks?utm_source=simonrobert_web_design&utm_medium=referral\">Clay Banks</a> on <a href=\"https://unsplash.com/?utm_source=simonrobert_web_design&utm_medium=referral\">Unsplash</a>",
+  "free_quotes": true
+}
