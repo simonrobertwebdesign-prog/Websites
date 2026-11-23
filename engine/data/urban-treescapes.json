@@ -1,0 +1,196 @@
+{
+  "slug": "urban-treescapes",
+  "mode": "preview",
+  "accent": "#2E7D4F",
+  "business": {
+    "name": "Urban Treescapes",
+    "short": "Urban Treescapes",
+    "sub": "Tree Surgery",
+    "logo_icon": "leaf",
+    "trade": "Tree surgeons",
+    "town": "Rickmansworth",
+    "county": "Hertfordshire",
+    "phone": "01923 778681",
+    "phone_tel": "01923778681",
+    "email": "info@urbantreescapes.co.uk",
+    "hours": "Mon–Fri 8am–5pm",
+    "company_line": "Urban Treescapes Limited · Company no. 07033322"
+  },
+  "seo": {
+    "title": "Urban Treescapes – Tree Surgeons in Rickmansworth, Croxley & Chorleywood",
+    "description": "Family run tree surgery founded in 2009. NPTC qualified team, work to British Standard 3998, free no obligation quotes and advice."
+  },
+  "hero": {
+    "eyebrow": "Rickmansworth · Croxley · Chorleywood",
+    "h1": "Tree surgery,",
+    "h1_accent": "with care.",
+    "lead": "We always take into consideration the needs and requirements of the client alongside the health of the tree, the season and the surrounding environment.",
+    "image": "https://images.unsplash.com/photo-1754322449005-bdc38c631682?ixlib=rb-4.1.0&auto=format&fit=crop&w=2000&q=80",
+    "image_alt": "Tree surgeon working high in a tree with climbing gear"
+  },
+  "pills": [
+    "Which? Trusted Trader",
+    "Family run since 2009",
+    "NPTC qualified team",
+    "Work to BS 3998"
+  ],
+  "marquee": [
+    "Crown reductions",
+    "Re-shapes",
+    "Tree felling",
+    "Deadwooding",
+    "Crown lifting",
+    "Pollarding",
+    "Hedge cutting",
+    "Stump grinding",
+    "Commercial work",
+    "Emergency call outs"
+  ],
+  "services": {
+    "eyebrow": "What we do",
+    "heading": [
+      "Skilful work,",
+      "friendly service."
+    ],
+    "intro": "All of our team are fully trained and NPTC qualified, and all work is carried out to British Standard 3998 (Tree Work).",
+    "items": [
+      {
+        "title": "Crown reductions & re-shapes",
+        "text": "Reducing and reshaping trees, with the health of the tree in mind.",
+        "icon": "leaf",
+        "image": "https://images.unsplash.com/photo-1631300313270-227604e71ea5?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Tree surgeon working on a tree branch"
+      },
+      {
+        "title": "Tree felling",
+        "text": "Tree felling and removal.",
+        "icon": "wrench",
+        "image": "https://images.unsplash.com/photo-1754321860056-ca7254d5e7ac?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Arborist cutting a tree with a chainsaw"
+      },
+      {
+        "title": "Deadwooding, lifting & pollarding",
+        "text": "Deadwooding, crown lifting and pollarding.",
+        "icon": "sparkle"
+      },
+      {
+        "title": "Hedge cutting",
+        "text": "Hedge cutting and maintenance.",
+        "icon": "scissors"
+      },
+      {
+        "title": "Stump grinding",
+        "text": "Stump grinding to clear the ground after a tree comes down.",
+        "icon": "bolt"
+      },
+      {
+        "title": "Permissions handled",
+        "text": "We carry out TPO and Conservation area checks and apply for council permissions if required, free of charge.",
+        "icon": "shield"
+      }
+    ]
+  },
+  "work": {
+    "enabled": false
+  },
+  "steps": [
+    {
+      "title": "Get in touch",
+      "text": "Call, or send the quote form with a few details. Photos help."
+    },
+    {
+      "title": "We take a look",
+      "text": "We talk it through, look at the job and give you a clear quote."
+    },
+    {
+      "title": "Job done properly",
+      "text": "The work is done with care and the site left clean and tidy."
+    }
+  ],
+  "reviews": {
+    "heading": [
+      "What customers",
+      "say about us."
+    ],
+    "intro": "Real reviews from customers on Which? Trusted Traders.",
+    "items": [
+      {
+        "text": "We’ve been using Urban Treescapes for years and wouldn’t go elsewhere. Danny is very much an expert arborist and very professional in his approach. … I’d have no hesitation in recommending Danny and his colleague for any tree pruning or felling.",
+        "who": "Customer in Hertfordshire",
+        "label": "Which? review"
+      },
+      {
+        "text": "This is the second time we’ve asked Urban Treescapes to carry out work in our garden. Once again, they did a brilliant job. This time Danny reduced by 30% and reshaped an overgrown Norway maple near the boundary with our neighbours. …",
+        "who": "Customer in Hertfordshire",
+        "label": "Which? review"
+      },
+      {
+        "text": "Danny and Alan did an excellent job of trimming our (very tall) Eucalyptus tree, reducing the crown by about 30% and reshaping it. They did the work safely and carefully, and the end result is brilliant. They were really considerate, tidy and friendly. Would fully recommend them.",
+        "who": "Customer in Greater London",
+        "label": "Which? review"
+      }
+    ]
+  },
+  "quote": {
+    "intro": "Three quick steps and we’ll get back to you.",
+    "jobs": [
+      [
+        "Reduce or reshape",
+        "leaf"
+      ],
+      [
+        "Felling",
+        "wrench"
+      ],
+      [
+        "Hedges",
+        "scissors"
+      ],
+      [
+        "Stump grinding",
+        "bolt"
+      ],
+      [
+        "Emergency",
+        "shield"
+      ],
+      [
+        "Something else",
+        "other"
+      ]
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Can I read more reviews?",
+      "a": "Yes. Urban Treescapes is a Which? Trusted Trader, and you can read all our customer reviews on our Which? page."
+    },
+    {
+      "q": "Do you handle council permissions?",
+      "a": "Yes. We carry out TPO and Conservation area checks and apply for council permissions if required, free of charge for our clients."
+    },
+    {
+      "q": "Are you insured?",
+      "a": "Yes. We are fully insured with public liability cover to £5 million and employers liability to £10 million."
+    },
+    {
+      "q": "Which areas do you cover?",
+      "a": "Rickmansworth, Croxley, Chorleywood and the surrounding areas."
+    },
+    {
+      "q": "How do I get a quote?",
+      "a": "Use the quote form on this page or call 01923 778681. A few photos of the job help us give you an accurate price."
+    }
+  ],
+  "cta": {
+    "heading": "Got a tree that needs work?"
+  },
+  "areas": [
+    "Rickmansworth",
+    "Croxley",
+    "Chorleywood",
+    "Mill End"
+  ],
+  "credits": "Stock photos for this preview by <a href=\"https://unsplash.com/@masters25?utm_source=simonrobert_web_design&utm_medium=referral\">Zack Masters</a> and <a href=\"https://unsplash.com/@hjkp?utm_source=simonrobert_web_design&utm_medium=referral\">henry perks</a> on <a href=\"https://unsplash.com/?utm_source=simonrobert_web_design&utm_medium=referral\">Unsplash</a>",
+  "free_quotes": true
+}

@@ -1,0 +1,195 @@
+{
+  "slug": "new-century-landscaping",
+  "mode": "preview",
+  "accent": "#4F8A3C",
+  "business": {
+    "name": "New Century Landscaping",
+    "short": "New Century",
+    "sub": "Landscaping",
+    "logo_icon": "leaf",
+    "trade": "Landscape gardeners",
+    "town": "Oxhey",
+    "county": "Hertfordshire",
+    "phone": "01923 224882",
+    "phone_tel": "01923224882",
+    "email": "new.century@ntlworld.com",
+    "hours": "Mon–Fri 8am–5pm",
+    "company_line": "New Century Landscaping Ltd. · Company no. 05772181"
+  },
+  "seo": {
+    "title": "New Century Landscaping – Landscape Gardeners in Hertfordshire & North West London",
+    "description": "Patios, driveways, decking, turfing and complete garden design in Hertfordshire and North West London. Landscaping gardens for over 40 years."
+  },
+  "hero": {
+    "eyebrow": "Oxhey · Hertfordshire · North West London",
+    "h1": "Where the grass",
+    "h1_accent": "really is greener.",
+    "lead": "Landscaping gardens for over 40 years, from small terraced gardens to large commercial premises. Whether it is for the individual client or the busy property developer, we can tailor the landscaping project to your needs.",
+    "image": "https://images.unsplash.com/photo-1711098256574-7b497260cdc9?ixlib=rb-4.1.0&auto=format&fit=crop&w=2000&q=80",
+    "image_alt": "Landscaped garden patio with furniture and plants"
+  },
+  "pills": [
+    "Which? Trusted Trader",
+    "Established 1982",
+    "Over 40 years landscaping",
+    "Free, friendly expert advice"
+  ],
+  "marquee": [
+    "Patios",
+    "Driveways",
+    "Natural stone",
+    "Resin bound stone",
+    "Decking",
+    "Turfing",
+    "Artificial lawns",
+    "Drystone walling",
+    "Garden structures",
+    "Irrigation systems"
+  ],
+  "services": {
+    "eyebrow": "What we do",
+    "heading": [
+      "Complete gardens,",
+      "built properly."
+    ],
+    "intro": "We work closely with architects and surveyors, and we can build a complete garden from designs already drawn out.",
+    "items": [
+      {
+        "title": "Patios",
+        "text": "Patio installation and maintenance, including natural stone surfacing.",
+        "icon": "board",
+        "image": "https://images.unsplash.com/photo-1719324923613-ff0884b031ed?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Paved patio with outdoor furniture"
+      },
+      {
+        "title": "Driveways",
+        "text": "Driveway installation and maintenance, including resin bonded, resin bound and porous, SUDS compliant surfacing.",
+        "icon": "car"
+      },
+      {
+        "title": "Decking & garden structures",
+        "text": "Decking, sheds and shed bases, and other garden structures.",
+        "icon": "hammer",
+        "image": "https://images.unsplash.com/photo-1734079692147-c6fc9438a2d0?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Wooden deck beside a natural stone wall"
+      },
+      {
+        "title": "Lawns & turfing",
+        "text": "Turfing, artificial lawns, artificial green walls and irrigation systems.",
+        "icon": "leaf"
+      },
+      {
+        "title": "Walls & hard landscaping",
+        "text": "Hard landscaping and drystone walling.",
+        "icon": "house"
+      },
+      {
+        "title": "Garden design",
+        "text": "A complete garden design service, from installing outside lighting to building a water feature.",
+        "icon": "sparkle"
+      }
+    ]
+  },
+  "work": {
+    "enabled": false
+  },
+  "steps": [
+    {
+      "title": "Get in touch",
+      "text": "Call, or send the quote form with a few details. Photos help."
+    },
+    {
+      "title": "We take a look",
+      "text": "We talk it through, look at the job and give you a clear quote."
+    },
+    {
+      "title": "Job done properly",
+      "text": "The work is done with care and the site left clean and tidy."
+    }
+  ],
+  "reviews": {
+    "heading": [
+      "What customers",
+      "say about us."
+    ],
+    "intro": "Real reviews from customers on Which? Trusted Traders.",
+    "items": [
+      {
+        "text": "I am so very happy with New Century Landscaping, they have done a 1st class job! Paul & Matt who actually did the work are very friendly, hard working and did an amazing job! Dave who is the owner of the company is very friendly & gave me a great idea of what to do, really good company & workers would thoroughly recommend.",
+        "who": "Customer in Buckinghamshire",
+        "label": "Which? review"
+      },
+      {
+        "text": "Dave and his team laid a new Indian stone path and patio, and refurbished the existing patio. It was completed to schedule and budget. … They respected the existing garden plantings and always left the site tidy. We would certainly recommend them to friends and neighbours.",
+        "who": "Customer in Hertfordshire",
+        "label": "Which? review"
+      },
+      {
+        "text": "Dave Leete and his lads did a small height 15.5 metre railway sleeper wall in my garden. … In all, a well done and professional job which looked good and was reasonably priced. I happily recommend this firm to others.",
+        "who": "Customer in Hertfordshire",
+        "label": "Which? review"
+      }
+    ]
+  },
+  "quote": {
+    "intro": "Three quick steps and we’ll get back to you.",
+    "jobs": [
+      [
+        "Patio",
+        "board"
+      ],
+      [
+        "Driveway",
+        "car"
+      ],
+      [
+        "Decking",
+        "hammer"
+      ],
+      [
+        "Lawn or turf",
+        "leaf"
+      ],
+      [
+        "Garden design",
+        "sparkle"
+      ],
+      [
+        "Something else",
+        "other"
+      ]
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Can I read more reviews?",
+      "a": "Yes. New Century Landscaping is a Which? Trusted Trader, and you can read all our customer reviews on our Which? page."
+    },
+    {
+      "q": "Do you work for developers as well as homeowners?",
+      "a": "Yes. We work on everything from small terraced gardens to large commercial premises, for individual clients and property developers."
+    },
+    {
+      "q": "Can you build a garden from plans we already have?",
+      "a": "Yes. We work closely with architects and surveyors and can build a complete garden from designs already drawn out."
+    },
+    {
+      "q": "Which areas do you cover?",
+      "a": "Hertfordshire and North West London."
+    },
+    {
+      "q": "How do I get a quote?",
+      "a": "Use the quote form on this page or call 01923 224882. A few photos of the job help us give you an accurate price."
+    }
+  ],
+  "cta": {
+    "heading": "Planning a new garden?"
+  },
+  "areas": [
+    "Oxhey",
+    "Watford",
+    "Hertfordshire",
+    "North West London"
+  ],
+  "credits": "Stock photos for this preview by <a href=\"https://unsplash.com/@elise_flauntdigital?utm_source=simonrobert_web_design&utm_medium=referral\">Elise Brown</a>, <a href=\"https://unsplash.com/@tilemerchant?utm_source=simonrobert_web_design&utm_medium=referral\">Tile Merchant Ireland</a> and <a href=\"https://unsplash.com/@fraem?utm_source=simonrobert_web_design&utm_medium=referral\">FRAEM GmbH</a> on <a href=\"https://unsplash.com/?utm_source=simonrobert_web_design&utm_medium=referral\">Unsplash</a>"
+}

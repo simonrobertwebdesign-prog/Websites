@@ -1,0 +1,192 @@
+{
+  "slug": "g-hill-and-sons",
+  "mode": "preview",
+  "accent": "#C27C0E",
+  "business": {
+    "name": "G Hill & Sons",
+    "short": "G Hill & Sons",
+    "sub": "Driveways & Surfacing",
+    "logo_icon": "car",
+    "trade": "Driveway & surfacing contractors",
+    "town": "Minster Lovell",
+    "county": "Oxfordshire",
+    "phone": "01993 775568",
+    "phone_tel": "01993775568",
+    "email": "gordonhill.sons@btopenworld.com",
+    "hours": "",
+    "company_line": "G Hill & Sons Limited · Company no. 04641457"
+  },
+  "seo": {
+    "title": "G Hill & Sons – Driveways, Road Construction & Surfacing in Oxfordshire",
+    "description": "Family business in Minster Lovell with over 40 years' experience. Tarmac and asphalt drives, resin, block paving, patios and road surfacing across Oxfordshire."
+  },
+  "hero": {
+    "eyebrow": "Minster Lovell · Witney · Oxfordshire",
+    "h1": "From driveways",
+    "h1_accent": "to road construction.",
+    "lead": "A long established family business in Minster Lovell, with over 40 years' experience and expertise across Oxfordshire and the surrounding counties.",
+    "image": "https://images.unsplash.com/photo-1581037417787-dda6c19e06ad?ixlib=rb-4.1.0&auto=format&fit=crop&w=2000&q=80",
+    "image_alt": "Freshly surfaced road between trees"
+  },
+  "pills": [
+    "Which? Trusted Trader",
+    "Over 40 years' experience",
+    "Local authority approved",
+    "Federation of Master Builders"
+  ],
+  "marquee": [
+    "Tarmac drives",
+    "Asphalt drives",
+    "Resin bound stone",
+    "Resin bonded stone",
+    "Block paving",
+    "Patios",
+    "Natural stone",
+    "Porous surfacing",
+    "Road surfacing",
+    "Concrete"
+  ],
+  "services": {
+    "eyebrow": "What we do",
+    "heading": [
+      "Driveways and roads,",
+      "done properly."
+    ],
+    "intro": "We hold all the relevant street works qualifications, are fully insured, and are a local authority and county council approved contractor.",
+    "items": [
+      {
+        "title": "Tarmac & asphalt drives",
+        "text": "Tarmac and asphalt driveways, laid and maintained.",
+        "icon": "car",
+        "image": "https://images.unsplash.com/photo-1792630862663-5efa4de633e3?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Long asphalt driveway leading to a house"
+      },
+      {
+        "title": "Resin driveways",
+        "text": "Resin bound and resin bonded stone surfacing.",
+        "icon": "sparkle"
+      },
+      {
+        "title": "Block paving & patios",
+        "text": "Block paving, natural stone surfacing and patio installation and maintenance.",
+        "icon": "board",
+        "image": "https://images.unsplash.com/photo-1607708131130-19ed5e90043b?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Close-up of brick paving"
+      },
+      {
+        "title": "Road construction & surfacing",
+        "text": "Road construction and surfacing, with all the relevant street works qualifications.",
+        "icon": "wrench"
+      },
+      {
+        "title": "Porous surfacing",
+        "text": "Porous, SUDS compliant surfacing.",
+        "icon": "drop"
+      },
+      {
+        "title": "Approved & insured",
+        "text": "Fully insured, and members of Constructionline, the Guild of Master Craftsmen and the Federation of Master Builders.",
+        "icon": "shield"
+      }
+    ]
+  },
+  "work": {
+    "enabled": false
+  },
+  "steps": [
+    {
+      "title": "Get in touch",
+      "text": "Call, or send the quote form with a few details. Photos help."
+    },
+    {
+      "title": "We take a look",
+      "text": "We talk it through, look at the job and give you a clear quote."
+    },
+    {
+      "title": "Job done properly",
+      "text": "The work is done with care and the site left clean and tidy."
+    }
+  ],
+  "reviews": {
+    "heading": [
+      "What customers",
+      "say about us."
+    ],
+    "intro": "Real reviews from customers on Which? Trusted Traders.",
+    "items": [
+      {
+        "text": "Gordon and his team of lads resurfaced our shared drive in tarmac. The quote was very reasonable, they turned up on time and their work was efficient and quick. … They were very respectful, didn’t hear any bad language, they tidied up as they worked and completed the work in a day. Would definitely recommend!",
+        "who": "Customer in Oxfordshire",
+        "label": "Which? review"
+      },
+      {
+        "text": "Gordon and team repaired and resurfaced a part of the road, for our private lane. They were excellent, gave a good quote, came at the day and time stated and did exactly what was agreed, They were friendly and helpful and it was clear they worked as a team. …",
+        "who": "Customer in Oxfordshire",
+        "label": "Which? review"
+      },
+      {
+        "text": "My son and I are very pleased with my new resin driveway and footpaths. Gordon Hill and Sons acted professionally and efficiently and worked well as a team; they were punctual and friendly. … They charged a fair price, and liaised well with the team who laid the resin on the final day. We are delighted with the finished driveway …",
+        "who": "Customer in Gloucestershire",
+        "label": "Which? review"
+      }
+    ]
+  },
+  "quote": {
+    "intro": "Three quick steps and we’ll get back to you.",
+    "jobs": [
+      [
+        "Driveway",
+        "car"
+      ],
+      [
+        "Resin",
+        "sparkle"
+      ],
+      [
+        "Block paving",
+        "board"
+      ],
+      [
+        "Road or lane",
+        "wrench"
+      ],
+      [
+        "Patio",
+        "house"
+      ],
+      [
+        "Something else",
+        "other"
+      ]
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Can I read more reviews?",
+      "a": "Yes. G Hill & Sons is a Which? Trusted Trader, and you can read all our customer reviews on our Which? page."
+    },
+    {
+      "q": "Are you approved and insured?",
+      "a": "Yes. We are fully insured and a local authority and county council approved contractor, with all the relevant street works qualifications."
+    },
+    {
+      "q": "Which areas do you cover?",
+      "a": "Oxfordshire and the surrounding counties."
+    },
+    {
+      "q": "How do I get a quote?",
+      "a": "Use the quote form on this page or call 01993 775568. A few photos of the job help us give you an accurate price."
+    }
+  ],
+  "cta": {
+    "heading": "Need a new driveway or surface?"
+  },
+  "areas": [
+    "Minster Lovell",
+    "Witney",
+    "Oxfordshire",
+    "Surrounding counties"
+  ],
+  "credits": "Stock photos for this preview by <a href=\"https://unsplash.com/@lachiee?utm_source=simonrobert_web_design&utm_medium=referral\">Lachlan Matthews</a>, <a href=\"https://unsplash.com/@wolfie_website?utm_source=simonrobert_web_design&utm_medium=referral\">Josh Lemmon</a> and <a href=\"https://unsplash.com/@shelter?utm_source=simonrobert_web_design&utm_medium=referral\">Shelter</a> on <a href=\"https://unsplash.com/?utm_source=simonrobert_web_design&utm_medium=referral\">Unsplash</a>",
+  "free_quotes": true
+}

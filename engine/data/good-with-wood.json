@@ -1,0 +1,187 @@
+{
+  "slug": "good-with-wood",
+  "mode": "preview",
+  "accent": "#8A5A2B",
+  "business": {
+    "name": "Good With Wood",
+    "short": "Good With Wood",
+    "sub": "Carpentry & Joinery",
+    "logo_icon": "hammer",
+    "trade": "Carpenter & joiner",
+    "town": "Greenford",
+    "county": "West London",
+    "phone": "07956 372059",
+    "phone_tel": "07956372059",
+    "email": "kevin@goodwithwoodlondon.co.uk",
+    "hours": "",
+    "company_line": "Good With Wood (London) Limited · Company no. 09785530"
+  },
+  "seo": {
+    "title": "Good With Wood – Carpenter & Joiner in Ealing and West London",
+    "description": "Kevin Brosnan, carpenter and joiner with over 30 years' experience. Kitchens, bedrooms, bookcases, cabinets and understair storage, made in his own workshop."
+  },
+  "hero": {
+    "eyebrow": "Greenford · Ealing · West London",
+    "h1": "Carpentry & joinery,",
+    "h1_accent": "start to finish.",
+    "lead": "I am a carpenter and joiner with over 30 years' experience. I personally carry out all the works myself from start to finish, and all purpose made units, furniture and joinery are built in my spacious workshop.",
+    "image": "https://images.unsplash.com/photo-1683115096447-5d01c11d3ead?ixlib=rb-4.1.0&auto=format&fit=crop&w=2000&q=80",
+    "image_alt": "Carpenter working on a piece of wood"
+  },
+  "pills": [
+    "Which? Trusted Trader",
+    "Over 30 years' experience",
+    "Advanced City & Guilds",
+    "Fully insured"
+  ],
+  "marquee": [
+    "Kitchens",
+    "Bedroom furniture",
+    "Bookcases",
+    "Cabinets",
+    "Understair storage",
+    "Joinery",
+    "Purpose made units"
+  ],
+  "services": {
+    "eyebrow": "What I do",
+    "heading": [
+      "Purpose made,",
+      "fitted with care."
+    ],
+    "intro": "No work is sub contracted out, and I also project manage jobs if required.",
+    "items": [
+      {
+        "title": "Joinery & carpentry",
+        "text": "Purpose made units, furniture and joinery, built in my own workshop.",
+        "icon": "hammer",
+        "image": "https://images.unsplash.com/photo-1683115099260-5d5ae7e71a09?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Carpenter cutting a board with a circular saw"
+      },
+      {
+        "title": "Kitchens",
+        "text": "Kitchen design, installation and refurbishment.",
+        "icon": "house"
+      },
+      {
+        "title": "Bedroom fitting",
+        "text": "Bedroom fitting, with purpose made units.",
+        "icon": "sparkle"
+      },
+      {
+        "title": "Bookcases & cabinets",
+        "text": "Bookcases and cabinets, purpose made for your home.",
+        "icon": "board",
+        "image": "https://images.unsplash.com/photo-1683115099191-51e617fc5ff1?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Woodworking tools hanging on a workshop wall"
+      },
+      {
+        "title": "Understair storage",
+        "text": "Make use of the space under your stairs with purpose made storage.",
+        "icon": "wrench"
+      },
+      {
+        "title": "Project management",
+        "text": "I can project manage jobs if required.",
+        "icon": "shield"
+      }
+    ]
+  },
+  "work": {
+    "enabled": false
+  },
+  "steps": [
+    {
+      "title": "Get in touch",
+      "text": "Call, or send the quote form with a few details. Photos help."
+    },
+    {
+      "title": "We take a look",
+      "text": "We talk it through, look at the job and give you a clear quote."
+    },
+    {
+      "title": "Job done properly",
+      "text": "The work is done with care and the site left clean and tidy."
+    }
+  ],
+  "reviews": {
+    "heading": [
+      "What customers",
+      "say about us."
+    ],
+    "intro": "Real reviews from customers on Which? Trusted Traders.",
+    "items": [
+      {
+        "text": "Kevin was one of the best trades I had during my renovation. Very good communication, honest, helpful and dependable. He did an excellent job removing the creaks from my victorian staircase and helped trouble shot and fix some odd jobs. Clearly a very talented carpenter who I wouldn’t hesitate to recommend and use again!",
+        "who": "Customer in Greater London",
+        "label": "Which? review"
+      },
+      {
+        "text": "Kevin did a superb job working on our front door, adding peephole and fixing a faulty lock. … He is very attentive to detail and is very good with wood indeed! Kind, punctual and also very helpful advising what tools or hardware will be needed to achieve your vision.",
+        "who": "Customer in Greater London",
+        "label": "Which? review"
+      },
+      {
+        "text": "Good With Wood is carpentry of excellence. Kevin runs this business, and is a craftsman of distinction. … Basically, you will get the very highest quality work from Good With Wood at a fair price.",
+        "who": "Customer in Greater London",
+        "label": "Which? review"
+      }
+    ]
+  },
+  "quote": {
+    "intro": "Three quick steps and we’ll get back to you.",
+    "jobs": [
+      [
+        "Kitchen",
+        "house"
+      ],
+      [
+        "Bedroom",
+        "sparkle"
+      ],
+      [
+        "Shelves & cabinets",
+        "board"
+      ],
+      [
+        "Understairs",
+        "wrench"
+      ],
+      [
+        "Joinery",
+        "hammer"
+      ],
+      [
+        "Something else",
+        "other"
+      ]
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Can I read more reviews?",
+      "a": "Yes. Good With Wood is a Which? Trusted Trader, and you can read all my customer reviews on my Which? page."
+    },
+    {
+      "q": "Who does the work?",
+      "a": "I personally carry out all the works myself from start to finish. No work is sub contracted out."
+    },
+    {
+      "q": "Are you insured?",
+      "a": "Yes, I’m fully insured with public liability."
+    },
+    {
+      "q": "How do I get a quote?",
+      "a": "Use the quote form on this page or call 07956 372059. A few photos of the job help me give you an accurate price."
+    }
+  ],
+  "cta": {
+    "heading": "Need something made or fitted?"
+  },
+  "areas": [
+    "Greenford",
+    "Ealing",
+    "West London"
+  ],
+  "credits": "Stock photos for this preview by <a href=\"https://unsplash.com/@ryno_marais?utm_source=simonrobert_web_design&utm_medium=referral\">Ryno Marais</a> on <a href=\"https://unsplash.com/?utm_source=simonrobert_web_design&utm_medium=referral\">Unsplash</a>"
+}

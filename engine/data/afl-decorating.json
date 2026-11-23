@@ -1,0 +1,191 @@
+{
+  "slug": "afl-decorating",
+  "mode": "preview",
+  "accent": "#5B4BB7",
+  "business": {
+    "name": "AFL Decorating",
+    "short": "AFL",
+    "sub": "Painting & Decorating",
+    "logo_icon": "brush",
+    "trade": "Painters & decorators",
+    "town": "Harrow",
+    "county": "Middlesex",
+    "phone": "07951 706 547",
+    "phone_tel": "07951706547",
+    "email": "andrewfarkas@hotmail.co.uk",
+    "hours": "Mon–Sat 8am–8pm",
+    "company_line": "Andrew Farkas Limited · Company no. 04821805"
+  },
+  "seo": {
+    "title": "AFL Decorating – Painters & Decorators in Harrow, London",
+    "description": "Andrew Farkas Limited: quality painting and decorating since 1992, covering London and the Home Counties. Interior and exterior decorating, wallpapering, plastering and more."
+  },
+  "hero": {
+    "eyebrow": "Harrow · London · Home Counties",
+    "h1": "Painting & decorating,",
+    "h1_accent": "since 1992.",
+    "lead": "A client centred business, fully insured, focused on value for money while keeping the highest standards. We can manage your project from start to finish.",
+    "image": "https://images.unsplash.com/photo-1562259949-e8e7689d7828?ixlib=rb-4.1.0&auto=format&fit=crop&w=2000&q=80",
+    "image_alt": "Paint roller applying blue paint to a wall"
+  },
+  "pills": [
+    "Which? Trusted Trader",
+    "Established 1992",
+    "Fully insured",
+    "Traditional or eco-friendly materials"
+  ],
+  "marquee": [
+    "Interior decorating",
+    "Exterior decorating",
+    "Wallpapering",
+    "Wall murals",
+    "Hand painted kitchens",
+    "Plastering",
+    "Coving",
+    "Floor sanding",
+    "Doors",
+    "Schools & commercial"
+  ],
+  "services": {
+    "eyebrow": "What we do",
+    "heading": [
+      "Quality decorating,",
+      "start to finish."
+    ],
+    "intro": "We are able to use traditional materials or eco-friendly alternatives, depending on what you need.",
+    "items": [
+      {
+        "title": "Interior decorating",
+        "text": "Painting and decorating inside your home, managed from start to finish.",
+        "icon": "brush",
+        "image": "https://images.unsplash.com/photo-1652829069862-87874e119527?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Paint roller with fresh paint"
+      },
+      {
+        "title": "Exterior decorating",
+        "text": "Exterior painting and protection.",
+        "icon": "house"
+      },
+      {
+        "title": "Wallpapering & murals",
+        "text": "Wallpapering and wall murals.",
+        "icon": "board",
+        "image": "https://images.unsplash.com/photo-1672130515395-32583062f72b?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Bedroom wall with a floral pattern"
+      },
+      {
+        "title": "Hand painted kitchens",
+        "text": "Give your kitchen a new look with a hand painted finish.",
+        "icon": "sparkle"
+      },
+      {
+        "title": "Plastering & coving",
+        "text": "Plastering, skimming, rendering, coving and plaster mouldings.",
+        "icon": "wrench"
+      },
+      {
+        "title": "Floors, doors & carpentry",
+        "text": "Wood flooring, floor sanding and polishing, door repairs and carpentry.",
+        "icon": "hammer"
+      }
+    ]
+  },
+  "work": {
+    "enabled": false
+  },
+  "steps": [
+    {
+      "title": "Get in touch",
+      "text": "Call, or send the quote form with a few details. Photos help."
+    },
+    {
+      "title": "We take a look",
+      "text": "We talk it through, look at the job and give you a clear quote."
+    },
+    {
+      "title": "Job done properly",
+      "text": "The work is done with care and the site left clean and tidy."
+    }
+  ],
+  "reviews": {
+    "heading": [
+      "What customers",
+      "say about us."
+    ],
+    "intro": "Real reviews from customers on Which? Trusted Traders.",
+    "items": [
+      {
+        "text": "Andrew Farkas and his team worked very efficiently. They carried out external painting and repaired garage doors and a gate. The work was carried out as agreed and according to budget. Andrew and his team were helpful, reliable and kept me fully informed. I am very pleased with the result and would use them again. Highly recommended.",
+        "who": "Customer in Greater London",
+        "label": "Which? review"
+      },
+      {
+        "text": "Detailed quote (which was stuck to), good communications throughout, excellent work and thorough cleaning up afterwards. We had the dining room repaired and decorated - strong recommendation from me.",
+        "who": "Customer in Greater London",
+        "label": "Which? review"
+      },
+      {
+        "text": "I recently received a quote for the work required. The work commenced at the arranged time and date and was completed in time to my satisfaction. The painter/decorator was more than helpful and went the 'extra mile' to do all that I requested. …",
+        "who": "Customer in Greater London",
+        "label": "Which? review"
+      }
+    ]
+  },
+  "quote": {
+    "intro": "Three quick steps and we’ll get back to you.",
+    "jobs": [
+      [
+        "Interior",
+        "brush"
+      ],
+      [
+        "Exterior",
+        "house"
+      ],
+      [
+        "Wallpaper",
+        "board"
+      ],
+      [
+        "Kitchen",
+        "sparkle"
+      ],
+      [
+        "Plastering",
+        "wrench"
+      ],
+      [
+        "Something else",
+        "other"
+      ]
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Can I read more reviews?",
+      "a": "Yes. Andrew Farkas Ltd is a Which? Trusted Trader, and you can read all our customer reviews on our Which? page."
+    },
+    {
+      "q": "Do you take on schools and commercial work?",
+      "a": "Yes. As well as homes, we decorate schools and commercial premises."
+    },
+    {
+      "q": "Which areas do you cover?",
+      "a": "London and the Home Counties."
+    },
+    {
+      "q": "How do I get a quote?",
+      "a": "Use the quote form on this page or call 07951 706 547. A few photos of the job help us give you an accurate price."
+    }
+  ],
+  "cta": {
+    "heading": "Got a room or a house that needs decorating?"
+  },
+  "areas": [
+    "Harrow",
+    "London",
+    "Middlesex",
+    "Home Counties"
+  ],
+  "credits": "Stock photos for this preview by <a href=\"https://unsplash.com/@themephotos?utm_source=simonrobert_web_design&utm_medium=referral\">Theme Photos</a>, <a href=\"https://unsplash.com/@inkyhills?utm_source=simonrobert_web_design&utm_medium=referral\">Callum Hill</a> and <a href=\"https://unsplash.com/@progalski?utm_source=simonrobert_web_design&utm_medium=referral\">Piotr Rogalski</a> on <a href=\"https://unsplash.com/?utm_source=simonrobert_web_design&utm_medium=referral\">Unsplash</a>"
+}

@@ -1,0 +1,189 @@
+{
+  "slug": "attymass-brickwork",
+  "mode": "preview",
+  "accent": "#B5562F",
+  "business": {
+    "name": "Attymass Brickwork",
+    "short": "Attymass",
+    "sub": "Brickwork & Building",
+    "logo_icon": "hammer",
+    "trade": "Bricklayers & builders",
+    "town": "North West London",
+    "county": "London",
+    "phone": "07940 582424",
+    "phone_tel": "07940582424",
+    "email": "john@attymassbrickwork.com",
+    "hours": "Mon–Sat 8am–8pm",
+    "company_line": "Attymass Brickwork Limited · Company no. 05543903"
+  },
+  "seo": {
+    "title": "Attymass Brickwork – Bricklayers & Builders in North West London",
+    "description": "Specialists in every aspect of brickwork: new builds, extensions, renovations and all styles of pointing. Formed in 2004, with 30 years in the industry."
+  },
+  "hero": {
+    "eyebrow": "North West London",
+    "h1": "Brickwork",
+    "h1_accent": "specialists.",
+    "lead": "Formed in 2004 and backed by 30 years in the industry. We specialise in every aspect of brickwork, including new builds, extensions, renovations and all styles of pointing on period properties or new builds.",
+    "image": "https://images.unsplash.com/photo-1701850009190-2859ba2aeea6?ixlib=rb-4.1.0&auto=format&fit=crop&w=2000&q=80",
+    "image_alt": "Bricklayer spreading mortar on a brick wall"
+  },
+  "pills": [
+    "Which? Trusted Trader",
+    "Formed in 2004",
+    "30 years in the industry",
+    "Member of the Guild of Bricklayers"
+  ],
+  "marquee": [
+    "New builds",
+    "Extensions",
+    "Renovations",
+    "Pointing",
+    "Heritage brickwork",
+    "Brick & stone cleaning",
+    "Groundworks",
+    "Plastering",
+    "Decorating",
+    "Building maintenance"
+  ],
+  "services": {
+    "eyebrow": "What we do",
+    "heading": [
+      "From the ground works",
+      "to the finishing trades."
+    ],
+    "intro": "We have worked on various domestic and commercial properties and grown to undertake all aspects of construction, from the ground works through to the finishing trades.",
+    "items": [
+      {
+        "title": "Bricklaying",
+        "text": "New builds, extensions and renovations, with every aspect of brickwork covered.",
+        "icon": "hammer",
+        "image": "https://images.unsplash.com/photo-1617720356637-6264c1c0b4bb?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Builder laying blocks on a wall"
+      },
+      {
+        "title": "Pointing & heritage brickwork",
+        "text": "All styles of pointing on period properties or new builds.",
+        "icon": "house",
+        "image": "https://images.unsplash.com/photo-1604177772727-521c04d3bdb5?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Close-up of a brick wall"
+      },
+      {
+        "title": "Brick & stone cleaning",
+        "text": "Brick and stonework cleaning, plus graffiti and oil stain removal.",
+        "icon": "sparkle"
+      },
+      {
+        "title": "Groundworks",
+        "text": "Groundwork, brickwork paving and guttering repairs.",
+        "icon": "wrench"
+      },
+      {
+        "title": "Decorating & carpentry",
+        "text": "Plastering, interior and exterior decorating, and carpentry.",
+        "icon": "brush"
+      },
+      {
+        "title": "Building maintenance",
+        "text": "A building maintenance service. New for 2026: house clearance.",
+        "icon": "shield"
+      }
+    ]
+  },
+  "work": {
+    "enabled": false
+  },
+  "steps": [
+    {
+      "title": "Get in touch",
+      "text": "Call, or send the quote form with a few details. Photos help."
+    },
+    {
+      "title": "We take a look",
+      "text": "We talk it through, look at the job and give you a clear quote."
+    },
+    {
+      "title": "Job done properly",
+      "text": "The work is done with care and the site left clean and tidy."
+    }
+  ],
+  "reviews": {
+    "heading": [
+      "What customers",
+      "say about us."
+    ],
+    "intro": "Real reviews from customers on Which? Trusted Traders.",
+    "items": [
+      {
+        "text": "John and his team did a fantastic job of cleaning and repointing our house. The team went above and beyond to ensure they delivered the work to the highest standard. … Big thanks to the team we couldn't be happier with the final result.",
+        "who": "Customer in Greater London",
+        "label": "Which? review"
+      },
+      {
+        "text": "John and his team were simply fantastic in every way. From initial contact to job completion everything was perfect. The team repointed two chimneys and repaired some brickwork in our very old (400 years) house. Everything was done with utmost care and the final results are just beautiful. …",
+        "who": "Customer in Buckinghamshire",
+        "label": "Which? review"
+      },
+      {
+        "text": "Third time I have used Attymass and they did exceptional work as usual. Used them for a full room painting, repair of leaking window, and some brick repointing work around the window.",
+        "who": "Customer in Greater London",
+        "label": "Which? review"
+      }
+    ]
+  },
+  "quote": {
+    "intro": "Three quick steps and we’ll get back to you.",
+    "jobs": [
+      [
+        "Brickwork",
+        "hammer"
+      ],
+      [
+        "Pointing",
+        "house"
+      ],
+      [
+        "Cleaning",
+        "sparkle"
+      ],
+      [
+        "Groundworks",
+        "wrench"
+      ],
+      [
+        "Decorating",
+        "brush"
+      ],
+      [
+        "Something else",
+        "other"
+      ]
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Can I read more reviews?",
+      "a": "Yes. Attymass Brickwork is a Which? Trusted Trader, and you can read all our customer reviews on our Which? page."
+    },
+    {
+      "q": "Do you work on period properties?",
+      "a": "Yes. We do all styles of pointing on period properties as well as new builds."
+    },
+    {
+      "q": "Do you take on commercial work?",
+      "a": "Yes. We have worked on various domestic and commercial properties."
+    },
+    {
+      "q": "How do I get a quote?",
+      "a": "Use the quote form on this page or call 07940 582424. A few photos of the job help us give you an accurate price."
+    }
+  ],
+  "cta": {
+    "heading": "Got a brickwork job in mind?"
+  },
+  "areas": [
+    "North West London",
+    "Greater London"
+  ],
+  "credits": "Stock photos for this preview by <a href=\"https://unsplash.com/@solomen?utm_source=simonrobert_web_design&utm_medium=referral\">Solømen</a>, <a href=\"https://unsplash.com/@eniyato?utm_source=simonrobert_web_design&utm_medium=referral\">Oladipo Adejumo</a> and <a href=\"https://unsplash.com/@thejmoore?utm_source=simonrobert_web_design&utm_medium=referral\">Jon Moore</a> on <a href=\"https://unsplash.com/?utm_source=simonrobert_web_design&utm_medium=referral\">Unsplash</a>"
+}
