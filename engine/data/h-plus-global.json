@@ -1,0 +1,192 @@
+{
+  "slug": "h-plus-global",
+  "mode": "preview",
+  "accent": "#B04A2F",
+  "business": {
+    "name": "H Plus Global",
+    "short": "H Plus",
+    "sub": "Building & Decorating",
+    "logo_icon": "house",
+    "trade": "Builders & decorators",
+    "town": "Feltham",
+    "county": "Middlesex",
+    "phone": "07720 377205",
+    "phone_tel": "07720377205",
+    "email": "tom.urbanski@hplus.global",
+    "hours": "Mon–Sat 8am–8pm",
+    "company_line": "H Plus Global Ltd · Company no. 08478071"
+  },
+  "seo": {
+    "title": "H Plus Global – Builders, Decorators & Home Improvements in Feltham, Middlesex",
+    "description": "Building work, interior and exterior decorating, kitchens, bathrooms, roofing and doors in Feltham and Middlesex."
+  },
+  "hero": {
+    "eyebrow": "Feltham · Middlesex",
+    "h1": "Building, decorating",
+    "h1_accent": "and repairs.",
+    "lead": "Building work, interior and exterior decorating, kitchens, bathrooms, roofing and doors, all from one team.",
+    "image": "https://images.unsplash.com/photo-1688372199140-cade7ae820fe?ixlib=rb-4.1.0&auto=format&fit=crop&w=2000&q=80",
+    "image_alt": "Decorator painting a wall with a roller"
+  },
+  "pills": [
+    "Which? Trusted Trader",
+    "Builders & decorators",
+    "Kitchens & bathrooms",
+    "Roofing & doors"
+  ],
+  "marquee": [
+    "Extensions",
+    "Loft conversions",
+    "Garage conversions",
+    "Plastering",
+    "Interior decorating",
+    "Exterior decorating",
+    "Wallpapering",
+    "Kitchens",
+    "Bathrooms",
+    "Wet rooms",
+    "Flat roofing",
+    "Guttering",
+    "Doors"
+  ],
+  "services": {
+    "eyebrow": "What we do",
+    "heading": [
+      "One team for",
+      "your home."
+    ],
+    "intro": "Building work, decorating, kitchens, bathrooms, roofing and doors.",
+    "items": [
+      {
+        "title": "Building work",
+        "text": "Extensions, loft conversions, garage conversions, porches, conservatories and plastering.",
+        "icon": "hammer"
+      },
+      {
+        "title": "Decorating",
+        "text": "Interior and exterior decorating, wallpapering, exterior house painting, rendering and wall coating.",
+        "icon": "brush",
+        "image": "https://images.unsplash.com/photo-1599619585752-c3edb42a414c?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Paint roller in a tray of white paint"
+      },
+      {
+        "title": "Kitchens",
+        "text": "Kitchen design, installation and refurbishment, worktops and kitchen tiling.",
+        "icon": "house"
+      },
+      {
+        "title": "Bathrooms",
+        "text": "Bathroom design, installation and refurbishment, bathroom tiling and wet rooms.",
+        "icon": "drop",
+        "image": "https://images.unsplash.com/photo-1620626011761-996317b8d101?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Bathroom with a freestanding bath"
+      },
+      {
+        "title": "Roofing",
+        "text": "Flat roofing, rubber (EPDM) and GRP roofing, lead work, guttering, fascias and soffits.",
+        "icon": "roof"
+      },
+      {
+        "title": "Doors",
+        "text": "Front doors, French doors, patio, bi-fold, composite, timber, uPVC and aluminium doors.",
+        "icon": "shield"
+      }
+    ]
+  },
+  "work": {
+    "enabled": false
+  },
+  "steps": [
+    {
+      "title": "Get in touch",
+      "text": "Call, or send the quote form with a few details. Photos help."
+    },
+    {
+      "title": "We take a look",
+      "text": "We talk it through, look at the job and give you a clear quote."
+    },
+    {
+      "title": "Job done properly",
+      "text": "The work is done with care and the site left clean and tidy."
+    }
+  ],
+  "reviews": {
+    "heading": [
+      "What customers",
+      "say about us."
+    ],
+    "intro": "Real reviews from customers on Which? Trusted Traders.",
+    "items": [
+      {
+        "text": "As well as a full redecoration there was damage repairs required from a roof leak which were handled brilliantly. Tom was very helpful. It’s easy to recommend this company as they provided an excellent service.",
+        "who": "Customer in Surrey",
+        "label": "Which? review"
+      },
+      {
+        "text": "My kitchen had been exhibiting damp in multiple places over many years and I couldn't seem to fix the problem. Tom and his team surveyed and diagnosed the problem and set to work on the external problem (which was structural) and then fixed the internal problem which was cosmetic. An excellent job. His team is so professional and polite and I'd strongly recommend them to anyone.",
+        "who": "Customer in Greater London",
+        "label": "Which? review"
+      },
+      {
+        "text": "Leaks, leaks and more leaks over many years. Tom and his team fixed this chronic challenge in a very short period of time and also repainted the kitchen as well so I got even more benefit than I signed up for. The team were lovely, hard working and very skilled. The kitchen is now a joy to be in come rain or shine. Thanks Guys!!",
+        "who": "Customer in Greater London",
+        "label": "Which? review"
+      }
+    ]
+  },
+  "quote": {
+    "intro": "Three quick steps and we’ll get back to you.",
+    "jobs": [
+      [
+        "Building work",
+        "hammer"
+      ],
+      [
+        "Decorating",
+        "brush"
+      ],
+      [
+        "Kitchen",
+        "house"
+      ],
+      [
+        "Bathroom",
+        "drop"
+      ],
+      [
+        "Roofing",
+        "roof"
+      ],
+      [
+        "Something else",
+        "other"
+      ]
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Can I read more reviews?",
+      "a": "Yes. H Plus Global is a Which? Trusted Trader, and you can read all our customer reviews on our Which? page."
+    },
+    {
+      "q": "What kind of work do you do?",
+      "a": "Building work, interior and exterior decorating, kitchens, bathrooms, roofing and doors."
+    },
+    {
+      "q": "When are you open?",
+      "a": "Monday to Saturday, 8am to 8pm."
+    },
+    {
+      "q": "How do I get a quote?",
+      "a": "Use the quote form on this page or call 07720 377205. A few photos of the job help us give you an accurate price."
+    }
+  ],
+  "cta": {
+    "heading": "Planning work on your home?"
+  },
+  "areas": [
+    "Feltham",
+    "Middlesex"
+  ],
+  "credits": "Stock photos for this preview by <a href=\"https://unsplash.com/@mkumbwajr?utm_source=simonrobert_web_design&utm_medium=referral\">Ali Mkumbwa</a>, <a href=\"https://unsplash.com/@karlsolano?utm_source=simonrobert_web_design&utm_medium=referral\">Karl Solano</a> and <a href=\"https://unsplash.com/@steveungermann?utm_source=simonrobert_web_design&utm_medium=referral\">Steven Ungermann</a> on <a href=\"https://unsplash.com/?utm_source=simonrobert_web_design&utm_medium=referral\">Unsplash</a>"
+}

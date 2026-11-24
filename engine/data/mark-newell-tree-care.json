@@ -1,0 +1,198 @@
+{
+  "slug": "mark-newell-tree-care",
+  "mode": "preview",
+  "accent": "#3F6B3A",
+  "business": {
+    "name": "Mark Newell Tree Care",
+    "short": "Mark Newell",
+    "sub": "Tree Care",
+    "logo_icon": "leaf",
+    "trade": "Tree surgeon",
+    "town": "Bidford-on-Avon",
+    "county": "Warwickshire",
+    "phone": "01789 774091",
+    "phone_tel": "01789774091",
+    "email": "enquiries@marknewelltreecare.co.uk",
+    "hours": "",
+    "company_line": "Mark Newell Tree Care Ltd · Company no. 09258803"
+  },
+  "seo": {
+    "title": "Mark Newell Tree Care – Tree Surgeon in Stratford-upon-Avon & Warwickshire",
+    "description": "Fully qualified and insured tree surgeon based in Stratford-upon-Avon, covering Warwickshire, Worcestershire and the Cotswolds. Felling, reductions, pruning, stump grinding and more."
+  },
+  "hero": {
+    "eyebrow": "Stratford-upon-Avon · Warwickshire · Cotswolds",
+    "h1": "Professional tree care",
+    "h1_accent": "at its best.",
+    "lead": "Mark Newell is a fully qualified and insured tree surgeon with a national diploma in tree management and arboriculture. All work undertaken is fully insured and meets British Standard 3998 requirements.",
+    "image": "https://images.unsplash.com/photo-1657730391002-bf55ff069a80?ixlib=rb-4.1.0&auto=format&fit=crop&w=2000&q=80",
+    "image_alt": "Tree surgeon climbing a tree with ropes"
+  },
+  "pills": [
+    "Which? Trusted Trader",
+    "National Diploma in Arboriculture",
+    "Fully insured",
+    "Work to BS 3998"
+  ],
+  "marquee": [
+    "Felling",
+    "Section felling",
+    "Reductions",
+    "Thinning",
+    "Pruning",
+    "Pollarding",
+    "Stump grinding",
+    "Cable bracing",
+    "Tree planting",
+    "Deadwood removal",
+    "Hedge cutting"
+  ],
+  "services": {
+    "eyebrow": "What we do",
+    "heading": [
+      "Every aspect",
+      "of tree care."
+    ],
+    "intro": "From work in private gardens to site clearance, whether it is a hedge that needs trimming or a tree that requires felling, there is no job too big.",
+    "items": [
+      {
+        "title": "Tree felling",
+        "text": "Felling and section felling, from private gardens to site clearance.",
+        "icon": "leaf",
+        "image": "https://images.unsplash.com/photo-1585952749437-d3bc7940958a?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Tree surgeon working on a high branch"
+      },
+      {
+        "title": "Reductions & thinning",
+        "text": "Tree reductions, thinning and lifting.",
+        "icon": "sparkle"
+      },
+      {
+        "title": "Pruning & pollarding",
+        "text": "Pruning, pollarding and deadwood removal.",
+        "icon": "leaf"
+      },
+      {
+        "title": "Stump grinding",
+        "text": "Stump grinding to clear the ground after a tree comes down.",
+        "icon": "wrench",
+        "image": "https://images.unsplash.com/photo-1583095117095-adaeabc401ab?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Stack of freshly cut logs"
+      },
+      {
+        "title": "Hedges & planting",
+        "text": "Hedge cutting and tree planting.",
+        "icon": "house"
+      },
+      {
+        "title": "Emergency call outs",
+        "text": "Emergency call outs, plus cable bracing.",
+        "icon": "shield"
+      }
+    ]
+  },
+  "work": {
+    "enabled": false
+  },
+  "steps": [
+    {
+      "title": "Get in touch",
+      "text": "Call, or send the quote form with a few details. Photos help."
+    },
+    {
+      "title": "We take a look",
+      "text": "We talk it through, look at the job and give you a clear quote."
+    },
+    {
+      "title": "Job done properly",
+      "text": "The work is done with care and the site left clean and tidy."
+    }
+  ],
+  "reviews": {
+    "heading": [
+      "What customers",
+      "say about us."
+    ],
+    "intro": "Real reviews from customers on Which? Trusted Traders.",
+    "items": [
+      {
+        "text": "Superb job by Mark and his assistant in sorting out a number of our trees. They clearly care very much about trees and their care. Mark gives truthful advice about what to do and not to do, isn’t looking for work to make money, but to do the right thing by trees and his customers. … Highly highly recommended.",
+        "who": "Customer in Warwickshire",
+        "label": "Which? review"
+      },
+      {
+        "text": "This is the fifth time I have used Mark Newell Tree Care and that in itself is testament to how reliably good he is. He is very experienced: we are in a conservation area and he takes care of all the permissions and paperwork etc. He is also very clear about costs and schedules. … Highly recommended.",
+        "who": "Customer in Warwickshire",
+        "label": "Which? review"
+      },
+      {
+        "text": "Mark and his team did a superb job at our house. … Mark took care of everything from applying for conservation permission to work on the trees, to carrying out the work over two days and to tidying everything. The trees look great and the garden was left spotless. Thank you.",
+        "who": "Customer in Warwickshire",
+        "label": "Which? review"
+      }
+    ]
+  },
+  "quote": {
+    "intro": "Three quick steps and we’ll get back to you.",
+    "jobs": [
+      [
+        "Tree felling",
+        "leaf"
+      ],
+      [
+        "Reduction or pruning",
+        "sparkle"
+      ],
+      [
+        "Stump grinding",
+        "wrench"
+      ],
+      [
+        "Hedge cutting",
+        "house"
+      ],
+      [
+        "Emergency",
+        "shield"
+      ],
+      [
+        "Something else",
+        "other"
+      ]
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Can I read more reviews?",
+      "a": "Yes. Mark Newell Tree Care is a Which? Trusted Trader, and you can read all our customer reviews on our Which? page."
+    },
+    {
+      "q": "Are you qualified and insured?",
+      "a": "Yes. Mark is a fully qualified and insured tree surgeon with a national diploma in tree management and arboriculture, and all work meets British Standard 3998 requirements."
+    },
+    {
+      "q": "Which areas do you cover?",
+      "a": "We're based in Stratford-upon-Avon and cover a large area across Warwickshire, Worcestershire and the Cotswolds."
+    },
+    {
+      "q": "Who do you work for?",
+      "a": "Private customers, large building companies, gardeners and landscape gardeners, estate agents, property management companies, chartered surveyors and corporate businesses."
+    },
+    {
+      "q": "How do I get a quote?",
+      "a": "Use the quote form on this page or call 01789 774091 to arrange a free no obligation quote."
+    }
+  ],
+  "cta": {
+    "heading": "Got a tree that needs attention?"
+  },
+  "areas": [
+    "Stratford-upon-Avon",
+    "Bidford-on-Avon",
+    "Warwickshire",
+    "Worcestershire",
+    "The Cotswolds"
+  ],
+  "credits": "Stock photos for this preview by <a href=\"https://unsplash.com/@thomaskinto?utm_source=simonrobert_web_design&utm_medium=referral\">Thomas Kinto</a>, <a href=\"https://unsplash.com/@ledoc?utm_source=simonrobert_web_design&utm_medium=referral\">Andre Ouellet</a> and <a href=\"https://unsplash.com/@etiennegirardet?utm_source=simonrobert_web_design&utm_medium=referral\">Etienne Girardet</a> on <a href=\"https://unsplash.com/?utm_source=simonrobert_web_design&utm_medium=referral\">Unsplash</a>",
+  "free_quotes": true
+}

@@ -1,0 +1,196 @@
+{
+  "slug": "hertford-plumbers",
+  "mode": "preview",
+  "accent": "#1F6F8B",
+  "business": {
+    "name": "Hertford Plumbers",
+    "short": "Hertford Plumbers",
+    "sub": "Plumbing & Heating",
+    "logo_icon": "drop",
+    "trade": "Plumbers & heating engineers",
+    "town": "Ware",
+    "county": "Hertfordshire",
+    "phone": "07721 727514",
+    "phone_tel": "07721727514",
+    "email": "hertfordplumbersltd@outlook.com",
+    "hours": "",
+    "company_line": "Hertford Plumbers Limited · Company no. 09196662"
+  },
+  "seo": {
+    "title": "Hertford Plumbers – Plumbing & Heating in Hertfordshire, Essex & London",
+    "description": "A family company providing all aspects of plumbing and heating: boilers, air source heat pumps, underfloor heating, bathrooms and wet rooms. Worcester accredited installer."
+  },
+  "hero": {
+    "eyebrow": "Ware · Hertfordshire · Essex · London",
+    "h1": "Plumbing & heating,",
+    "h1_accent": "every part of it.",
+    "lead": "Hertford Plumbers Ltd is a family company providing all aspects of plumbing and heating, from boiler installations, breakdowns and services to bathroom and wet-room installations.",
+    "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.1.0&auto=format&fit=crop&w=2000&q=80",
+    "image_alt": "Modern bathroom with a walk-in shower"
+  },
+  "pills": [
+    "Which? Trusted Trader",
+    "Family company",
+    "Worcester accredited installer",
+    "Fully insured"
+  ],
+  "marquee": [
+    "Boiler installations",
+    "Boiler repairs",
+    "Boiler servicing",
+    "Air source heat pumps",
+    "Underfloor heating",
+    "Bathrooms",
+    "Wet rooms",
+    "Landlord gas safety certificates",
+    "Central heating flushes",
+    "Unvented cylinders"
+  ],
+  "services": {
+    "eyebrow": "What we do",
+    "heading": [
+      "Heating, plumbing",
+      "and bathrooms."
+    ],
+    "intro": "We will design, supply and fit full heating systems, including Air Source Heat Pumps and underfloor heating.",
+    "items": [
+      {
+        "title": "Boiler installations",
+        "text": "We are a Worcester accredited installer for boilers, recommending these products to all our existing and potential customers.",
+        "icon": "flame",
+        "image": "https://images.unsplash.com/photo-1650551182991-b07558247564?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Heating pipes and valves"
+      },
+      {
+        "title": "Boiler repairs & servicing",
+        "text": "Boiler breakdowns and repairs, boiler services, and landlord gas safety certificates.",
+        "icon": "wrench"
+      },
+      {
+        "title": "Heat pumps & underfloor heating",
+        "text": "We design, supply and fit full heating systems, including Air Source Heat Pumps and underfloor heating.",
+        "icon": "house",
+        "image": "https://images.unsplash.com/photo-1732660513320-a6b489f3fece?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Underfloor heating pipes being fitted"
+      },
+      {
+        "title": "Bathrooms & wet rooms",
+        "text": "All aspects of bathroom and wet-room installations, including accessible bathrooms and showers.",
+        "icon": "drop"
+      },
+      {
+        "title": "Central heating flushes",
+        "text": "Central heating flushes for your system.",
+        "icon": "sparkle"
+      },
+      {
+        "title": "Cylinders & risk assessments",
+        "text": "Unvented cylinder installation and maintenance, and legionnaire's risk assessment.",
+        "icon": "shield"
+      }
+    ]
+  },
+  "work": {
+    "enabled": false
+  },
+  "steps": [
+    {
+      "title": "Get in touch",
+      "text": "Call, or send the quote form with a few details. Photos help."
+    },
+    {
+      "title": "We take a look",
+      "text": "We talk it through, look at the job and give you a clear quote."
+    },
+    {
+      "title": "Job done properly",
+      "text": "The work is done with care and the site left clean and tidy."
+    }
+  ],
+  "reviews": {
+    "heading": [
+      "What customers",
+      "say about us."
+    ],
+    "intro": "Real reviews from customers on Which? Trusted Traders.",
+    "items": [
+      {
+        "text": "We recently had extensive renovation work carried out by Hertford Plumbers, including our hallway, downstairs WC and cloakroom, and we are absolutely delighted with the results. John, Rob and the team have done a fantastic job. The quality of their workmanship, professionalism and attention to detail have been excellent throughout. …",
+        "who": "Customer in Hertfordshire",
+        "label": "Which? review"
+      },
+      {
+        "text": "Very old Stuart Turner pressure boosting pump failed last week depriving me of bath/shower. Called Rob at Hertford Plumbers who advised on replacement and costs and ordered it. Arrived with them late Friday, and installed by Mark by lunchtime Monday. And it's quieter than the old one! Very happy!",
+        "who": "Customer in Hertfordshire",
+        "label": "Which? review"
+      },
+      {
+        "text": "John and Rob completely refurbished my bathroom and cloakroom, and I am delighted with the results. They were always polite, friendly, and considerate. Good communication, and they always arrived when they said they would. Good attention to detail and clean and tidy. Highly recommended.",
+        "who": "Customer in Hertfordshire",
+        "label": "Which? review"
+      }
+    ]
+  },
+  "quote": {
+    "intro": "Three quick steps and we’ll get back to you.",
+    "jobs": [
+      [
+        "Boiler",
+        "flame"
+      ],
+      [
+        "Heat pump",
+        "leaf"
+      ],
+      [
+        "Underfloor heating",
+        "house"
+      ],
+      [
+        "Bathroom or wet room",
+        "drop"
+      ],
+      [
+        "Repair",
+        "wrench"
+      ],
+      [
+        "Something else",
+        "other"
+      ]
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Can I read more reviews?",
+      "a": "Yes. Hertford Plumbers is a Which? Trusted Trader, and you can read all our customer reviews on our Which? page."
+    },
+    {
+      "q": "Which areas do you cover?",
+      "a": "We provide plumbing and heating services in Hertfordshire, Essex and the London area."
+    },
+    {
+      "q": "Do you fit heat pumps?",
+      "a": "Yes. We will design, supply and fit full heating systems, including Air Source Heat Pumps and underfloor heating."
+    },
+    {
+      "q": "Are you insured?",
+      "a": "Yes, we are fully insured."
+    },
+    {
+      "q": "How do I get a quote?",
+      "a": "Use the quote form on this page or call 07721 727514. We are happy to provide free estimates."
+    }
+  ],
+  "cta": {
+    "heading": "Need a plumber or heating engineer?"
+  },
+  "areas": [
+    "Ware",
+    "Hertfordshire",
+    "Essex",
+    "London"
+  ],
+  "credits": "Stock photos for this preview by <a href=\"https://unsplash.com/@lotusdnp?utm_source=simonrobert_web_design&utm_medium=referral\">Lotus Design N Print</a>, <a href=\"https://unsplash.com/@tinkerman?utm_source=simonrobert_web_design&utm_medium=referral\">Immo Wegmann</a> and <a href=\"https://unsplash.com/@der_zeman?utm_source=simonrobert_web_design&utm_medium=referral\">Marc Zeman</a> on <a href=\"https://unsplash.com/?utm_source=simonrobert_web_design&utm_medium=referral\">Unsplash</a>",
+  "free_quotes": true
+}

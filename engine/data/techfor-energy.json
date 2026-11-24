@@ -1,0 +1,192 @@
+{
+  "slug": "techfor-energy",
+  "mode": "preview",
+  "accent": "#B86B00",
+  "business": {
+    "name": "Techfor Energy",
+    "short": "Techfor",
+    "sub": "Energy",
+    "logo_icon": "sparkle",
+    "trade": "Solar PV installer",
+    "town": "Guildford",
+    "county": "Surrey",
+    "phone": "0800 888 6544",
+    "phone_tel": "08008886544",
+    "email": "glenn.ashby@techforenergy.co.uk",
+    "hours": "Mon–Fri 9am–6pm",
+    "company_line": "Techfor Energy Limited · Company no. 07015685"
+  },
+  "seo": {
+    "title": "Techfor Energy – Solar Panel & Battery Installers in Guildford, Surrey",
+    "description": "Solar PV, battery storage and ground-based systems for homes and businesses. SunPower Authorised Dealer, Enphase micro inverters, and free, no obligation online surveys."
+  },
+  "hero": {
+    "eyebrow": "Guildford · Surrey",
+    "h1": "Solar power,",
+    "h1_accent": "designed for you.",
+    "lead": "Solar PV and battery storage for residential and commercial properties. As a SunPower Authorised Dealer we can design systems using the market leading panel from the USA, which is over 20% efficient.",
+    "image": "https://images.unsplash.com/photo-1655300283247-6b1924b1d152?ixlib=rb-4.1.0&auto=format&fit=crop&w=2000&q=80",
+    "image_alt": "Solar panels set into a house roof"
+  },
+  "pills": [
+    "Which? Trusted Trader",
+    "SunPower Authorised Dealer",
+    "Enphase micro inverters",
+    "Free online surveys"
+  ],
+  "marquee": [
+    "Solar PV",
+    "Battery storage",
+    "Ground-based systems",
+    "SunPower panels",
+    "Enphase micro inverters",
+    "Solar thermal",
+    "Solar water heating",
+    "Solar panel maintenance",
+    "Home energy analysis"
+  ],
+  "services": {
+    "eyebrow": "What we do",
+    "heading": [
+      "Generate more,",
+      "use less from the grid."
+    ],
+    "intro": "We offer free, no obligation on-line surveys and expert advice on energy saving as well as generation.",
+    "items": [
+      {
+        "title": "Solar PV",
+        "text": "Solar panel systems for residential and commercial properties, designed around the market leading SunPower panel.",
+        "icon": "sparkle",
+        "image": "https://images.unsplash.com/photo-1786515284601-f9ac47d0758a?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Solar panels on a roof"
+      },
+      {
+        "title": "Battery storage",
+        "text": "Battery energy storage alongside your solar panels.",
+        "icon": "bolt"
+      },
+      {
+        "title": "Ground-based systems",
+        "text": "Ground-based solar systems on residential and commercial properties.",
+        "icon": "leaf"
+      },
+      {
+        "title": "Micro inverters",
+        "text": "We specialise in Enphase micro inverters.",
+        "icon": "wrench",
+        "image": "https://images.unsplash.com/photo-1660330589693-99889d60181e?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Electrician working on an electrical panel"
+      },
+      {
+        "title": "Solar thermal",
+        "text": "Solar thermal and solar water heating.",
+        "icon": "flame"
+      },
+      {
+        "title": "Energy advice",
+        "text": "Home energy analysis and expert advice on energy saving as well as generation.",
+        "icon": "search"
+      }
+    ]
+  },
+  "work": {
+    "enabled": false
+  },
+  "steps": [
+    {
+      "title": "Get in touch",
+      "text": "Call, or send the quote form with a few details. Photos help."
+    },
+    {
+      "title": "We take a look",
+      "text": "We talk it through, look at the job and give you a clear quote."
+    },
+    {
+      "title": "Job done properly",
+      "text": "The work is done with care and the site left clean and tidy."
+    }
+  ],
+  "reviews": {
+    "heading": [
+      "What customers",
+      "say about us."
+    ],
+    "intro": "Real reviews from customers on Which? Trusted Traders.",
+    "items": [
+      {
+        "text": "Techfor Energy did a ground installation of solar panels and a bank of 3 batteries. Glenn did a thorough survey and suggested the optimal positioning of the equipment. … The installation was done very professionally and carefully and the guys on site were brilliant.",
+        "who": "Which? customer",
+        "label": "Which? review"
+      },
+      {
+        "text": "The members of Glenn's Techfor Energy team are all professional, efficient, and nice to have around. They installed solar panels and a battery, all of which are already producing sufficient power for our household use, so our 'grid dependency' is negligible; rather we are exporting power to the grid! … I am extremely satisfied with the work carried out.",
+        "who": "Customer in Berkshire",
+        "label": "Which? review"
+      },
+      {
+        "text": "Couldn’t be happier with the experience of Techfor Energy’s installation of Tesla batteries following their prior installation of solar panels. Glenn and his team were knowledgeable and responsive when specifying the system and the work itself was carried out promptly, professionally and with no fuss. …",
+        "who": "Customer in Surrey",
+        "label": "Which? review"
+      }
+    ]
+  },
+  "quote": {
+    "intro": "Three quick steps and we’ll get back to you.",
+    "jobs": [
+      [
+        "Solar panels",
+        "sparkle"
+      ],
+      [
+        "Battery storage",
+        "bolt"
+      ],
+      [
+        "Solar + battery",
+        "house"
+      ],
+      [
+        "Ground-based system",
+        "leaf"
+      ],
+      [
+        "Maintenance",
+        "wrench"
+      ],
+      [
+        "Something else",
+        "other"
+      ]
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Can I read more reviews?",
+      "a": "Yes. Techfor Energy is a Which? Trusted Trader, and you can read all our customer reviews on our Which? page."
+    },
+    {
+      "q": "Do you offer surveys?",
+      "a": "Yes. We offer free, no obligation on-line surveys and expert advice on energy saving as well as generation."
+    },
+    {
+      "q": "Which panels do you use?",
+      "a": "As a SunPower Authorised Dealer we can design systems using the market leading panel from the USA, which is over 20% efficient. We also specialise in Enphase micro inverters."
+    },
+    {
+      "q": "Do you work on commercial properties?",
+      "a": "Yes. We install systems, including ground-based systems, on residential and commercial properties."
+    },
+    {
+      "q": "How do I get a quote?",
+      "a": "Use the quote form on this page or call 0800 888 6544. A few photos of the job help us give you an accurate price."
+    }
+  ],
+  "cta": {
+    "heading": "Thinking about solar?"
+  },
+  "areas": [
+    "Guildford",
+    "Surrey"
+  ],
+  "credits": "Stock photos for this preview by <a href=\"https://unsplash.com/@wattalot?utm_source=simonrobert_web_design&utm_medium=referral\">Watt A Lot</a>, <a href=\"https://unsplash.com/@as95?utm_source=simonrobert_web_design&utm_medium=referral\">Aron Schmitz</a> and <a href=\"https://unsplash.com/@razesolar?utm_source=simonrobert_web_design&utm_medium=referral\">Raze Solar</a> on <a href=\"https://unsplash.com/?utm_source=simonrobert_web_design&utm_medium=referral\">Unsplash</a>"
+}

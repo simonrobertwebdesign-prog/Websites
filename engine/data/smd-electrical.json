@@ -1,0 +1,196 @@
+{
+  "slug": "smd-electrical",
+  "mode": "preview",
+  "accent": "#3949AB",
+  "business": {
+    "name": "SMD Electrical Services",
+    "short": "SMD",
+    "sub": "Electrical Services",
+    "logo_icon": "bolt",
+    "trade": "Electrician",
+    "town": "West Byfleet",
+    "county": "Surrey",
+    "phone": "07815 478674",
+    "phone_tel": "07815478674",
+    "email": "info@smdelectricalservices.co.uk",
+    "hours": "",
+    "company_line": "SMD Electrical Services Limited · Company no. 05421263"
+  },
+  "seo": {
+    "title": "SMD Electrical Services – NICEIC Approved Electrician in Byfleet, Surrey",
+    "description": "NICEIC Approved local electrician providing electrical installation, maintenance, inspection and testing throughout Surrey, for homes and businesses."
+  },
+  "hero": {
+    "eyebrow": "Byfleet · West Byfleet · Surrey",
+    "h1": "Electrical work,",
+    "h1_accent": "done thoroughly.",
+    "lead": "SMD Electrical Services Ltd provides all types of electrical installation work, maintenance, inspection and testing services throughout Surrey and surrounding areas. NICEIC Approved and happy to take on the smallest to the largest job.",
+    "image": "https://images.unsplash.com/photo-1635335874521-7987db781153?ixlib=rb-4.1.0&auto=format&fit=crop&w=2000&q=80",
+    "image_alt": "Neatly wired fuse box"
+  },
+  "pills": [
+    "Which? Trusted Trader",
+    "NICEIC Approved",
+    "Which? Local Business of the Year 2010",
+    "CRB checked"
+  ],
+  "marquee": [
+    "Installations",
+    "Rewiring",
+    "Fuse boards",
+    "Inspection & testing",
+    "Landlord certificates",
+    "Fault finding",
+    "LED lighting",
+    "Emergency lighting",
+    "EV charge points",
+    "Smart homes",
+    "Extractor fans",
+    "Outdoor wiring"
+  ],
+  "services": {
+    "eyebrow": "What we do",
+    "heading": [
+      "Every type of",
+      "electrical job."
+    ],
+    "intro": "Operating in the domestic and commercial markets, we pride ourselves on providing a reliable, experienced, conscientious and thorough service.",
+    "items": [
+      {
+        "title": "Installations & rewiring",
+        "text": "Electrical installations, rewiring, fuse boards and outdoor electrical wiring.",
+        "icon": "bolt",
+        "image": "https://images.unsplash.com/photo-1621905251918-48416bd8575a?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Electrician holding his tools"
+      },
+      {
+        "title": "Inspection & testing",
+        "text": "Inspection and testing, with NICEIC Safety Certificates and landlord safety certificates where required.",
+        "icon": "check",
+        "image": "https://images.unsplash.com/photo-1553873002-785d775854c9?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Electrical test meter"
+      },
+      {
+        "title": "Fault finding & repairs",
+        "text": "Fault finding, electrical repairs and emergency call outs.",
+        "icon": "wrench"
+      },
+      {
+        "title": "Lighting",
+        "text": "LED lighting and upgrades, outdoor lighting, and emergency lighting with annual testing.",
+        "icon": "bulb"
+      },
+      {
+        "title": "Smart homes",
+        "text": "Home automation, automated home audio and security.",
+        "icon": "house"
+      },
+      {
+        "title": "EV, ventilation & fans",
+        "text": "Electric car charge points, ventilation systems and extractor fans.",
+        "icon": "car"
+      }
+    ]
+  },
+  "work": {
+    "enabled": false
+  },
+  "steps": [
+    {
+      "title": "Get in touch",
+      "text": "Call, or send the quote form with a few details. Photos help."
+    },
+    {
+      "title": "We take a look",
+      "text": "We talk it through, look at the job and give you a clear quote."
+    },
+    {
+      "title": "Job done properly",
+      "text": "The work is done with care and the site left clean and tidy."
+    }
+  ],
+  "reviews": {
+    "heading": [
+      "What customers",
+      "say about us."
+    ],
+    "intro": "Real reviews from customers on Which? Trusted Traders.",
+    "items": [
+      {
+        "text": "Steve replaced my consumer unit and completed thorough testing and compliance of our home and outbuilding circuits. … Steve is dependable and works to a high standard. He kept me updated with progress, cleaned up each day and has a simple pricing structure. I found SMD Electrical Services' details on the Which? Trusted Trader Site and highly recommend them.",
+        "who": "Customer in Surrey",
+        "label": "Which? review"
+      },
+      {
+        "text": "Initially called Steve to replace a light and he pointed out an electrical problem. Over 3 visits he rectified all our electrical problems. He always arrived on time and explained his work and why he was doing it. Would recommend.",
+        "who": "Customer in Surrey",
+        "label": "Which? review"
+      },
+      {
+        "text": "Steve undertook extensive electrical work when we moved house. The house needed new fuse boards, new sockets, new lights in the bathroom, garage rewired, fire/smoke alarms fitted. … He explained what needed to be done and why. We are very happy with the work completed and feel a lot safer knowing that an expert has tested everything. … I can highly recommend Steve.",
+        "who": "Customer in Surrey",
+        "label": "Which? review"
+      }
+    ]
+  },
+  "quote": {
+    "intro": "Three quick steps and we’ll get back to you.",
+    "jobs": [
+      [
+        "Rewiring",
+        "bolt"
+      ],
+      [
+        "Fuse board",
+        "shield"
+      ],
+      [
+        "Testing",
+        "check"
+      ],
+      [
+        "Lighting",
+        "bulb"
+      ],
+      [
+        "Fault",
+        "wrench"
+      ],
+      [
+        "Something else",
+        "other"
+      ]
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Can I read more reviews?",
+      "a": "Yes. SMD Electrical Services is a Which? Trusted Trader, and you can read all our customer reviews on our Which? page."
+    },
+    {
+      "q": "Are you NICEIC approved?",
+      "a": "Yes. We are NICEIC Approved and provide documentation and NICEIC Safety Certificates where required."
+    },
+    {
+      "q": "Do you take on small jobs?",
+      "a": "Yes. We're happy to take on the smallest to the largest job."
+    },
+    {
+      "q": "Which areas do you cover?",
+      "a": "Surrey and surrounding areas."
+    },
+    {
+      "q": "How do I get a quote?",
+      "a": "Use the quote form on this page or call 07815 478674. A few photos of the job help us give you an accurate price."
+    }
+  ],
+  "cta": {
+    "heading": "Need an electrician?"
+  },
+  "areas": [
+    "Byfleet",
+    "West Byfleet",
+    "Surrey"
+  ],
+  "credits": "Stock photos for this preview by <a href=\"https://unsplash.com/@mostafa_mahmoudi24?utm_source=simonrobert_web_design&utm_medium=referral\">mostafa mahmoudi</a>, <a href=\"https://unsplash.com/@emmages?utm_source=simonrobert_web_design&utm_medium=referral\">Emmanuel Ikwuegbu</a> and <a href=\"https://unsplash.com/@hobiindustri?utm_source=simonrobert_web_design&utm_medium=referral\">Hobi industri</a> on <a href=\"https://unsplash.com/?utm_source=simonrobert_web_design&utm_medium=referral\">Unsplash</a>"
+}

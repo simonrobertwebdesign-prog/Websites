@@ -1,0 +1,196 @@
+{
+  "slug": "burnleys-tree-services",
+  "mode": "preview",
+  "accent": "#5A7D2A",
+  "business": {
+    "name": "Burnley's Tree Services",
+    "short": "Burnley's",
+    "sub": "Tree Services",
+    "logo_icon": "leaf",
+    "trade": "Tree surgeons",
+    "town": "Stevenage",
+    "county": "Hertfordshire",
+    "phone": "07852 169278",
+    "phone_tel": "07852169278",
+    "email": "simon@burnleystreeservices.co.uk",
+    "hours": "",
+    "company_line": "Burnley's Tree Services Ltd · Company no. 13730285"
+  },
+  "seo": {
+    "title": "Burnley's Tree Services – Tree Surgeons in Hertfordshire, Bedfordshire & North London",
+    "description": "Qualified and insured tree surgeons with over 10 years' experience. Reductions, trimming, rigging, tree removal, stump removal and replanting, all to BS3998."
+  },
+  "hero": {
+    "eyebrow": "Stevenage · Hertfordshire · Bedfordshire · North London",
+    "h1": "Tree surgery,",
+    "h1_accent": "to the highest standard.",
+    "lead": "We are an arboricultural services company based in Hertfordshire with over 10 years experience in the Arb industry, qualified and insured to carry out all aspects of tree surgery.",
+    "image": "https://images.unsplash.com/photo-1754322449005-bdc38c631682?ixlib=rb-4.1.0&auto=format&fit=crop&w=2000&q=80",
+    "image_alt": "Tree surgeon working high in a tree"
+  },
+  "pills": [
+    "Which? Trusted Trader",
+    "Over 10 years’ experience",
+    "Qualified & insured",
+    "Work to BS3998"
+  ],
+  "marquee": [
+    "Tree reductions",
+    "Trimming",
+    "Rigging",
+    "Tree removal",
+    "Tree thinning",
+    "Stump grinding",
+    "Stump removal",
+    "Replanting",
+    "Tree planting",
+    "OPM removal"
+  ],
+  "services": {
+    "eyebrow": "What we do",
+    "heading": [
+      "All aspects",
+      "of tree surgery."
+    ],
+    "intro": "We pride ourselves on completing all aspects of work to the highest standard and put customer satisfaction at the heart of what we do.",
+    "items": [
+      {
+        "title": "Reductions & trimming",
+        "text": "From small tree reductions and trimming upwards.",
+        "icon": "leaf",
+        "image": "https://images.unsplash.com/photo-1561063206-c8fc36bac012?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Climbing rope and carabiner for tree work"
+      },
+      {
+        "title": "Rigging & removal",
+        "text": "Rigging techniques to lower trees down safely, and full tree removal.",
+        "icon": "shield"
+      },
+      {
+        "title": "Tree thinning",
+        "text": "Tree thinning, carried out to BS3998 industry standards.",
+        "icon": "sparkle"
+      },
+      {
+        "title": "Stump removal",
+        "text": "Full stump removal and stump grinding.",
+        "icon": "wrench",
+        "image": "https://images.unsplash.com/photo-1686596668278-9c2e84490887?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Stack of cut logs"
+      },
+      {
+        "title": "Planting & replanting",
+        "text": "Tree planting and replanting.",
+        "icon": "leaf"
+      },
+      {
+        "title": "OPM removal",
+        "text": "OPM removal.",
+        "icon": "search"
+      }
+    ]
+  },
+  "work": {
+    "enabled": false
+  },
+  "steps": [
+    {
+      "title": "Get in touch",
+      "text": "Call, or send the quote form with a few details. Photos help."
+    },
+    {
+      "title": "We take a look",
+      "text": "We talk it through, look at the job and give you a clear quote."
+    },
+    {
+      "title": "Job done properly",
+      "text": "The work is done with care and the site left clean and tidy."
+    }
+  ],
+  "reviews": {
+    "heading": [
+      "What customers",
+      "say about us."
+    ],
+    "intro": "Real reviews from customers on Which? Trusted Traders.",
+    "items": [
+      {
+        "text": "Simon and his team arrived early, all of them were lovely. Cut down 2 conifers and cleared everything and kept the area clean. I would recommend them very highly. I have them coming back later in the year to prune another big tree for me.",
+        "who": "Customer in Luton",
+        "label": "Which? review"
+      },
+      {
+        "text": "Simon and his team came when promised to fell to ground level a dead acacia tree in our back garden and grind out the stump. They did the job professionally with all the right safety equipment, avoided damaging nearby trees and shrubs, removed the remains of the tree and left the garden very tidy. …",
+        "who": "Customer in Hertfordshire",
+        "label": "Which? review"
+      },
+      {
+        "text": "Simon and his team were very polite and did a great job at trimming down a large hedge at the side of our house and pruning back a large lilac tree in our garden. We were very pleased with the work done, and how well they tidied up afterwards. We will definitely be using them again in the future.",
+        "who": "Customer in Hertfordshire",
+        "label": "Which? review"
+      }
+    ]
+  },
+  "quote": {
+    "intro": "Three quick steps and we’ll get back to you.",
+    "jobs": [
+      [
+        "Tree reduction",
+        "leaf"
+      ],
+      [
+        "Tree removal",
+        "shield"
+      ],
+      [
+        "Stump grinding",
+        "wrench"
+      ],
+      [
+        "Hedge trimming",
+        "sparkle"
+      ],
+      [
+        "Planting",
+        "house"
+      ],
+      [
+        "Something else",
+        "other"
+      ]
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Can I read more reviews?",
+      "a": "Yes. Burnley's Tree Services is a Which? Trusted Trader, and you can read all our customer reviews on our Which? page."
+    },
+    {
+      "q": "Are you qualified and insured?",
+      "a": "Yes. We are qualified and insured to carry out all aspects of tree surgery, and all our work is carried out to BS3998 industry standards."
+    },
+    {
+      "q": "Which areas do you cover?",
+      "a": "We are based in North Hertfordshire but cover a large area including Bedfordshire, North London, and surrounding areas."
+    },
+    {
+      "q": "Can you work to my schedule?",
+      "a": "We will always do our utmost to work to your schedule."
+    },
+    {
+      "q": "How do I get a quote?",
+      "a": "Use the quote form on this page or call 07852 169278 for a free no obligation quotation."
+    }
+  ],
+  "cta": {
+    "heading": "Got a tree that needs work?"
+  },
+  "areas": [
+    "Stevenage",
+    "North Hertfordshire",
+    "Bedfordshire",
+    "North London"
+  ],
+  "credits": "Stock photos for this preview by <a href=\"https://unsplash.com/@masters25?utm_source=simonrobert_web_design&utm_medium=referral\">Zack Masters</a>, <a href=\"https://unsplash.com/@mebrooks01?utm_source=simonrobert_web_design&utm_medium=referral\">Malachi Brooks</a> and <a href=\"https://unsplash.com/@artur_luczka?utm_source=simonrobert_web_design&utm_medium=referral\">Artur Łuczka</a> on <a href=\"https://unsplash.com/?utm_source=simonrobert_web_design&utm_medium=referral\">Unsplash</a>",
+  "free_quotes": true
+}

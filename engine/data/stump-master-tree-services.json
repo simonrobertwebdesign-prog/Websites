@@ -1,0 +1,197 @@
+{
+  "slug": "stump-master-tree-services",
+  "mode": "preview",
+  "accent": "#6B4F2A",
+  "business": {
+    "name": "Stump Master Tree Services",
+    "short": "Stump Master",
+    "sub": "Tree Services",
+    "logo_icon": "leaf",
+    "trade": "Tree surgeons",
+    "town": "Waterlooville",
+    "county": "Hampshire",
+    "phone": "07890 261347",
+    "phone_tel": "07890261347",
+    "email": "smts22@outlook.com",
+    "hours": "Mon–Sat 8am–6pm",
+    "company_line": "Stump Master Tree Services Ltd · Company no. 14047231"
+  },
+  "seo": {
+    "title": "Stump Master Tree Services – Tree Surgeons in Waterlooville, Hampshire",
+    "description": "A family-run tree surgery business based in Hampshire, covering Hampshire, West Sussex and Surrey for domestic and commercial clients. Fully insured."
+  },
+  "hero": {
+    "eyebrow": "Waterlooville · Hampshire · West Sussex · Surrey",
+    "h1": "Family-run",
+    "h1_accent": "tree surgery.",
+    "lead": "We are a family-run tree surgery business based in Hampshire, providing professional tree care services across Hampshire, West Sussex and Surrey for both domestic and commercial clients.",
+    "image": "https://images.unsplash.com/photo-1754321860056-ca7254d5e7ac?ixlib=rb-4.1.0&auto=format&fit=crop&w=2000&q=80",
+    "image_alt": "Tree surgeon cutting a tree with a chainsaw"
+  },
+  "pills": [
+    "Which? Trusted Trader",
+    "Family-run",
+    "Fully insured",
+    "Help with TPO applications"
+  ],
+  "marquee": [
+    "Tree felling",
+    "Tree removal",
+    "Stump grinding",
+    "Stump removal",
+    "Crown reductions",
+    "Crown lifting",
+    "Tree shaping",
+    "Pruning",
+    "Hedge cutting",
+    "Shrub shaping",
+    "Garden clearance"
+  ],
+  "services": {
+    "eyebrow": "What we do",
+    "heading": [
+      "Trees, stumps",
+      "and hedges."
+    ],
+    "intro": "We take pride in delivering reliable, high-quality workmanship and are fully insured for your peace of mind.",
+    "items": [
+      {
+        "title": "Tree felling & removal",
+        "text": "Tree felling and removal for domestic and commercial clients.",
+        "icon": "leaf",
+        "image": "https://images.unsplash.com/photo-1631300313270-227604e71ea5?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Tree surgeon working on a branch"
+      },
+      {
+        "title": "Stump grinding & removal",
+        "text": "Stump grinding and stump removal.",
+        "icon": "wrench",
+        "image": "https://images.unsplash.com/photo-1524369609384-10ce89e42d14?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Cut tree logs"
+      },
+      {
+        "title": "Crown reductions & lifting",
+        "text": "Crown reductions and crown lifting.",
+        "icon": "sparkle"
+      },
+      {
+        "title": "Shaping & pruning",
+        "text": "Tree shaping and pruning.",
+        "icon": "leaf"
+      },
+      {
+        "title": "Hedges & shrubs",
+        "text": "Hedge and shrub cutting, trimming and shaping, and all aspects of tree and hedge maintenance.",
+        "icon": "house"
+      },
+      {
+        "title": "TPO applications",
+        "text": "We can assist with Tree Preservation Order (TPO) applications and provide expert advice where required.",
+        "icon": "shield"
+      }
+    ]
+  },
+  "work": {
+    "enabled": false
+  },
+  "steps": [
+    {
+      "title": "Get in touch",
+      "text": "Call, or send the quote form with a few details. Photos help."
+    },
+    {
+      "title": "We take a look",
+      "text": "We talk it through, look at the job and give you a clear quote."
+    },
+    {
+      "title": "Job done properly",
+      "text": "The work is done with care and the site left clean and tidy."
+    }
+  ],
+  "reviews": {
+    "heading": [
+      "What customers",
+      "say about us."
+    ],
+    "intro": "Real reviews from customers on Which? Trusted Traders.",
+    "items": [
+      {
+        "text": "We had two trees felled, the stumps removed and a hedge reduced in height. Chris and the team arrived promptly at the time and date agreed. They worked very hard using appropriate safety equipment. The care of the garden and the tidy up after the work was impressive. We were delighted with the outcome as was our neighbour who has now recruited them for some work in their garden!",
+        "who": "Customer in Hampshire",
+        "label": "Which? review"
+      },
+      {
+        "text": "We have used Chris three times now, and each time he has been fantastic. He’s taken a tree out and ground the stump down, also on two more occasions to grind out roots from other tree issues. … Very reasonable prices and great service, I’d definitely recommend and would use again if needed.",
+        "who": "Customer in Hampshire",
+        "label": "Which? review"
+      },
+      {
+        "text": "Used for reducing crowns and cutting back lots of overgrown hedges. Friendly and efficient service. Very competitive quote, flexible during work. Cleared up nicely too. Will definitely use again.",
+        "who": "Customer in West Sussex",
+        "label": "Which? review"
+      }
+    ]
+  },
+  "quote": {
+    "intro": "Three quick steps and we’ll get back to you.",
+    "jobs": [
+      [
+        "Tree felling",
+        "leaf"
+      ],
+      [
+        "Stump grinding",
+        "wrench"
+      ],
+      [
+        "Crown reduction",
+        "sparkle"
+      ],
+      [
+        "Hedge cutting",
+        "house"
+      ],
+      [
+        "TPO advice",
+        "shield"
+      ],
+      [
+        "Something else",
+        "other"
+      ]
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Can I read more reviews?",
+      "a": "Yes. Stump Master Tree Services is a Which? Trusted Trader, and you can read all our customer reviews on our Which? page."
+    },
+    {
+      "q": "Which areas do you cover?",
+      "a": "We're based in Hampshire and cover Hampshire, West Sussex and Surrey, for both domestic and commercial clients."
+    },
+    {
+      "q": "Are you insured?",
+      "a": "Yes, we are fully insured for your peace of mind."
+    },
+    {
+      "q": "Can you help with Tree Preservation Orders?",
+      "a": "Yes. We can assist with Tree Preservation Order (TPO) applications and provide expert advice where required."
+    },
+    {
+      "q": "How do I get a quote?",
+      "a": "Use the quote form on this page or call 07890 261347 for a free, no-obligation quotation."
+    }
+  ],
+  "cta": {
+    "heading": "Got a tree or stump to deal with?"
+  },
+  "areas": [
+    "Waterlooville",
+    "Hampshire",
+    "West Sussex",
+    "Surrey"
+  ],
+  "credits": "Stock photos for this preview by <a href=\"https://unsplash.com/@masters25?utm_source=simonrobert_web_design&utm_medium=referral\">Zack Masters</a>, <a href=\"https://unsplash.com/@hjkp?utm_source=simonrobert_web_design&utm_medium=referral\">henry perks</a> and <a href=\"https://unsplash.com/@adityaries?utm_source=simonrobert_web_design&utm_medium=referral\">Aditya Saxena</a> on <a href=\"https://unsplash.com/?utm_source=simonrobert_web_design&utm_medium=referral\">Unsplash</a>",
+  "free_quotes": true
+}

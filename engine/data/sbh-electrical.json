@@ -1,0 +1,195 @@
+{
+  "slug": "sbh-electrical",
+  "mode": "preview",
+  "accent": "#2E7D5B",
+  "business": {
+    "name": "SBH Electrical",
+    "short": "SBH",
+    "sub": "Electrical",
+    "logo_icon": "bolt",
+    "trade": "Electrician",
+    "town": "Chertsey",
+    "county": "Surrey",
+    "phone": "07779 615107",
+    "phone_tel": "07779615107",
+    "email": "sbhelectrical@outlook.com",
+    "hours": "",
+    "company_line": "S B H Electrical Ltd · Company no. 06437638"
+  },
+  "seo": {
+    "title": "SBH Electrical – Electrician in Chertsey, Surrey",
+    "description": "Electrical installations, repairs, testing, EV charging points, solar panels, battery storage, heat pumps, ventilation and air conditioning in Chertsey and Surrey."
+  },
+  "hero": {
+    "eyebrow": "Chertsey · Surrey",
+    "h1": "The right solution,",
+    "h1_accent": "big or small.",
+    "lead": "We love finding the right solution for every situation big or small, from electrical repairs and rewiring to EV charging points, solar panels and air source heat pumps.",
+    "image": "https://images.unsplash.com/photo-1766507680004-1c71007aefe5?ixlib=rb-4.1.0&auto=format&fit=crop&w=2000&q=80",
+    "image_alt": "Electric car charger mounted on a wall"
+  },
+  "pills": [
+    "Which? Trusted Trader",
+    "Installations & repairs",
+    "EV charging points",
+    "Renewable energy"
+  ],
+  "marquee": [
+    "Electrical installations",
+    "Electrical repairs",
+    "Rewiring",
+    "Fuse boards",
+    "Electric showers",
+    "Landlord safety certificates",
+    "EV charging points",
+    "Solar panels",
+    "Battery storage",
+    "Air source heat pumps",
+    "Ventilation",
+    "Air conditioning"
+  ],
+  "services": {
+    "eyebrow": "What we do",
+    "heading": [
+      "Wiring, charging",
+      "and renewables."
+    ],
+    "intro": "Electrical work, EV charging points and renewable energy for your home. Call to discuss your needs.",
+    "items": [
+      {
+        "title": "Installations & repairs",
+        "text": "Electrical installations and repairs, emergency call outs, outdoor wiring and electric showers.",
+        "icon": "bolt",
+        "image": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Electrician at work"
+      },
+      {
+        "title": "Rewiring & fuse boards",
+        "text": "Rewiring and fuse board work.",
+        "icon": "wrench"
+      },
+      {
+        "title": "Testing & certificates",
+        "text": "Electrical testing services and landlord safety certificates.",
+        "icon": "check"
+      },
+      {
+        "title": "EV charging points",
+        "text": "Electric vehicle charging points.",
+        "icon": "car"
+      },
+      {
+        "title": "Solar & battery storage",
+        "text": "Solar panels, solar panel maintenance and battery storage.",
+        "icon": "sparkle",
+        "image": "https://images.unsplash.com/photo-1761472823286-9f6093ed6663?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Houses with solar panels on their roofs"
+      },
+      {
+        "title": "Heat pumps, ventilation & AC",
+        "text": "Air and ground source heat pumps, ventilation systems and air conditioning.",
+        "icon": "leaf"
+      }
+    ]
+  },
+  "work": {
+    "enabled": false
+  },
+  "steps": [
+    {
+      "title": "Get in touch",
+      "text": "Call, or send the quote form with a few details. Photos help."
+    },
+    {
+      "title": "We take a look",
+      "text": "We talk it through, look at the job and give you a clear quote."
+    },
+    {
+      "title": "Job done properly",
+      "text": "The work is done with care and the site left clean and tidy."
+    }
+  ],
+  "reviews": {
+    "heading": [
+      "What customers",
+      "say about us."
+    ],
+    "intro": "Real reviews from customers on Which? Trusted Traders.",
+    "items": [
+      {
+        "text": "Very happy with the work that Stuart did for me, I had no knowledge on ev chargers but Stuart made the whole process very easy and professional.",
+        "who": "Customer in Surrey",
+        "label": "Which? review"
+      },
+      {
+        "text": "Stuart was a true professional and a pleasure to have in my home. He sorted out my ventilation problem and went to great lengths to source a replacement. My two year old ventilation problem has been resolved. No need for a humidifier 😊",
+        "who": "Customer in Greater London",
+        "label": "Which? review"
+      },
+      {
+        "text": "Very happy with the service I received from Stuart (SBH Electrical). He came out very quickly on a Saturday when I was worried about a faulty light fitting. He was courteous and very easy to talk to and reassured me. He made sure everything was safe before leaving (even checked the gas leads as an extra). Highly recommend.",
+        "who": "Customer in Surrey",
+        "label": "Which? review"
+      }
+    ]
+  },
+  "quote": {
+    "intro": "Three quick steps and we’ll get back to you.",
+    "jobs": [
+      [
+        "Electrical repair",
+        "bolt"
+      ],
+      [
+        "Rewiring",
+        "wrench"
+      ],
+      [
+        "EV charger",
+        "car"
+      ],
+      [
+        "Solar or battery",
+        "sparkle"
+      ],
+      [
+        "Heat pump or AC",
+        "leaf"
+      ],
+      [
+        "Something else",
+        "other"
+      ]
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Can I read more reviews?",
+      "a": "Yes. SBH Electrical is a Which? Trusted Trader, and you can read all our customer reviews on our Which? page."
+    },
+    {
+      "q": "Do you install EV chargers?",
+      "a": "Yes. We install electric vehicle charging points."
+    },
+    {
+      "q": "Do you do renewable energy?",
+      "a": "Yes. We install solar panels and battery storage, and air and ground source heat pumps."
+    },
+    {
+      "q": "Can you do landlord safety certificates?",
+      "a": "Yes. We carry out electrical testing and landlord safety certificates."
+    },
+    {
+      "q": "How do I get a quote?",
+      "a": "Use the quote form on this page or call 07779 615107. A few photos of the job help us give you an accurate price."
+    }
+  ],
+  "cta": {
+    "heading": "Need an electrician?"
+  },
+  "areas": [
+    "Chertsey",
+    "Surrey"
+  ],
+  "credits": "Stock photos for this preview by <a href=\"https://unsplash.com/@privategrid?utm_source=simonrobert_web_design&utm_medium=referral\">dcbel</a>, <a href=\"https://unsplash.com/@emmages?utm_source=simonrobert_web_design&utm_medium=referral\">Emmanuel Ikwuegbu</a> and <a href=\"https://unsplash.com/@lara_j?utm_source=simonrobert_web_design&utm_medium=referral\">Lara John</a> on <a href=\"https://unsplash.com/?utm_source=simonrobert_web_design&utm_medium=referral\">Unsplash</a>"
+}

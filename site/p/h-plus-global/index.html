@@ -1,0 +1,521 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>H Plus Global – Builders, Decorators &amp; Home Improvements in Feltham, Middlesex (preview)</title>
+<meta name="description" content="Building work, interior and exterior decorating, kitchens, bathrooms, roofing and doors in Feltham and Middlesex.">
+<meta name="robots" content="noindex"><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+
+:root{
+  --ink:#0D1015; --ink2:#151A22; --ink3:#1E2531;
+  --paper:#F4F2EC; --card:#FFFFFF; --line:#E2DFD6;
+  --muted:#4A5160; --muted-d:#AEB6C3;
+  --accent:#B04A2F; --on-accent:#FFFFFF;
+  --r:18px; --wrap:1200px;
+  --pad:clamp(18px,4vw,48px);
+  --display:"Archivo","Arial Narrow",Arial,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);background:var(--paper);line-height:1.6;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:inherit}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 var(--pad)}
+.eyebrow{margin:0;font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase}
+h1,h2,h3{font-family:var(--display);margin:0;letter-spacing:-.02em}
+h2{font-size:clamp(34px,5.4vw,72px);line-height:.95;font-weight:900;font-stretch:112%;text-transform:uppercase}
+h3{font-size:22px;font-weight:800;font-stretch:105%}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:54px;padding:0 26px;border-radius:999px;font-weight:700;font-size:16px;text-decoration:none;border:0;cursor:pointer;font-family:inherit;transition:transform .2s ease, box-shadow .2s ease, background .2s ease}
+.btn:hover{transform:translateY(-2px)}
+.btn-accent{background:var(--accent);color:var(--on-accent);box-shadow:0 10px 30px -10px color-mix(in srgb,var(--accent) 70%,transparent)}
+.btn-accent:hover{box-shadow:0 16px 40px -10px color-mix(in srgb,var(--accent) 90%,transparent)}
+.btn-ghost{background:rgba(255,255,255,.06);color:#fff;border:1px solid rgba(255,255,255,.28);backdrop-filter:blur(8px)}
+.btn-dark{background:var(--ink);color:#fff}
+.btn svg{flex:none}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+
+/* demo banner */
+.demo{background:var(--accent);color:var(--on-accent);font-size:14px;font-weight:600;text-align:center;padding:10px var(--pad);position:relative;z-index:60}
+.demo a{font-weight:800}
+
+/* nav */
+.nav{position:sticky;top:0;z-index:50;transition:background .3s ease, box-shadow .3s ease;background:transparent}
+.nav.solid{background:rgba(13,16,21,.86);backdrop-filter:blur(14px);box-shadow:0 1px 0 rgba(255,255,255,.08)}
+.nav-in{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:76px}
+.logo{display:flex;align-items:center;gap:12px;text-decoration:none;color:#fff}
+.logo-mark{width:42px;height:42px;border-radius:12px;background:var(--accent);color:var(--on-accent);display:grid;place-items:center}
+.logo-name{font-family:var(--display);font-weight:900;font-stretch:115%;font-size:19px;letter-spacing:-.01em;line-height:1}
+.logo-name small{display:block;font-family:Inter,sans-serif;font-weight:600;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted-d);margin-top:4px;font-stretch:100%}
+.links{display:flex;align-items:center;gap:6px}
+.links a{color:#E6E9EF;text-decoration:none;font-weight:600;font-size:15px;padding:10px 14px;border-radius:999px;transition:background .2s}
+.links a:hover{background:rgba(255,255,255,.08)}
+.links .btn{min-height:46px;padding:0 20px;margin-left:8px}
+.menu-btn{display:none;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.2);color:#fff;width:48px;height:48px;border-radius:12px;cursor:pointer}
+@media (max-width:860px){
+  .menu-btn{display:grid;place-items:center}
+  .links{position:absolute;left:var(--pad);right:var(--pad);top:80px;flex-direction:column;align-items:stretch;background:var(--ink2);border:1px solid rgba(255,255,255,.1);border-radius:var(--r);padding:12px;display:none}
+  .links.open{display:flex}
+  .links a{padding:14px}
+  .links .btn{margin:6px 0 0}
+}
+
+/* hero */
+.hero{position:relative;margin-top:-76px;min-height:min(100vh,900px);display:flex;align-items:flex-end;color:#fff;overflow:hidden;background:var(--ink)}
+.hero-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transform:scale(1.06);animation:heroZoom 14s ease-out forwards}
+@keyframes heroZoom{to{transform:scale(1)}}
+.hero::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(90deg,rgba(13,16,21,.94) 0%,rgba(13,16,21,.78) 42%,rgba(13,16,21,.25) 100%),linear-gradient(0deg,rgba(13,16,21,1) 0%,rgba(13,16,21,0) 35%)}
+.hero-glow{position:absolute;inset:0;z-index:1;pointer-events:none;background:radial-gradient(420px circle at var(--mx,70%) var(--my,40%),color-mix(in srgb,var(--accent) 16%,transparent),transparent 60%);transition:background .1s}
+.hero-in{position:relative;z-index:2;padding-top:150px;padding-bottom:clamp(40px,6vw,72px);width:100%}
+.hero h1{font-size:clamp(54px,10.5vw,150px);line-height:.86;font-weight:900;font-stretch:125%;text-transform:uppercase;letter-spacing:-.035em;max-width:11ch}
+.spark{position:relative;display:inline-block;color:var(--accent)}
+.spark::after{content:"";position:absolute;left:0;right:0;bottom:.04em;height:.07em;background:var(--accent);transform-origin:left;transform:scaleX(0);animation:draw 1s .5s cubic-bezier(.7,0,.2,1) forwards;border-radius:4px}
+@keyframes draw{to{transform:scaleX(1)}}
+.hero p.lead{font-size:clamp(17px,1.7vw,21px);color:#D4D9E1;max-width:36em;margin:28px 0 0}
+.hero-ctas{display:flex;flex-wrap:wrap;gap:12px;margin-top:32px}
+.pills{display:flex;flex-wrap:wrap;gap:10px;margin-top:40px;padding:0;list-style:none}
+.pills li{display:flex;align-items:center;gap:8px;padding:10px 16px;border-radius:999px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.14);backdrop-filter:blur(10px);font-size:14px;font-weight:600}
+.pills svg{color:var(--accent)}
+
+/* marquee */
+.marquee{background:var(--ink);color:#fff;overflow:hidden;border-top:1px solid rgba(255,255,255,.08);border-bottom:1px solid rgba(255,255,255,.08);padding:22px 0}
+.track{display:flex;width:max-content;animation:slide 32s linear infinite}
+.track span{font-family:var(--display);font-weight:900;font-stretch:125%;text-transform:uppercase;font-size:clamp(28px,4vw,52px);letter-spacing:-.02em;display:flex;align-items:center;gap:28px;padding-right:28px;white-space:nowrap}
+.track span.o{color:transparent;-webkit-text-stroke:1.5px rgba(255,255,255,.55)}
+.track svg{color:var(--accent);flex:none}
+@keyframes slide{to{transform:translateX(-50%)}}
+
+/* sections */
+section{padding:clamp(72px,10vw,140px) 0}
+.head{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:24px;margin-bottom:clamp(36px,5vw,64px)}
+.head .eyebrow{color:var(--muted);margin-bottom:16px}
+.head p{max-width:30em;color:var(--muted);margin:0;font-size:17px}
+
+/* bento */
+.bento{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));grid-auto-rows:minmax(230px,auto);gap:16px}
+.tile{position:relative;border-radius:var(--r);overflow:hidden;background:var(--card);border:1px solid var(--line);padding:28px;display:flex;flex-direction:column;justify-content:flex-end;gap:10px;isolation:isolate;transition:transform .35s ease, box-shadow .35s ease}
+.tile:hover{transform:translateY(-4px);box-shadow:0 24px 50px -24px rgba(13,16,21,.35)}
+.tile p{margin:0;color:var(--muted);font-size:15px}
+.tile .ic{width:52px;height:52px;border-radius:14px;background:var(--ink);color:var(--accent);display:grid;place-items:center;margin-bottom:auto}
+.tile.photo{color:#fff;border:0;min-height:300px}
+.tile.photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2;transition:transform .8s cubic-bezier(.2,.7,.2,1)}
+.tile.photo::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(0deg,rgba(13,16,21,.9) 0%,rgba(13,16,21,.2) 60%,rgba(13,16,21,0) 100%)}
+.tile.photo:hover img{transform:scale(1.07)}
+.tile.photo p{color:#DCE0E7}
+.tile .tag{position:absolute;top:20px;left:20px;background:var(--accent);color:var(--on-accent);font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;padding:6px 12px;border-radius:999px}
+.span2{grid-column:span 2}
+.row2{grid-row:span 2}
+.tile.big h3{font-size:clamp(26px,3vw,38px);font-stretch:118%;text-transform:uppercase;line-height:.95}
+@media (max-width:900px){.bento{grid-template-columns:repeat(2,minmax(0,1fr))}.row2{grid-row:span 1}}
+@media (max-width:560px){.bento{grid-template-columns:1fr}.span2{grid-column:span 1}}
+
+/* before after */
+.dark{background:var(--ink);color:#fff}
+.dark .eyebrow,.dark .head p{color:var(--muted-d)}
+.ba{position:relative;width:100%;height:clamp(320px,46vw,600px);border-radius:calc(var(--r) + 6px);overflow:hidden;--pos:50%;user-select:none;background:var(--ink3)}
+.ba img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.ba .before{clip-path:inset(0 calc(100% - var(--pos)) 0 0)}
+.ba .bar{position:absolute;top:0;bottom:0;left:var(--pos);width:3px;background:var(--accent);transform:translateX(-50%);pointer-events:none}
+.ba .knob{position:absolute;top:50%;left:var(--pos);transform:translate(-50%,-50%);width:58px;height:58px;border-radius:50%;background:var(--accent);color:var(--on-accent);display:grid;place-items:center;box-shadow:0 10px 30px rgba(0,0,0,.4);pointer-events:none}
+.ba input{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:ew-resize;margin:0}
+.ba .lab{position:absolute;bottom:18px;padding:8px 14px;border-radius:999px;background:rgba(13,16,21,.75);backdrop-filter:blur(8px);font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;pointer-events:none}
+.ba .lab.l{left:18px}.ba .lab.r{right:18px}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(200px,100%),1fr));gap:16px;margin-top:20px}
+.facts div{border:1px solid rgba(255,255,255,.12);border-radius:var(--r);padding:20px 22px}
+.facts span{display:block;font-size:13px;color:var(--muted-d);font-weight:600;letter-spacing:.06em;text-transform:uppercase}
+.facts strong{display:block;font-family:var(--display);font-size:22px;font-stretch:110%;margin-top:4px}
+
+/* steps */
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(280px,100%),1fr));gap:20px;counter-reset:s;list-style:none;margin:0;padding:0}
+.steps li{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:32px;position:relative;overflow:hidden}
+.steps .n{font-family:var(--display);font-weight:900;font-stretch:125%;font-size:88px;line-height:.8;color:transparent;-webkit-text-stroke:2px var(--ink);display:block;margin-bottom:28px}
+.steps li:hover .n{color:var(--accent);-webkit-text-stroke-color:var(--accent)}
+.steps .n{transition:color .3s}
+.steps p{margin:10px 0 0;color:var(--muted)}
+
+/* reviews */
+.revs{display:grid;grid-template-columns:1.4fr 1fr;gap:16px}
+@media (max-width:860px){.revs{grid-template-columns:1fr}}
+.rev{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:32px;display:flex;flex-direction:column;gap:18px}
+.rev.feature{background:var(--ink);color:#fff;border:0;justify-content:space-between}
+.rev.feature blockquote{font-family:var(--display);font-weight:800;font-stretch:108%;font-size:clamp(24px,2.8vw,36px);line-height:1.15;letter-spacing:-.015em}
+.rev blockquote{margin:0;font-size:17px}
+.stars{display:flex;gap:3px;color:var(--accent)}
+.who{display:flex;align-items:center;justify-content:space-between;gap:12px;font-size:14px;font-weight:600;color:var(--muted)}
+.rev.feature .who{color:var(--muted-d)}
+.ex{font-size:11px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;padding:4px 10px;border-radius:999px;border:1px solid currentColor;opacity:.8;white-space:nowrap;flex:none}
+.revs-side{display:grid;gap:16px}
+
+/* quote form */
+.quote{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:clamp(28px,5vw,72px);align-items:start}
+@media (max-width:900px){.quote{grid-template-columns:1fr}}
+.qcard{background:var(--card);border:1px solid var(--line);border-radius:calc(var(--r) + 6px);padding:clamp(22px,3.5vw,40px);box-shadow:0 30px 70px -40px rgba(13,16,21,.35)}
+.prog{height:6px;border-radius:999px;background:#ECEAE3;overflow:hidden;margin-bottom:26px}
+.prog i{display:block;height:100%;width:33%;background:var(--accent);border-radius:999px;transition:width .4s ease}
+.qstep{display:none}.qstep.on{display:block;animation:fadeUp .4s ease}
+@keyframes fadeUp{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.qstep legend,.qtitle{font-family:var(--display);font-weight:800;font-size:24px;font-stretch:108%;margin:0 0 18px;padding:0}
+fieldset{border:0;margin:0 0 20px;padding:0}
+.opts{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(150px,100%),1fr));gap:10px}
+.opt{position:relative}
+.opt input{position:absolute;opacity:0;inset:0}
+.opt label{display:flex;align-items:center;gap:10px;min-height:56px;padding:12px 16px;border-radius:14px;border:1.5px solid var(--line);font-weight:600;cursor:pointer;transition:border-color .2s, background .2s}
+.opt label svg{color:var(--muted);flex:none}
+.opt input:checked+label{border-color:var(--ink);background:color-mix(in srgb,var(--accent) 14%,#fff)}
+.opt input:checked+label svg{color:var(--ink)}
+.opt input:focus-visible+label{outline:3px solid var(--accent);outline-offset:2px}
+.field{display:flex;flex-direction:column;gap:6px;font-size:14px;font-weight:600;margin-bottom:14px}
+.field input,.field textarea{min-height:52px;border:1.5px solid #CFCBC0;border-radius:12px;padding:0 16px;font:inherit;font-weight:400;background:#fff;color:var(--ink)}
+.field textarea{padding:14px 16px;min-height:96px;resize:vertical}
+.field input:focus,.field textarea:focus{border-color:var(--ink);outline:none;box-shadow:0 0 0 4px color-mix(in srgb,var(--accent) 35%,transparent)}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(200px,100%),1fr));gap:0 14px}
+.qnav{display:flex;justify-content:space-between;gap:12px;margin-top:8px}
+.qnav .back{background:transparent;color:var(--ink);border:1.5px solid var(--line)}
+.done{text-align:center;padding:24px 0}
+.done .tick{width:72px;height:72px;border-radius:50%;background:var(--accent);display:grid;place-items:center;margin:0 auto 18px}
+.done p{color:var(--muted)}
+.qside{display:flex;flex-direction:column;gap:22px}
+.qside .big-phone{font-family:var(--display);font-weight:900;font-stretch:118%;font-size:clamp(30px,3.6vw,46px);text-decoration:none;letter-spacing:-.02em}
+.qlist{list-style:none;margin:0;padding:0;display:grid;gap:14px}
+.qlist li{display:flex;gap:14px;align-items:center;font-weight:600}
+.qlist .i{width:44px;height:44px;border-radius:12px;background:var(--ink);color:var(--accent);display:grid;place-items:center;flex:none}
+.qlist small{display:block;color:var(--muted);font-weight:500;font-size:13px}
+
+/* faq */
+.faq{max-width:860px}
+.faq details{border-bottom:1px solid var(--line)}
+.faq summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:26px 0;font-family:var(--display);font-weight:800;font-size:clamp(19px,2vw,24px);font-stretch:105%}
+.faq summary::-webkit-details-marker{display:none}
+.faq .pm{width:40px;height:40px;border-radius:50%;border:1.5px solid var(--ink);display:grid;place-items:center;flex:none;transition:transform .3s, background .3s}
+.faq details[open] .pm{transform:rotate(45deg);background:var(--accent);border-color:var(--accent)}
+.faq details p{margin:0 0 26px;color:var(--muted);max-width:44em;font-size:17px}
+
+/* cta */
+.cta{background:var(--accent);color:var(--on-accent);border-radius:calc(var(--r) + 10px);padding:clamp(36px,6vw,80px);display:flex;flex-wrap:wrap;gap:32px;align-items:flex-end;justify-content:space-between;position:relative;overflow:hidden}
+.cta h2{max-width:12ch}
+.cta .bolt{position:absolute;right:-40px;top:-40px;opacity:.12;width:320px;height:320px}
+.areas{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px;padding:0;list-style:none}
+.areas li{padding:8px 14px;border-radius:999px;border:1.5px solid rgba(13,16,21,.35);font-weight:600;font-size:14px}
+
+/* footer */
+footer{background:var(--ink);color:var(--muted-d);font-size:14px;padding:36px 0 120px}
+footer .wrap{display:flex;flex-wrap:wrap;gap:12px 28px;justify-content:space-between}
+footer a{color:#fff}
+@media (min-width:761px){footer{padding-bottom:36px}}
+
+/* mobile bar */
+.mbar{position:fixed;left:12px;right:12px;bottom:12px;z-index:70;display:none;gap:10px;padding:10px;border-radius:20px;background:rgba(13,16,21,.92);backdrop-filter:blur(12px);box-shadow:0 20px 40px rgba(0,0,0,.35)}
+.mbar .btn{flex:1;min-height:50px;padding:0 12px}
+@media (max-width:760px){.mbar{display:flex}}
+body.has-badge .mbar{bottom:76px}body.has-badge footer{padding-bottom:84px}
+
+/* reveal */
+.rv{opacity:0;transform:translateY(28px);transition:opacity .8s ease, transform .8s cubic-bezier(.2,.7,.2,1)}
+.rv.in{opacity:1;transform:none}
+.rv.d1{transition-delay:.08s}.rv.d2{transition-delay:.16s}.rv.d3{transition-delay:.24s}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important}
+  .rv{opacity:1;transform:none}
+  .spark::after{transform:scaleX(1)}
+  .hero-img{transform:none}
+}.bento{grid-auto-flow:dense}
+</style>
+</head>
+<body>
+
+<div class="demo">Free preview made for H Plus Global by Simon Robert Web Design. Not live yet. <a href="mailto:simonrobert.webdesign@gmail.com?subject=Website%20preview%20for%20H%20Plus%20Global">Questions? Email me</a> · <a href="https://simonrobert-webdesign.netlify.app/privacy/">Privacy</a></div>
+
+
+<header class="nav" id="nav">
+  <div class="wrap nav-in">
+    <a class="logo" href="#top" aria-label="H Plus Global, back to top">
+      <span class="logo-mark"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/><path d="M10 20v-6h4v6"/></svg></span>
+      <span class="logo-name">H Plus<small>Building &amp; Decorating</small></span>
+    </a>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="links">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <nav class="links" id="links" aria-label="Main">
+      <a href="#services">Services</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#faq">FAQ</a>
+      <a class="btn btn-accent" href="#quote">Get a quote</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+<section class="hero" id="hero" aria-label="Introduction" style="padding:0">
+  <img class="hero-img" src="https://images.unsplash.com/photo-1688372199140-cade7ae820fe?ixlib=rb-4.1.0&amp;auto=format&amp;fit=crop&amp;w=2000&amp;q=80" alt="Decorator painting a wall with a roller">
+  <div class="hero-glow" aria-hidden="true"></div>
+  <div class="wrap hero-in">
+    <p class="eyebrow rv" style="color:var(--accent)">Feltham · Middlesex</p>
+    <h1 class="rv d1" style="margin-top:18px">Building, decorating <span class="spark">and repairs.</span></h1>
+    <p class="lead rv d2">Building work, interior and exterior decorating, kitchens, bathrooms, roofing and doors, all from one team.</p>
+    <div class="hero-ctas rv d3">
+      <a class="btn btn-accent" href="#quote">Get a quote <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      <a class="btn btn-ghost" href="tel:07720377205"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg> 07720 377205</a>
+    </div>
+    <ul class="pills rv d3">
+<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg>Which? Trusted Trader</li><li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg>Builders &amp; decorators</li><li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg>Kitchens &amp; bathrooms</li><li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg>Roofing &amp; doors</li>    </ul>
+  </div>
+</section>
+
+<div class="marquee" aria-hidden="true">
+  <div class="track">
+<span>Extensions <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.6 7.4L22 12l-7.4 2.6L12 22l-2.6-7.4L2 12l7.4-2.6z"/></svg></span><span class="o">Loft conversions <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.6 7.4L22 12l-7.4 2.6L12 22l-2.6-7.4L2 12l7.4-2.6z"/></svg></span><span>Garage conversions <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.6 7.4L22 12l-7.4 2.6L12 22l-2.6-7.4L2 12l7.4-2.6z"/></svg></span><span class="o">Plastering <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.6 7.4L22 12l-7.4 2.6L12 22l-2.6-7.4L2 12l7.4-2.6z"/></svg></span><span>Interior decorating <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.6 7.4L22 12l-7.4 2.6L12 22l-2.6-7.4L2 12l7.4-2.6z"/></svg></span><span class="o">Exterior decorating <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.6 7.4L22 12l-7.4 2.6L12 22l-2.6-7.4L2 12l7.4-2.6z"/></svg></span><span>Wallpapering <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.6 7.4L22 12l-7.4 2.6L12 22l-2.6-7.4L2 12l7.4-2.6z"/></svg></span><span class="o">Kitchens <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.6 7.4L22 12l-7.4 2.6L12 22l-2.6-7.4L2 12l7.4-2.6z"/></svg></span><span>Bathrooms <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.6 7.4L22 12l-7.4 2.6L12 22l-2.6-7.4L2 12l7.4-2.6z"/></svg></span><span class="o">Wet rooms <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.6 7.4L22 12l-7.4 2.6L12 22l-2.6-7.4L2 12l7.4-2.6z"/></svg></span><span>Flat roofing <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.6 7.4L22 12l-7.4 2.6L12 22l-2.6-7.4L2 12l7.4-2.6z"/></svg></span><span class="o">Guttering <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.6 7.4L22 12l-7.4 2.6L12 22l-2.6-7.4L2 12l7.4-2.6z"/></svg></span><span>Doors <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.6 7.4L22 12l-7.4 2.6L12 22l-2.6-7.4L2 12l7.4-2.6z"/></svg></span><span>Extensions <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.6 7.4L22 12l-7.4 2.6L12 22l-2.6-7.4L2 12l7.4-2.6z"/></svg></span><span class="o">Loft conversions <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.6 7.4L22 12l-7.4 2.6L12 22l-2.6-7.4L2 12l7.4-2.6z"/></svg></span><span>Garage conversions <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.6 7.4L22 12l-7.4 2.6L12 22l-2.6-7.4L2 12l7.4-2.6z"/></svg></span><span class="o">Plastering <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.6 7.4L22 12l-7.4 2.6L12 22l-2.6-7.4L2 12l7.4-2.6z"/></svg></span><span>Interior decorating <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.6 7.4L22 12l-7.4 2.6L12 22l-2.6-7.4L2 12l7.4-2.6z"/></svg></span><span class="o">Exterior decorating <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.6 7.4L22 12l-7.4 2.6L12 22l-2.6-7.4L2 12l7.4-2.6z"/></svg></span><span>Wallpapering <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.6 7.4L22 12l-7.4 2.6L12 22l-2.6-7.4L2 12l7.4-2.6z"/></svg></span><span class="o">Kitchens <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.6 7.4L22 12l-7.4 2.6L12 22l-2.6-7.4L2 12l7.4-2.6z"/></svg></span><span>Bathrooms <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.6 7.4L22 12l-7.4 2.6L12 22l-2.6-7.4L2 12l7.4-2.6z"/></svg></span><span class="o">Wet rooms <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.6 7.4L22 12l-7.4 2.6L12 22l-2.6-7.4L2 12l7.4-2.6z"/></svg></span><span>Flat roofing <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.6 7.4L22 12l-7.4 2.6L12 22l-2.6-7.4L2 12l7.4-2.6z"/></svg></span><span class="o">Guttering <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.6 7.4L22 12l-7.4 2.6L12 22l-2.6-7.4L2 12l7.4-2.6z"/></svg></span><span>Doors <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.6 7.4L22 12l-7.4 2.6L12 22l-2.6-7.4L2 12l7.4-2.6z"/></svg></span>  </div>
+</div>
+
+<section id="services">
+  <div class="wrap">
+    <div class="head">
+      <div>
+        <p class="eyebrow rv">What we do</p>
+        <h2 class="rv d1">One team for<br>your home.</h2>
+      </div>
+      <p class="rv d2">Building work, decorating, kitchens, bathrooms, roofing and doors.</p>
+    </div>
+    <div class="bento">
+      <article class="tile rv d0">
+        <span class="ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 6l4 4-9 9-3-3 9-9"/><path d="M12 4l6 6 3-3-6-6z"/></svg></span>
+        <h3>Building work</h3>
+        <p>Extensions, loft conversions, garage conversions, porches, conservatories and plastering.</p>
+      </article>
+      <article class="tile photo span2 big row2 rv d1">
+        <img src="https://images.unsplash.com/photo-1599619585752-c3edb42a414c?ixlib=rb-4.1.0&amp;auto=format&amp;fit=crop&amp;w=1400&amp;q=80" alt="Paint roller in a tray of white paint" loading="lazy">
+        <h3>Decorating</h3>
+        <p>Interior and exterior decorating, wallpapering, exterior house painting, rendering and wall coating.</p>
+      </article>
+      <article class="tile rv d2">
+        <span class="ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/><path d="M10 20v-6h4v6"/></svg></span>
+        <h3>Kitchens</h3>
+        <p>Kitchen design, installation and refurbishment, worktops and kitchen tiling.</p>
+      </article>
+      <article class="tile photo span2 rv d0">
+        <img src="https://images.unsplash.com/photo-1620626011761-996317b8d101?ixlib=rb-4.1.0&amp;auto=format&amp;fit=crop&amp;w=1400&amp;q=80" alt="Bathroom with a freestanding bath" loading="lazy">
+        <h3>Bathrooms</h3>
+        <p>Bathroom design, installation and refurbishment, bathroom tiling and wet rooms.</p>
+      </article>
+      <article class="tile rv d1">
+        <span class="ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12l10-8 10 8"/><path d="M5 10v9h14v-9"/><path d="M9 19v-5h6v5"/></svg></span>
+        <h3>Roofing</h3>
+        <p>Flat roofing, rubber (EPDM) and GRP roofing, lead work, guttering, fascias and soffits.</p>
+      </article>
+      <article class="tile rv d2">
+        <span class="ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6l8-3z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg></span>
+        <h3>Doors</h3>
+        <p>Front doors, French doors, patio, bi-fold, composite, timber, uPVC and aluminium doors.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+<section>
+  <div class="wrap">
+    <div class="head">
+      <div>
+        <p class="eyebrow rv">How it works</p>
+        <h2 class="rv d1">Three steps.<br>No hassle.</h2>
+      </div>
+    </div>
+    <ol class="steps">
+<li class="rv d0"><span class="n">01</span><h3>Get in touch</h3><p>Call, or send the quote form with a few details. Photos help.</p></li><li class="rv d1"><span class="n">02</span><h3>We take a look</h3><p>We talk it through, look at the job and give you a clear quote.</p></li><li class="rv d2"><span class="n">03</span><h3>Job done properly</h3><p>The work is done with care and the site left clean and tidy.</p></li>    </ol>
+  </div>
+</section>
+
+<section id="reviews" style="padding-top:0">
+  <div class="wrap">
+    <div class="head">
+      <div>
+        <p class="eyebrow rv">Reviews</p>
+        <h2 class="rv d1">What customers<br>say about us.</h2>
+      </div>
+<p class="rv d2">Real reviews from customers on Which? Trusted Traders.</p>    </div>
+    <div class="revs">
+      <figure class="rev feature rv" style="margin:0">
+        <div class="stars" role="img" aria-label="5 out of 5 stars"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"/></svg></div>
+        <blockquote style="margin:0">“As well as a full redecoration there was damage repairs required from a roof leak which were handled brilliantly. Tom was very helpful. It’s easy to recommend this company as they provided an excellent service.”</blockquote>
+        <figcaption class="who"><span>Customer in Surrey</span><span class="ex">Which? review</span></figcaption>
+      </figure>
+      <div class="revs-side">
+        <figure class="rev rv d1" style="margin:0">
+          <div class="stars" role="img" aria-label="5 out of 5 stars"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"/></svg></div>
+          <blockquote>“My kitchen had been exhibiting damp in multiple places over many years and I couldn&#39;t seem to fix the problem. Tom and his team surveyed and diagnosed the problem and set to work on the external problem (which was structural) and then fixed the internal problem which was cosmetic. An excellent job. His team is so professional and polite and I&#39;d strongly recommend them to anyone.”</blockquote>
+          <figcaption class="who"><span>Customer in Greater London</span><span class="ex">Which? review</span></figcaption>
+        </figure>
+        <figure class="rev rv d2" style="margin:0">
+          <div class="stars" role="img" aria-label="5 out of 5 stars"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"/></svg></div>
+          <blockquote>“Leaks, leaks and more leaks over many years. Tom and his team fixed this chronic challenge in a very short period of time and also repainted the kitchen as well so I got even more benefit than I signed up for. The team were lovely, hard working and very skilled. The kitchen is now a joy to be in come rain or shine. Thanks Guys!!”</blockquote>
+          <figcaption class="who"><span>Customer in Greater London</span><span class="ex">Which? review</span></figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="quote" style="background:#ECEAE3">
+  <div class="wrap quote">
+    <div class="qside">
+      <p class="eyebrow rv" style="color:var(--muted)">Get a quote</p>
+      <h2 class="rv d1">Get your<br>price fast.</h2>
+      <p class="rv d2" style="margin:0;color:var(--muted);font-size:17px">Three quick steps and we’ll get back to you.</p>
+      <a class="big-phone rv d2" href="tel:07720377205">07720 377205</a>
+      <ul class="qlist rv d3">
+<li><span class="i"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span><span>Mon–Sat 8am–8pm<small>Opening hours</small></span></li><li><span class="i"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></span><span style="min-width:0"><a href="mailto:tom.urbanski@hplus.global" style="text-decoration:none;overflow-wrap:anywhere">tom.urbanski@hplus.global</a><small>Email</small></span></li>        <li><span class="i"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6-7-11a7 7 0 0 1 14 0c0 5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></span><span>Feltham, Middlesex<small>Based in</small></span></li>
+      </ul>
+    </div>
+    <div class="qcard rv d1">
+      <div class="prog" aria-hidden="true"><i id="progBar"></i></div>
+      <form id="qform" novalidate data-demo="1">
+        
+        <div class="qstep on" data-step="1">
+          <fieldset>
+            <legend>What do you need?</legend>
+            <div class="opts">
+<div class="opt"><input type="radio" name="job" id="j1" value="Building work"><label for="j1"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 6l4 4-9 9-3-3 9-9"/><path d="M12 4l6 6 3-3-6-6z"/></svg>Building work</label></div><div class="opt"><input type="radio" name="job" id="j2" value="Decorating"><label for="j2"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 4l6 6-8 8H6v-6l8-8z"/><path d="M12 6l6 6"/></svg>Decorating</label></div><div class="opt"><input type="radio" name="job" id="j3" value="Kitchen"><label for="j3"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/><path d="M10 20v-6h4v6"/></svg>Kitchen</label></div><div class="opt"><input type="radio" name="job" id="j4" value="Bathroom"><label for="j4"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11z"/></svg>Bathroom</label></div><div class="opt"><input type="radio" name="job" id="j5" value="Roofing"><label for="j5"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12l10-8 10 8"/><path d="M5 10v9h14v-9"/><path d="M9 19v-5h6v5"/></svg>Roofing</label></div><div class="opt"><input type="radio" name="job" id="j6" value="Something else"><label for="j6"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v4M12 16h.01"/></svg>Something else</label></div>            </div>
+          </fieldset>
+          <div class="qnav"><span></span><button type="button" class="btn btn-dark" data-next>Next <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></div>
+        </div>
+        <div class="qstep" data-step="2">
+          <fieldset>
+            <legend>When do you need it?</legend>
+            <div class="opts">
+              <div class="opt"><input type="radio" name="when" id="w1" value="As soon as possible"><label for="w1">As soon as possible</label></div>
+              <div class="opt"><input type="radio" name="when" id="w2" value="Within a month"><label for="w2">Within a month</label></div>
+              <div class="opt"><input type="radio" name="when" id="w3" value="Just planning"><label for="w3">Just planning</label></div>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend style="font-size:20px">Type of property</legend>
+            <div class="opts">
+              <div class="opt"><input type="radio" name="property" id="p1" value="House"><label for="p1">House</label></div>
+              <div class="opt"><input type="radio" name="property" id="p2" value="Flat"><label for="p2">Flat</label></div>
+              <div class="opt"><input type="radio" name="property" id="p3" value="Business"><label for="p3">Business</label></div>
+            </div>
+          </fieldset>
+          <div class="qnav"><button type="button" class="btn back" data-back>Back</button><button type="button" class="btn btn-dark" data-next>Next <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></div>
+        </div>
+        <div class="qstep" data-step="3">
+          <p class="qtitle">Where should we send your quote?</p>
+          <div class="two">
+            <label class="field">Your name<input type="text" name="name" autocomplete="name" required></label>
+            <label class="field">Phone<input type="tel" name="phone" autocomplete="tel" required></label>
+          </div>
+          <div class="two">
+            <label class="field">Email<input type="email" name="email" autocomplete="email"></label>
+            <label class="field">Postcode<input type="text" name="postcode" autocomplete="postal-code"></label>
+          </div>
+          <label class="field">Anything else we should know?<textarea name="notes"></textarea></label>
+          <div class="qnav"><button type="button" class="btn back" data-back>Back</button><button type="submit" class="btn btn-accent">Send my request</button></div>
+        </div>
+        <div class="qstep" data-step="4">
+          <div class="done">
+            <div class="tick"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg></div>
+            <p class="qtitle" style="margin-bottom:8px">Thanks, request sent!</p>
+            <p>This is a preview, so nothing was sent. On the live site, requests go straight to your inbox.</p>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap">
+    <div class="head">
+      <div>
+        <p class="eyebrow rv">Questions</p>
+        <h2 class="rv d1">Good to know.</h2>
+      </div>
+    </div>
+    <div class="faq">
+<details class="rv"><summary>Can I read more reviews?<span class="pm" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></summary><p>Yes. H Plus Global is a Which? Trusted Trader, and you can read all our customer reviews on our Which? page.</p></details><details class="rv"><summary>What kind of work do you do?<span class="pm" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></summary><p>Building work, interior and exterior decorating, kitchens, bathrooms, roofing and doors.</p></details><details class="rv"><summary>When are you open?<span class="pm" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></summary><p>Monday to Saturday, 8am to 8pm.</p></details><details class="rv"><summary>How do I get a quote?<span class="pm" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></summary><p>Use the quote form on this page or call 07720 377205. A few photos of the job help us give you an accurate price.</p></details>    </div>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="wrap">
+    <div class="cta rv">
+      <svg class="bolt" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l2.6 7.4L22 12l-7.4 2.6L12 22l-2.6-7.4L2 12l7.4-2.6z"/></svg>
+      <div>
+        <h2>Planning work on your home?</h2>
+        <ul class="areas" aria-label="Areas covered"><li>Feltham</li><li>Middlesex</li></ul>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:12px">
+        <a class="btn btn-dark" href="#quote">Get a quote</a>
+        <a class="btn" style="background:rgba(13,16,21,.08);color:var(--on-accent)" href="tel:07720377205">Call 07720 377205</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© <span id="yr">2026</span> H Plus Global · H Plus Global Ltd · Company no. 08478071</span>
+    <span>Website by <a href="https://simonrobert-webdesign.netlify.app/">Simon Robert Web Design</a> · Photos: Stock photos for this preview by <a href="https://unsplash.com/@mkumbwajr?utm_source=simonrobert_web_design&utm_medium=referral">Ali Mkumbwa</a>, <a href="https://unsplash.com/@karlsolano?utm_source=simonrobert_web_design&utm_medium=referral">Karl Solano</a> and <a href="https://unsplash.com/@steveungermann?utm_source=simonrobert_web_design&utm_medium=referral">Steven Ungermann</a> on <a href="https://unsplash.com/?utm_source=simonrobert_web_design&utm_medium=referral">Unsplash</a></span>
+  </div>
+</footer>
+
+<div class="mbar" aria-label="Quick contact">
+  <a class="btn btn-ghost" href="tel:07720377205">Call</a>
+  <a class="btn btn-accent" href="#quote">Get a quote</a>
+</div>
+
+<script>
+(function(){
+  var nav=document.getElementById('nav');
+  if(nav){var onScroll=function(){nav.classList.toggle('solid',window.scrollY>40)};window.addEventListener('scroll',onScroll,{passive:true});onScroll();}
+
+  var mb=document.getElementById('menuBtn'),links=document.getElementById('links');
+  if(mb&&links){
+    mb.addEventListener('click',function(){var o=links.classList.toggle('open');mb.setAttribute('aria-expanded',o?'true':'false')});
+    links.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){links.classList.remove('open');mb.setAttribute('aria-expanded','false')})});
+  }
+
+  var els=document.querySelectorAll('.rv');
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.12,rootMargin:'0px 0px -40px 0px'});
+    els.forEach(function(el){io.observe(el)});
+  } else { els.forEach(function(el){el.classList.add('in')}); }
+
+  var hero=document.getElementById('hero');
+  if(hero){hero.addEventListener('pointermove',function(e){var r=hero.getBoundingClientRect();hero.style.setProperty('--mx',(e.clientX-r.left)+'px');hero.style.setProperty('--my',(e.clientY-r.top)+'px')});}
+
+  var ba=document.getElementById('ba');
+  if(ba){var range=ba.querySelector('input');range.addEventListener('input',function(){ba.style.setProperty('--pos',range.value+'%')});}
+
+  var form=document.getElementById('qform');
+  if(form){
+    var steps=form.querySelectorAll('.qstep'),bar=document.getElementById('progBar'),cur=1;
+    var show=function(n){cur=n;steps.forEach(function(s){s.classList.toggle('on',+s.dataset.step===n)});if(bar)bar.style.width=Math.min(n,3)/3*100+'%';var f=form.querySelector('.qstep.on input, .qstep.on button');if(n>1&&f)f.focus({preventScroll:true})};
+    form.addEventListener('click',function(e){var t=e.target.closest('[data-next],[data-back]');if(!t)return;show(cur+(t.hasAttribute('data-next')?1:-1))});
+    form.addEventListener('submit',function(e){
+      if(form.dataset.demo){e.preventDefault();show(4);return;}
+      e.preventDefault();
+      var data=new URLSearchParams(new FormData(form)).toString();
+      fetch('/',{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:data})
+        .then(function(){show(4)}).catch(function(){form.submit()});
+    });
+  }
+
+  // Hosting badges (e.g. "Powered by Netlify" on free plans) sit fixed in the bottom-right corner.
+  // When one appears, lift the phone call bar and pad the footer so nothing is covered.
+  (function(){
+    var mark=function(){ if(document.getElementById('nl-badge-frame')){ document.body.classList.add('has-badge'); return true; } return false; };
+    if(mark()) return;
+    if('MutationObserver' in window){
+      var mo=new MutationObserver(function(){ if(mark()) mo.disconnect(); });
+      mo.observe(document.body,{childList:true});
+      setTimeout(function(){ mo.disconnect(); },15000);
+    }
+  })();
+
+  var yr=document.getElementById('yr'); if(yr) yr.textContent=new Date().getFullYear();
+})();</script>
+</body>
+</html>

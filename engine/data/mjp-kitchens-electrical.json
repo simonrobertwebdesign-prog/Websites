@@ -1,0 +1,194 @@
+{
+  "slug": "mjp-kitchens-electrical",
+  "mode": "preview",
+  "accent": "#2F5D8A",
+  "business": {
+    "name": "MJP Kitchens & Electrical",
+    "short": "MJP",
+    "sub": "Kitchens & Electrical",
+    "logo_icon": "bolt",
+    "trade": "Electrician & kitchen fitter",
+    "town": "Holyport",
+    "county": "Berkshire",
+    "phone": "07760 126436",
+    "phone_tel": "07760126436",
+    "email": "info@kitchensandelectrical.com",
+    "hours": "",
+    "company_line": "MJP Kitchens and Electrical Ltd · Company no. 08124597"
+  },
+  "seo": {
+    "title": "MJP Kitchens & Electrical – Electrician & Kitchen Fitter in Maidenhead, Berkshire",
+    "description": "A dual trade company: fully qualified electrician and kitchen fitter. Rewiring, fuse boards, lighting, testing and kitchen installations. NAPIT and Trustmark registered."
+  },
+  "hero": {
+    "eyebrow": "Holyport · Maidenhead · Berkshire",
+    "h1": "Kitchens and electrics,",
+    "h1_accent": "from one team.",
+    "lead": "We are a professional Kitchen Installation and Electrical Services company with over 16 years of experience in the Kitchen and Electrical Trade.",
+    "image": "https://images.unsplash.com/photo-1628745277862-bc0b2d68c50c?ixlib=rb-4.1.0&auto=format&fit=crop&w=2000&q=80",
+    "image_alt": "Bright kitchen with wooden worktops"
+  },
+  "pills": [
+    "Which? Trusted Trader",
+    "NAPIT registered",
+    "Trustmark registered",
+    "Over 16 years’ experience"
+  ],
+  "marquee": [
+    "Kitchen installation",
+    "Kitchen refurbishment",
+    "Worktops",
+    "Rewiring",
+    "Fuse boards",
+    "Electric showers",
+    "LED lighting",
+    "Outdoor lighting",
+    "Electrical testing",
+    "Emergency lighting"
+  ],
+  "services": {
+    "eyebrow": "What we do",
+    "heading": [
+      "Two trades,",
+      "one team."
+    ],
+    "intro": "We are a dual trade company. Any electrical work is undertaken by a fully qualified electrician, and we can also supply and fit modern and contemporary kitchens.",
+    "items": [
+      {
+        "title": "Kitchen installation",
+        "text": "Our qualified fitter has extensive experience installing all types of kitchens to a very high standard, from top of the range units to less expensive suppliers.",
+        "icon": "house",
+        "image": "https://images.unsplash.com/photo-1592506119503-c0b18879bd5a?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Kitchen cabinets and worktop"
+      },
+      {
+        "title": "Refurbishment & worktops",
+        "text": "Kitchen refurbishment, kitchen worktops and granite worktops.",
+        "icon": "board"
+      },
+      {
+        "title": "Rewiring & fuse boards",
+        "text": "We can wire any room of the house, and our electrical services always match Part P regulations.",
+        "icon": "bolt",
+        "image": "https://images.unsplash.com/photo-1576446470246-499c738d1c8e?ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=80",
+        "image_alt": "Circuit breakers in a fuse board"
+      },
+      {
+        "title": "Faults & emergencies",
+        "text": "We can help with almost any electrical fault or problem you have, and we offer an emergency service too.",
+        "icon": "shield"
+      },
+      {
+        "title": "Lighting",
+        "text": "LED lighting and upgrades, outdoor lighting, and security and emergency lighting.",
+        "icon": "bulb"
+      },
+      {
+        "title": "Testing & showers",
+        "text": "Electrical testing, electric showers and outdoor electrical wiring.",
+        "icon": "wrench"
+      }
+    ]
+  },
+  "work": {
+    "enabled": false
+  },
+  "steps": [
+    {
+      "title": "Get in touch",
+      "text": "Call, or send the quote form with a few details. Photos help."
+    },
+    {
+      "title": "We take a look",
+      "text": "We talk it through, look at the job and give you a clear quote."
+    },
+    {
+      "title": "Job done properly",
+      "text": "The work is done with care and the site left clean and tidy."
+    }
+  ],
+  "reviews": {
+    "heading": [
+      "What customers",
+      "say about us."
+    ],
+    "intro": "Real reviews from customers on Which? Trusted Traders.",
+    "items": [
+      {
+        "text": "Mat and team carried out a total kitchen refit at our property. Absolutely thrilled with the results , fantastic skilled workmanship and lovely to have around our home . would highly recommend and trust",
+        "who": "Customer in Berkshire",
+        "label": "Which? review"
+      },
+      {
+        "text": "Mat responded very quickly out of hours to my message regarding an electrical circuit failure. He tried very hard to diagnose the fault over the phone and arrived as promised the next working day to fix. He was thoroughly honest and efficient, solving the issue quickly and without any fuss. … I have no hesitation in recommending him and he will now be top of my list of tradesmen to call!",
+        "who": "Customer in Berkshire",
+        "label": "Which? review"
+      },
+      {
+        "text": "Mat and Callum were both amazing! They are both really kind and friendly and we loved having them over to fit our kitchen. They are both outstanding in the services they offer. We faced a few problems and they were not phased and came up with solutions. We absolutely love our kitchen. I would not hesitate to recommend them to anyone!",
+        "who": "Customer in Berkshire",
+        "label": "Which? review"
+      }
+    ]
+  },
+  "quote": {
+    "intro": "Three quick steps and we’ll get back to you.",
+    "jobs": [
+      [
+        "Kitchen fitting",
+        "house"
+      ],
+      [
+        "Rewiring",
+        "bolt"
+      ],
+      [
+        "Fuse board",
+        "shield"
+      ],
+      [
+        "Lighting",
+        "bulb"
+      ],
+      [
+        "Electrical fault",
+        "wrench"
+      ],
+      [
+        "Something else",
+        "other"
+      ]
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Can I read more reviews?",
+      "a": "Yes. MJP Kitchens & Electrical is a Which? Trusted Trader, and you can read all our customer reviews on our Which? page."
+    },
+    {
+      "q": "Are you registered?",
+      "a": "Yes. Our electrical services always match Part P regulations and we are NAPIT and Trustmark registered."
+    },
+    {
+      "q": "Do you offer an emergency service?",
+      "a": "Yes. We offer an emergency service for electrical faults, and our turnaround time is usually very fast."
+    },
+    {
+      "q": "Can you do the kitchen and the electrics?",
+      "a": "Yes. We are a dual trade company, so we can fit your kitchen and do the electrical work too."
+    },
+    {
+      "q": "How do I get a quote?",
+      "a": "Use the quote form on this page or call 07760 126436. A few photos of the job help us give you an accurate price."
+    }
+  ],
+  "cta": {
+    "heading": "Planning a new kitchen or electrical work?"
+  },
+  "areas": [
+    "Holyport",
+    "Maidenhead",
+    "Berkshire"
+  ],
+  "credits": "Stock photos for this preview by <a href=\"https://unsplash.com/@zacgudakov?utm_source=simonrobert_web_design&utm_medium=referral\">Zac Gudakov</a>, <a href=\"https://unsplash.com/@lotusdnp?utm_source=simonrobert_web_design&utm_medium=referral\">Lotus Design N Print</a> and <a href=\"https://unsplash.com/@bulava92?utm_source=simonrobert_web_design&utm_medium=referral\">Mark Kats</a> on <a href=\"https://unsplash.com/?utm_source=simonrobert_web_design&utm_medium=referral\">Unsplash</a>"
+}
